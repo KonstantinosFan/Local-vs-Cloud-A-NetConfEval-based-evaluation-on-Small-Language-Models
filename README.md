@@ -28,6 +28,14 @@ model_configs.py;
 step1_formal_spec_conflict_detection.py;
 utils.py;
 
+My analysis scripts are:
+analysis_conflict_plot.py;
+analysis_errors.py;
+analysis_loadbalancing.py;
+analysis_translation.py;
+analysis_waypoint;
+
+
 
 ## Key Findings
 
