@@ -1,0 +1,966 @@
+model_error,format_error,batch_size,n_policy_types,max_n_requirements,iteration,chunk,time,total,success,fail,wrong,accuracy,prompt_tokens,completion_tokens,total_cost,diff,conflict_exist,conflict_detect
+,,1,1,100,0,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict: istanbul cannot reach 100.0.4.0/24, but traffic originating from istanbul can reach the same prefix'}",True,True
+,,1,1,100,0,1,0.8711731433868408,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,0,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict, where a location (sofia) cannot reach a prefix (100.0.18.0/24), but the same prefix is also reachable from the same location'}",True,True
+,,1,1,100,0,3,0.8506293296813965,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['paris']""]}",False,False
+,,1,1,100,0,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself'}",True,True
+,,1,1,100,0,5,0.8555970191955566,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']""]}",False,False
+,,1,1,100,0,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'There is a conflict between reachability and waypoint. milan cannot reach 100.0.10.0/24 directly, but traffic originating from milan should be able to reach it.'}",True,True
+,,1,1,100,0,7,0.871845006942749,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,0,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirement for Marseille'}",True,True
+,,1,1,100,0,9,0.8678610324859619,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,0,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: paris cannot reach 100.0.18.0/24 and paris can reach 100.0.18.0/24'}",True,True
+,,1,1,100,0,11,0.8541350364685059,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,0,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements for Frankfurt'}",True,True
+,,1,1,100,0,13,0.8615889549255371,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,0,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement from 'athens' to '100.0.14.0/24' is contradictory""}",True,True
+,,1,1,100,0,15,0.8546600341796875,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['frankfurt']""]}",False,False
+,,1,1,100,0,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirement: Istanbul cannot and can both reach the same prefix (100.0.8.0/24)'}",True,True
+,,1,1,100,0,17,2.5737709999084473,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,0,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for sofia to not be able to reach 100.0.4.0/24 conflicts with the reachability requirement for 100.0.4.0/24 to be reachable from sofia'}",True,True
+,,1,1,100,0,19,0.8545010089874268,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['frankfurt']""]}",False,False
+,,1,1,100,0,20,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'paris' and prefix '100.0.9.0/24'. Reachability was initially forbidden, but then connectivity was established.""}",True,True
+,,1,1,100,0,21,0.8550212383270264,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}",False,False
+,,1,1,100,0,22,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict found. Amsterdam cannot reach 100.0.27.0/24, but then it can. This is a contradictory requirement.'}",True,True
+,,1,1,100,0,23,0.8528738021850586,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""]}",False,False
+,,1,1,100,0,24,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability rules for location 'rotterdam' and prefix '100.0.24.0/24'""}",True,True
+,,1,1,100,0,25,0.8516647815704346,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,0,26,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for roma to not reach 100.0.32.0/24 conflicts with reachability requirement that 100.0.32.0/24 is reachable from roma'}",True,True
+,,1,1,100,0,27,0.853851318359375,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,0,28,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: lyon cannot reach 100.0.8.0/24, but the subnet is also reachable from lyon.'}",True,True
+,,1,1,100,0,29,0.8529372215270996,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']""]}",False,False
+,,1,1,100,0,30,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself'}",True,True
+,,1,1,100,0,31,0.8507771492004395,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']""]}",False,False
+,,1,1,100,0,32,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Geneva and 100.0.18.0/24: Geneva cannot reach 100.0.18.0/24, but 100.0.18.0/24 is accessible from geneva'}",True,True
+,,1,1,100,0,33,3.009772777557373,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,0,34,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'paris can both not reach and reach 100.0.32.0/24'}",True,True
+,,1,1,100,0,35,0.8584988117218018,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,0,36,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself: cannot reach and reachable'}",True,True
+,,1,1,100,0,37,0.855950117111206,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['vienna']""]}",False,False
+,,1,1,100,0,38,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflicts with existing connectivity'}",True,True
+,,1,1,100,0,39,0.8621871471405029,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,0,40,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected: Brussels cannot reach 100.0.29.0/24 but the subnet is reachable from Brussels'}",True,True
+,,1,1,100,0,41,0.8492832183837891,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,0,42,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement is inconsistent'}",True,True
+,,1,1,100,0,43,0.8514049053192139,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,0,44,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement forbids connectivity, which contradicts the existing connectivity'}",True,True
+,,1,1,100,0,45,0.8502449989318848,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,0,46,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts. Amsterdam cannot reach 100.0.13.0/24, but the subnet is also reachable from amsterdam.'}",True,True
+,,1,1,100,0,47,0.8505871295928955,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['roma']""]}",False,False
+,,1,1,100,0,48,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'There is a conflict in the reachability requirement. You have specified that bucharest cannot reach 100.0.32.0/24, but also mentioned that connectivity from bucharest to 100.0.32.0/24 is established.'}",True,True
+,,1,1,100,0,49,0.8804941177368164,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,0,50,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement is conflicting, as it is both allowed and forbidden from the same location (praha) to the same prefix (100.0.18.0/24).'}",True,True
+,,1,1,100,0,51,0.8500049114227295,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,0,52,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement conflict: 'cannot reach' and 'connectivity established' for milan to 100.0.25.0/24""}",True,True
+,,1,1,100,0,53,0.861220121383667,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,0,54,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirement for location 'london' and prefix '100.0.6.0/24'.""}",True,True
+,,1,1,100,0,55,0.8922417163848877,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['vienna']""]}",False,False
+,,1,1,100,0,56,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement contradicts existing connectivity'}",True,True
+,,1,1,100,0,57,0.86789870262146,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,0,58,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement and actual connectivity conflict'}",True,True
+,,1,1,100,0,59,0.8498249053955078,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['madrid']""]}",False,False
+,,1,1,100,0,60,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself'}",True,True
+,,1,1,100,0,61,0.850020170211792,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['roma']""]}",False,False
+,,1,1,100,0,62,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirement for location 'rotterdam' and prefix '100.0.13.0/24'. Existing connectivity does not match the prohibition.""}",True,True
+,,1,1,100,0,63,0.8529789447784424,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']""]}",False,False
+,,1,1,100,0,64,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflict'}",True,True
+,,1,1,100,0,65,1.7568080425262451,1,1,0,0,1.0,0,0,0,{},False,False
+,,1,1,100,0,66,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement is allowing traffic from Marseille to 100.0.22.0/24, but the initial requirement is forbidding it.'}",True,True
+,,1,1,100,0,67,0.853161096572876,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,0,68,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: user wants to prevent connectivity from Bratislava to 100.0.8.0/24, but the given condition indicates that connectivity is already established'}",True,True
+,,1,1,100,0,69,0.8597650527954102,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,0,70,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for praha and 100.0.20.0/24'}",True,True
+,,1,1,100,0,71,0.8534419536590576,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,0,72,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict between rotterdam and 100.0.8.0/24'}",True,True
+,,1,1,100,0,73,0.8705558776855469,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']""]}",False,False
+,,1,1,100,0,74,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Frankfurt can and cannot reach 100.0.18.0/24'}",True,True
+,,1,1,100,0,75,0.8947968482971191,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']""]}",False,False
+,,1,1,100,0,76,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""The requirement that 'geneva cannot reach 100.0.8.0/24' is in conflict with the requirement that 'traffic originating from geneva can reach the subnet 100.0.8.0/24'.""}",True,True
+,,1,1,100,0,77,0.8779330253601074,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['amsterdam']""]}",False,False
+,,1,1,100,0,78,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for basel and 100.0.10.0/24'}",True,True
+,,1,1,100,0,79,0.8598949909210205,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']""]}",False,False
+,,1,1,100,0,80,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for Brussels: previously allowed, now forbidden'}",True,True
+,,1,1,100,0,81,0.8736519813537598,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']""]}",False,False
+,,1,1,100,0,82,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement does not match with the current connectivity'}",True,True
+,,1,1,100,0,83,0.881101131439209,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['madrid']""]}",False,False
+,,1,1,100,0,84,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements: Luxembourg cannot reach 100.0.18.0/24, but 100.0.18.0/24 is accessible from Luxembourg'}",True,True
+,,1,1,100,0,85,0.8672490119934082,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,0,86,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for bucharest and 100.0.21.0/24'}",True,True
+,,1,1,100,0,87,0.8677518367767334,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['budapest']""]}",False,False
+,,1,1,100,0,88,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict: amsterdam cannot reach 100.0.22.0/24 and amsterdam can access 100.0.22.0/24'}",True,True
+,,1,1,100,0,89,0.8599820137023926,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['geneva']""]}",False,False
+,,1,1,100,0,90,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Brussels can and cannot reach 100.0.10.0/24 at the same time.'}",True,True
+,,1,1,100,0,91,0.87876296043396,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['vienna']""]}",False,False
+,,1,1,100,0,92,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement allows traffic from Bratislava to the prefix, but another requirement prohibits direct reachability'}",True,True
+,,1,1,100,0,93,0.8667788505554199,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}",False,False
+,,1,1,100,0,94,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflict'}",True,True
+,,1,1,100,0,95,0.898216962814331,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,0,96,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: User wants to forbid reachability from Strasbourg to 100.0.20.0/24, but also wants to allow access from Strasbourg to the same prefix.'}",True,True
+,,1,1,100,0,97,0.8561251163482666,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']""]}",False,False
+,,1,1,100,0,98,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between Reachability and Waypoint: Athnes can't reach 100.0.26.0/24 directly, but traffic from Athens can reach this prefix, which is not allowed by the Reachability requirement""}",True,True
+,,1,1,100,0,99,0.858828067779541,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']""]}",False,False
+,,2,1,100,0,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability: milan cannot reach 100.0.1.0/24, but traffic originating from milan can reach the same subnet'}",True,True
+,,2,1,100,0,1,1.041764736175537,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'sofia': ['100.0.18.0/24'], 'paris': ['100.0.24.0/24']}}}}",False,False
+,,2,1,100,0,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements: kiev cannot reach 100.0.22.0/24, but connectivity from kiev to 100.0.22.0/24 is established'}",True,True
+,,2,1,100,0,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement from 'london' to '100.0.1.0/24' conflicts with previous reachability requirement from 'milan' to '100.0.10.0/24', as they both try to reach different subnets""}",False,True
+,,2,1,100,0,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Marseille cannot reach 100.0.1.0/24, but 100.0.1.0/24 is accessible from Marseille.'}",True,True
+,,2,1,100,0,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements. Paris can already reach 100.0.18.0/24, but Warsaw cannot reach 100.0.9.0/24 without passing through Paris which does not have connectivity to this subnet.'}",False,True
+,,2,1,100,0,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: while frankfurt can reach 100.0.13.0/24, lyon cannot, but connectivity from lyon to 100.0.13.0/24 is established'}",True,True
+,,2,1,100,0,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between athens and 100.0.14.0/24, and frankfurt and 100.0.31.0/24'}",False,True
+,,2,1,100,0,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for the same prefix (100.0.8.0/24). Istanbul cannot reach it, but it can.'}",True,True
+,,2,1,100,0,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Load Balancing. Frankfurt cannot reach 100.0.1.0/24 as it is already allowed to reach a different prefix (100.0.4.0/24)'}",False,True
+,,2,1,100,0,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements: Reachability from Bucharest to 100.0.31.0/24 is allowed, but it's forbidden""}",True,True
+,,2,1,100,0,11,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for subnet 100.0.31.0/24 from brussels exists, but there is no mention of reachability to this prefix from amsterdam'}",False,True
+,,2,1,100,0,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'rotterdam' and prefix '100.0.24.0/24'. First requirement forbids reachability, while second requirement allows it.""}",True,True
+,,2,1,100,0,13,1.1710021495819092,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'roma': ['100.0.32.0/24'], 'sofia': ['100.0.10.0/24']}}}}",False,False
+,,2,1,100,0,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability and waypoint requirements: Connectivity from lyon to 100.0.8.0/24 is established, but zurich cannot reach 100.0.9.0/24'}",True,True
+,,2,1,100,0,15,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Prague and 100.0.0.0/24, as it overlaps with the reachability from Kiev to 100.0.24.0/24'}",False,True
+,,2,1,100,0,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: geneva cannot reach 100.0.18.0/24, but 100.0.18.0/24 is accessible from geneva'}",True,True
+,,2,1,100,0,17,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for location and prefix. Paris can send packets to 100.0.32.0/24, but not to 100.0.25.0/24'}",False,True
+,,2,1,100,0,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: vienna cannot reach 100.0.13.0/24, but the same prefix is reachable from brussels'}",True,True
+,,2,1,100,0,19,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from milan to 100.0.20.0/24 conflicts with the existing connectivity from amsterdam to 100.0.5.0/24'}",False,True
+,,2,1,100,0,20,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict for 100.0.15.0/24: Both 'london cannot reach 100.0.15.0/24' and 'london can reach 100.0.15.0/24' are specified, which is a contradiction""}",True,True
+,,2,1,100,0,21,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected: Reachability requirement from Marseille to 100.0.29.0/24, but also requires reachability from Milan to 100.0.15.0/24'}",False,True
+,,2,1,100,0,22,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: roma cannot reach 100.0.8.0/24, but traffic originating from roma can reach the subnet 100.0.8.0/24'}",True,True
+,,2,1,100,0,23,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirement: The subnet 100.0.13.0/24 is not reachable from roma, but it's already established that connectivity from roma to 100.0.3.0/24 exists.""}",False,True
+,,2,1,100,0,24,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: bucharest can reach 100.0.32.0/24, but barcelona cannot reach 100.0.25.0/24'}",True,True
+,,2,1,100,0,25,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements'}",False,True
+,,2,1,100,0,26,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: London can reach 100.0.14.0/24, but it is forbidden from reaching this prefix.'}",True,True
+,,2,1,100,0,27,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from London to 100.0.31.0/24 not allowed, but traffic originating from Vienna can reach this prefix'}",False,True
+,,2,1,100,0,28,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: bucharest cannot reach 100.0.11.0/24 but connectivity from bucharest to 100.0.11.0/24 is established'}",True,True
+,,2,1,100,0,29,1.1940748691558838,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'istanbul': ['100.0.18.0/24'], 'madrid': ['100.0.13.0/24']}}}}",False,False
+,,2,1,100,0,30,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict: roma can reach 100.0.15.0/24, but it's forbidden by the user""}",True,True
+,,2,1,100,0,31,1.1841881275177002,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'rotterdam': ['100.0.13.0/24'], 'zurich': ['100.0.21.0/24']}}}}",False,False
+,,2,1,100,0,32,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: roma cannot reach 100.0.4.0/24, but roma can reach the same prefix'}",True,True
+,,2,1,100,0,33,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'There is a conflict in reachability requirements between marseille and two different prefixes 100.0.22.0/24 and 100.0.31.0/24'}",False,True
+,,2,1,100,0,34,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Bratislava and 100.0.8.0/24, as Prague cannot reach 100.0.4.0/24, but connectivity from Prague to 100.0.4.0/24 is established.'}",True,True
+,,2,1,100,0,35,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Prague and Sofia: both want to reach different subnets, but there is no explicit rule about how traffic should be routed.'}",False,True
+,,2,1,100,0,36,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for 100.0.8.0/24 and 100.0.14.0/24. Rotterdam can reach 100.0.8.0/24, but cannot reach 100.0.14.0/24, while basel can reach 100.0.14.0/24'}",True,True
+,,2,1,100,0,37,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Frankfurt and Kiev. Frankfurt can reach 100.0.18.0/24, but Kiev cannot reach this prefix.'}",False,True
+,,2,1,100,0,38,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability from location 'geneva' to prefix '100.0.8.0/24' is allowed, but it's forbidden for the same location""}",True,True
+,,2,1,100,0,39,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from Basel to 100.0.10.0/24 and from Kiev to 100.0.8.0/24 conflict because both require reaching the same subnet (100.0.8.0/24) but with different origin points.'}",False,True
+,,2,1,100,0,40,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected in reachability requirements. Connectivity from Brussels to 100.0.6.0/24 is established, but Kiev cannot reach it.'}",True,True
+,,2,1,100,0,41,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""reachability conflict between location 'zurich' and prefix '100.0.10.0/24', as well as between location 'madrid' and prefix '100.0.8.0/24'""}",False,True
+,,2,1,100,0,42,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability: Luxembourg should not be reachable for 100.0.21.0/24, but it is accessible'}",True,True
+,,2,1,100,0,43,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between locations Bucharest and Budapest, where Bucharest can reach 100.0.20.0/24 but not specified if it should be allowed'}",False,True
+,,2,1,100,0,44,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Subnet 100.0.22.0/24 can be reached from Amsterdam, but Geneva cannot reach 100.0.4.0/24 which is also accessible from Geneva'}",True,True
+,,2,1,100,0,45,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Brussels and 100.0.10.0/24, as it is not allowed to establish connectivity from Brussels, but Vienna can reach 100.0.23.0/24 which is a part of the same prefix'}",False,True
+,,2,1,100,0,46,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: bratislava cannot reach 100.0.24.0/24, but 100.0.24.0/24 is accessible from bratislava'}",True,True
+,,2,1,100,0,47,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected between Reachability and Waypoint requirements. Reachability allows direct access to 100.0.31.0/24 from Marseille, whereas Waypoint requirement implies that traffic should go through Lyon before reaching 100.0.20.0/24.'}",False,True
+,,2,1,100,0,48,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: strasbourg can reach 100.0.20.0/24, but 100.0.20.0/24 is also reachable from zurich'}",True,True
+,,2,1,100,0,49,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between athens and 100.0.26.0/24, and reachability from basel to 100.0.26.0/24'}",False,True
+,,5,1,100,0,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: istanbul cannot reach 100.0.4.0/24, but 100.0.4.0/24 is accessible from istanbul'}",True,True
+,,5,1,100,0,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from kiev to 100.0.10.0/24 is in conflict with reachability requirement from milan to the same prefix'}",False,True
+,,5,1,100,0,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Connectivity from paris to 100.0.18.0/24 is established, but lyon cannot reach 100.0.13.0/24 and yet traffic originating from lyon can reach the subnet 100.0.13.0/24'}",True,True
+,,5,1,100,0,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Frankfurt can reach both 100.0.31.0/24 and 100.0.1.0/24, which are not expected to be reachable simultaneously'}",False,True
+,,5,1,100,0,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Inconsistent Reachability: paris cannot reach 100.0.31.0/24, but traffic originating from brussels can'}",True,True
+,,5,1,100,0,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: praha can reach 100.0.22.0/24, while roma can only reach 100.0.32.0/24'}",False,True
+,,5,1,100,0,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Prague can reach 100.0.0.0/24, but Geneva cannot reach 100.0.18.0/24 which is a part of the same network (100.0.0.0/24).'}",True,True
+,,5,1,100,0,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: london can reach 100.0.25.0/24, but brussels cannot reach it'}",False,True
+,,5,1,100,0,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected: Reachability requirement for marseille to not be able to reach 100.0.29.0/24, but it is also accessible from marseille, violating the reachability rule.'}",True,True
+,,5,1,100,0,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: praha can reach 100.0.5.0/24 and amsterdam can reach 100.0.13.0/24, but roma also needs to reach 100.0.13.0/24, which is a common prefix'}",False,True
+,,5,1,100,0,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between praha and milan: both trying to reach 100.0.18.0/24, but only one is allowed'}",True,True
+,,5,1,100,0,11,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Vienna can reach 100.0.31.0/24, while Madrid can also reach the same prefix'}",False,True
+,,5,1,100,0,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for rotterdam and location 100.0.13.0/24: the first requirement denies reachability, while the second allows it'}",True,True
+,,5,1,100,0,13,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: roma is expected to be able to reach 100.0.4.0/24, but praha is also expected to be able to reach the same prefix'}",False,True
+,,5,1,100,0,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between praha and sofia for subnet 100.0.25.0/24'}",True,True
+,,5,1,100,0,15,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability from kiev to 100.0.8.0/24 not allowed, as connectivity from basel to 100.0.10.0/24 is established'}",False,True
+,,5,1,100,0,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for prefix 100.0.6.0/24: Brussels can reach it, Kiev also claims access, but no conflict is stated to resolve the issue.'}",True,True
+,,5,1,100,0,17,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability from bucharest to 100.0.21.0/24 and from amsterdam to 100.0.22.0/24 are in conflict with the reachability from lyon to 100.0.21.0/24'}",False,True
+,,5,1,100,0,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: 100.0.10.0/24 is accessible from Brussels, but connectivity from Bucharest to 100.0.14.0/24 is established.'}",True,True
+,,5,1,100,0,19,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for lyon and strasbourg'}",False,True
+,,10,1,100,0,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Connectivity from marseille to 100.0.0.0/24 is established, but also stated that marseille cannot reach 100.0.0.0/24'}",True,True
+,,10,1,100,0,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between paris and frankfurt: paris can reach 100.0.18.0/24, while frankfurt can reach both 100.0.13.0/24 and 100.0.1.0/24, which may create routing loops.'}",False,True
+,,10,1,100,0,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Paris and 100.0.27.0/24, as Amsterdam can already reach this prefix'}",True,True
+,,10,1,100,0,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflicts between praha, warsaw and kiev: all three locations are trying to reach different prefixes (100.0.0.0/24, 100.0.20.0/24, 100.0.25.0/24) which indicates a routing conflict'}",False,True
+,,10,1,100,0,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: praha cannot reach 100.0.5.0/24 but 100.0.5.0/24 is accessible from praha'}",True,True
+,,10,1,100,0,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: london can reach both 100.0.14.0/24 and 100.0.6.0/24, while lyon is only allowed to reach 100.0.11.0/24'}",False,True
+,,10,1,100,0,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements found for Zurich: can and cannot reach 100.0.23.0/24'}",True,True
+,,10,1,100,0,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Reachability from Prague (praha) to 100.0.20.0/24, and from Kiev to 100.0.20.0/24 cannot be satisfied simultaneously.'}",False,True
+,,10,1,100,0,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between 'Connectivity from brussels to 100.0.6.0/24' and 'The subnet 100.0.10.0/24 is reachable from madrid.' as brussels cannot reach 100.0.10.0/24""}",True,True
+,,10,1,100,0,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between reachability requirements for 100.0.14.0/24: it's both reachable from bucharest and from zurich, which are different locations.""}",False,True
+,,20,1,100,0,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: kiev cannot reach 100.0.22.0/24, but the subnet is also reachable from kiev; similarly, istanbul can reach 100.0.4.0/24, while 100.0.4.0/24 is accessible from istanbul'}",True,True
+,,20,1,100,0,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: paris can reach 100.0.9.0/24, but praha can also reach 100.0.9.0/24 through roma; rotterdam can reach 100.0.24.0/24, but kiev can also reach 100.0.24.0/24'}",False,True
+,,20,1,100,0,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements detected between roma and praha: roma can reach 100.0.8.0/24, while praha cannot reach 100.0.18.0/24'}",True,True
+,,20,1,100,0,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: roma can reach 100.0.15.0/24, but bucharest to 100.0.2.0/24 and frankfurt to 100.0.18.0/24 connectivity is established, which implies that roma cannot reach 100.0.15.0/24'}",False,True
+,,20,1,100,0,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability rules: Geneva cannot reach 100.0.4.0/24 but 100.0.4.0/24 is accessible from Geneva'}",True,True
+,,25,1,100,0,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict found between reachability requirements. Reachability from milan to 100.0.1.0/24 is established, but connectivity from sofia to 100.0.18.0/24 is forbidden.'}",True,True
+,,25,1,100,0,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements for subnets 100.0.8.0/24 and 100.0.20.0/24: both are reachable from multiple locations (roma, sofia), but also from different locations (rome, warsaw)'}",False,True
+,,25,1,100,0,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: Rotterdam cannot reach 100.0.13.0/24, but Madrid can reach 100.0.13.0/24'}",True,True
+,,25,1,100,0,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements: kiev can reach both 100.0.8.0/24 and 100.0.20.0/24, but amsterdam can only reach 100.0.15.0/24. Similarly, madrid can reach 100.0.10.0/24, but traffic from luxembourg should be load-balanced across multiple paths to reach this prefix.'}",False,True
+,,50,1,100,0,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability: Istanbul can reach 100.0.4.0/24 and 100.0.8.0/24, while Sofia can also reach 100.0.10.0/24. This may cause packet duplication or loss.'}",True,True
+,,50,1,100,0,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for prefixes 100.0.11.0/24, 100.0.13.0/24, and 100.0.18.0/24 from different locations'}",False,True
+,,100,1,100,0,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict found: milan can reach 100.0.10.0/24, but traffic originating from frankfurt can also reach 100.0.10.0/24'}",True,True
+,,100,1,100,0,1,49.34233498573303,0,0,100,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'istanbul': ['100.0.4.0/24', '100.0.8.0/24', '100.0.18.0/24'], 'milan': ['100.0.1.0/24', '100.0.10.0/24', '100.0.20.0/24', '100.0.15.0/24', '100.0.25.0/24'], 'sofia': ['100.0.18.0/24', '100.0.4.0/24', '100.0.10.0/24', '100.0.29.0/24', '100.0.25.0/24'], 'paris': ['100.0.24.0/24', '100.0.18.0/24', '100.0.9.0/24', '100.0.32.0/24'], 'marseille': ['100.0.0.0/24', '100.0.1.0/24', '100.0.29.0/24', '100.0.22.0/24', '100.0.31.0/24'], 'kiev': ['100.0.22.0/24', '100.0.24.0/24', '100.0.20.0/24', '100.0.8.0/24', '100.0.6.0/24'], 'london': ['100.0.1.0/24', '100.0.25.0/24', '100.0.15.0/24', '100.0.14.0/24', '100.0.6.0/24'], 'athens': ['100.0.25.0/24', '100.0.14.0/24', '100.0.31.0/24', '100.0.26.0/24'], 'warsaw': ['100.0.9.0/24', '100.0.20.0/24'], 'frankfurt': ['100.0.13.0/24', '100.0.31.0/24', '100.0.1.0/24', '100.0.18.0/24'], 'lyon': ['100.0.13.0/24', '100.0.8.0/24', '100.0.11.0/24', '100.0.21.0/24', '100.0.20.0/24'], 'luxembourg': ['100.0.14.0/24', '100.0.18.0/24'], 'bucharest': ['100.0.31.0/24', '100.0.32.0/24', '100.0.11.0/24', '100.0.2.0/24', '100.0.21.0/24', '100.0.14.0/24'], 'amsterdam': ['100.0.27.0/24', '100.0.5.0/24', '100.0.13.0/24', '100.0.15.0/24', '100.0.22.0/24'], 'brussels': ['100.0.31.0/24', '100.0.18.0/24', '100.0.29.0/24', '100.0.6.0/24', '100.0.10.0/24'], 'rotterdam': ['100.0.24.0/24', '100.0.13.0/24', '100.0.8.0/24'], 'praha': ['100.0.22.0/24', '100.0.0.0/24', '100.0.5.0/24', '100.0.18.0/24', '100.0.4.0/24', '100.0.20.0/24'], 'roma': ['100.0.32.0/24', '100.0.8.0/24', '100.0.3.0/24', '100.0.15.0/24', '100.0.4.0/24'], 'zurich': ['100.0.9.0/24', '100.0.21.0/24', '100.0.23.0/24', '100.0.8.0/24', '100.0.14.0/24'], 'geneva': ['100.0.18.0/24', '100.0.8.0/24', '100.0.4.0/24'], 'vienna': ['100.0.13.0/24', '100.0.31.0/24', '100.0.23.0/24'], 'barcelona': ['100.0.25.0/24'], 'madrid': ['100.0.13.0/24', '100.0.10.0/24'], 'bratislava': ['100.0.8.0/24', '100.0.24.0/24'], 'basel': ['100.0.14.0/24', '100.0.10.0/24', '100.0.26.0/24'], 'budapest': ['100.0.20.0/24'], 'strasbourg': ['100.0.20.0/24']}}}}",False,False
+,,1,1,100,1,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirements conflict: Paris cannot reach 100.0.14.0/24 but it is also accessible from Paris'}",True,True
+,,1,1,100,1,1,0.9692060947418213,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']""]}",False,False
+,,1,1,100,1,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Reachability is not allowed from Zurich to 100.0.21.0/24, but the subnet is also reachable from Zurich.'}",True,True
+,,1,1,100,1,3,0.9836070537567139,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,1,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'madrid'. Reachability is forbidden, but traffic originating from 'madrid' is allowed to reach the same prefix.""}",True,True
+,,1,1,100,1,5,2.8186111450195312,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['madrid']""]}",False,False
+,,1,1,100,1,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: rotterdam cannot reach 100.0.25.0/24, but 100.0.25.0/24 is accessible from rotterdam'}",True,True
+,,1,1,100,1,7,2.433048963546753,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,1,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for Brussels to prefix 100.0.31.0/24'}",True,True
+,,1,1,100,1,9,0.9600610733032227,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']""]}",False,False
+,,1,1,100,1,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement and existing connectivity requirement conflict. paris was initially not allowed to reach 100.0.10.0/24, but now it is.'}",True,True
+,,1,1,100,1,11,0.9989330768585205,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']""]}",False,False
+,,1,1,100,1,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with existing connectivity'}",True,True
+,,1,1,100,1,13,0.9514830112457275,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,1,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement for london to 100.0.23.0/24 allows while network requirements prohibit the same'}",True,True
+,,1,1,100,1,15,0.9734439849853516,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,1,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement contradicts the connectivity statement'}",True,True
+,,1,1,100,1,17,0.9582278728485107,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']""]}",False,False
+,,1,1,100,1,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'roma'. Reachability from 'roma' to '100.0.21.0/24' is forbidden, but traffic originating from 'roma' can reach the same prefix.""}",True,True
+,,1,1,100,1,19,1.018646001815796,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,1,20,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability from lyon to 100.0.10.0/24 is allowed, but not allowing reachability is contradictory'}",True,True
+,,1,1,100,1,21,0.9710841178894043,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,1,22,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict: roma cannot reach 100.0.18.0/24 but 100.0.18.0/24 is accessible from roma'}",True,True
+,,1,1,100,1,23,0.9943690299987793,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}",False,False
+,,1,1,100,1,24,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for milan and 100.0.0.0/24'}",True,True
+,,1,1,100,1,25,0.9620528221130371,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,1,26,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict: 'lyon cannot reach 100.0.26.0/24' and '100.0.26.0/24 is accessible from lyon'""}",True,True
+,,1,1,100,1,27,0.9964179992675781,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,1,28,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for roma and 100.0.15.0/24'}",True,True
+,,1,1,100,1,29,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""The requirement to make the subnet 100.0.27.0/24 reachable from Budapest does not specify if it's a direct reachability or through other locations, which could lead to ambiguity and potential conflicts""}",False,True
+,,1,1,100,1,30,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: strasbourg can and cannot reach 100.0.22.0/24'}",True,True
+,,1,1,100,1,31,0.974069356918335,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,1,32,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between 'Reachability' and 'Connectivity'""}",True,True
+,,1,1,100,1,33,0.9514250755310059,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['madrid']""]}",False,False
+,,1,1,100,1,34,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability rules: 'rotterdam cannot reach 100.0.32.0/24' and '100.0.32.0/24 is accessible from rotterdam'""}",True,True
+,,1,1,100,1,35,1.0129528045654297,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['strasbourg']""]}",False,False
+,,1,1,100,1,36,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Frankfurt cannot reach 100.0.6.0/24 but it is accessible from Frankfurt'}",True,True
+,,1,1,100,1,37,0.9757959842681885,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,1,38,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for roma to 100.0.23.0/24'}",True,True
+,,1,1,100,1,39,0.9693260192871094,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,1,40,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: warsaw cannot and can both reach 100.0.25.0/24'}",True,True
+,,1,1,100,1,41,0.9717040061950684,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['frankfurt']""]}",False,False
+,,1,1,100,1,42,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected: barcelona has conflicting reachability requirements for 100.0.24.0/24'}",True,True
+,,1,1,100,1,43,0.9763143062591553,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['roma']""]}",False,False
+,,1,1,100,1,44,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirement: Paris is not allowed to reach 100.0.2.0/24, but traffic originating from Paris is allowed to reach the same subnet.'}",True,True
+,,1,1,100,1,45,0.998539924621582,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['istanbul']""]}",False,False
+,,1,1,100,1,46,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between Reachability and Waypoint. Istanbul can't reach 100.0.24.0/24 directly, but it can reach this subnet.""}",True,True
+,,1,1,100,1,47,0.9846429824829102,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['budapest']""]}",False,False
+,,1,1,100,1,48,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for Vienna'}",True,True
+,,1,1,100,1,49,1.0520751476287842,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['budapest']""]}",False,False
+,,1,1,100,1,50,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'geneva' and prefix '100.0.4.0/24'""}",True,True
+,,1,1,100,1,51,0.9783179759979248,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,1,52,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement forbids connection, while actual connectivity allows it'}",True,True
+,,1,1,100,1,53,0.9679627418518066,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['strasbourg']""]}",False,False
+,,1,1,100,1,54,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict: roma is allowed to send packets to 100.0.29.0/24, but it cannot reach it'}",True,True
+,,1,1,100,1,55,0.9880969524383545,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,1,56,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting Reachability Requirements for location 'zurich'""}",True,True
+,,1,1,100,1,57,0.9590411186218262,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,1,58,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability from Zurich to 100.0.0.0/24 allows, but reachability to 100.0.0.0/24 from Zurich does not allow - conflict'}",True,True
+,,1,1,100,1,59,1.0055768489837646,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['rotterdam']""]}",False,False
+,,1,1,100,1,60,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability rules for location 'kiev' and prefix '100.0.9.0/24'""}",True,True
+,,1,1,100,1,61,0.9728717803955078,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['strasbourg']""]}",False,False
+,,1,1,100,1,62,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement (cannot) conflicts with existing connectivity'}",True,True
+,,1,1,100,1,63,1.0521268844604492,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,1,64,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement and waypoint requirement are in conflict: bratislava cannot reach 100.0.21.0/24, but traffic originating from bratislava can reach the subnet'}",True,True
+,,1,1,100,1,65,1.0131750106811523,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['strasbourg']""]}",False,False
+,,1,1,100,1,66,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement is disallowed, but traffic originator from same location allows it'}",True,True
+,,1,1,100,1,67,0.9679501056671143,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,1,68,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected: Reachability requirement forbids connectivity, but actual connectivity exists'}",True,True
+,,1,1,100,1,69,0.9609520435333252,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,1,70,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirement for sofia'}",True,True
+,,1,1,100,1,71,0.9584140777587891,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""]}",False,False
+,,1,1,100,1,72,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Madrid cannot reach 100.0.1.0/24, but 100.0.1.0/24 is also reachable from Madrid'}",True,True
+,,1,1,100,1,73,1.0021660327911377,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,1,74,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability rules for location 'zurich' and prefix '100.0.25.0/24'""}",True,True
+,,1,1,100,1,75,0.970822811126709,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['strasbourg']""]}",False,False
+,,1,1,100,1,76,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirement for location 'madrid' and prefix '100.0.23.0/24'. Reachability is forbidden, but traffic originating from madrid can reach this prefix.""}",True,True
+,,1,1,100,1,77,1.0056960582733154,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,1,78,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflicts with itself'}",True,True
+,,1,1,100,1,79,0.9530277252197266,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,1,80,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: Prague (praha) cannot reach 100.0.14.0/24, but 100.0.14.0/24 is accessible from praha'}",True,True
+,,1,1,100,1,81,1.0194811820983887,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""]}",False,False
+,,1,1,100,1,82,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict: zurich cannot reach 100.0.4.0/24 but 100.0.4.0/24 is accessible from zurich'}",True,True
+,,1,1,100,1,83,1.0425770282745361,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['frankfurt']""]}",False,False
+,,1,1,100,1,84,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements'}",True,True
+,,1,1,100,1,85,0.9486687183380127,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}",False,False
+,,1,1,100,1,86,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflicts with existing connectivity'}",True,True
+,,1,1,100,1,87,0.9551796913146973,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,1,88,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with existing reachability'}",True,True
+,,1,1,100,1,89,0.9508049488067627,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,1,90,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: You have allowed reachability from Strasbourg to 100.0.26.0/24, but also forbidden the same reachability.'}",True,True
+,,1,1,100,1,91,1.004485845565796,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}",False,False
+,,1,1,100,1,92,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Basel cannot reach 100.0.32.0/24, but traffic originating from Basel can reach this prefix.'}",True,True
+,,1,1,100,1,93,0.9905219078063965,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,1,94,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirement for location 'praha' and prefix '100.0.32.0/24'. Initially, the requirement was that praha cannot reach this prefix, but then connectivity from praha to 100.0.32.0/24 is established.""}",True,True
+,,1,1,100,1,95,1.0278100967407227,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,1,96,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""reachability requirement conflict: barcelona's reachability from itself to 100.0.11.0/24 is both allowed and forbidden""}",True,True
+,,1,1,100,1,97,2.595649003982544,0,1,0,0,1.0,0,0,0,"{'type_changes': {""root['reachability']['milan']"": {'old_type': <class 'list'>, 'new_type': <class 'dict'>, 'old_value': ['100.0.3.0/24'], 'new_value': {'100.0.3.0/24': True}}}}",False,False
+,,1,1,100,1,98,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement is conflicting with itself, allowing and forbidding the same route'}",True,True
+,,1,1,100,1,99,0.9718227386474609,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}",False,False
+,,2,1,100,1,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Paris and 100.0.14.0/24. Paris cannot reach, but connectivity is established.'}",True,True
+,,2,1,100,1,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected between reachability rules for zurich and london'}",False,True
+,,2,1,100,1,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirements conflict: 'madrid cannot reach 100.0.3.0/24' and '100.0.3.0/24 is accessible from madrid'""}",True,True
+,,2,1,100,1,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Rotterdam cannot reach both 100.0.25.0/24 and 100.0.23.0/24, as Warsaw has a conflicting requirement to reach the former'}",False,True
+,,2,1,100,1,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: Brussels can reach 100.0.31.0/24, but Kiew cannot reach 100.0.3.0/24 which is a subset of 100.0.31.0/24'}",True,True
+,,2,1,100,1,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability from Paris to 100.0.3.0/24 is not allowed, but traffic from Zurich can reach this subnet.'}",False,True
+,,2,1,100,1,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Istanbul cannot reach 100.0.10.0/24, but traffic originating from Istanbul can reach the same subnet.'}",True,True
+,,2,1,100,1,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements: subnet 100.0.6.0/24 is reachable from barcelona, but there is no waypoint specified to reach this subnet'}",False,True
+,,2,1,100,1,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: Frankfurt can reach 100.0.5.0/24, while Kiev cannot reach 100.0.14.0/24 but can access it'}",True,True
+,,2,1,100,1,9,1.603240966796875,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'roma': ['100.0.21.0/24'], 'athens': ['100.0.8.0/24']}}}}",False,False
+,,2,1,100,1,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Lyon cannot reach 100.0.10.0/24, but traffic originating from Lyon can reach this subnet'}",True,True
+,,2,1,100,1,11,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between roma and bucharest, both trying to reach different subnets (100.0.18.0/24 and 100.0.15.0/24)'}",False,True
+,,2,1,100,1,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: luxembourg cannot reach 100.0.1.0/24, but luxembourg can reach 100.0.1.0/24'}",True,True
+,,2,1,100,1,13,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for traffic from lyon to 100.0.26.0/24 and reachability requirement for traffic from milan to 100.0.4.0/24 are conflicting.'}",False,True
+,,2,1,100,1,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict detected: Reachability requirement from 'budapest' to '100.0.27.0/24' allows reachability, but the original requirement forbids it""}",True,True
+,,2,1,100,1,15,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between strasbourg and 100.0.22.0/24, and between sofia and 100.0.24.0/24'}",False,True
+,,2,1,100,1,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict: madrid can't reach 100.0.5.0/24 but the same prefix is reachable from madrid, which is contradictory""}",True,True
+,,2,1,100,1,17,1.364574909210205,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'rotterdam': ['100.0.32.0/24'], 'strasbourg': ['100.0.9.0/24']}}}}",False,False
+,,2,1,100,1,18,4.790099143981934,0,0,2,0,0.0,0,0,0,"{'type_changes': {""root['reachability']['frankfurt']"": {'old_type': <class 'list'>, 'new_type': <class 'dict'>, 'old_value': ['100.0.6.0/24'], 'new_value': {'canReach': {'100.0.6.0/24': True}}}, ""root['reachability']['praha']"": {'old_type': <class 'list'>, 'new_type': <class 'dict'>, 'old_value': ['100.0.23.0/24'], 'new_value': {'canReach': {'100.0.23.0/24': True}}}}}",True,False
+,,2,1,100,1,19,1.4145660400390625,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'roma': ['100.0.23.0/24'], 'sofia': ['100.0.1.0/24']}}}}",False,False
+,,2,1,100,1,20,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: frankfurt cannot reach 100.0.0.0/24, but frankfurt can reach it'}",True,True
+,,2,1,100,1,21,1.2877099514007568,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'barcelona': ['100.0.24.0/24'], 'roma': ['100.0.6.0/24']}}}}",False,False
+,,2,1,100,1,22,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Paris cannot reach 100.0.2.0/24, but the subnet is reachable from Paris'}",True,True
+,,2,1,100,1,23,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability requirements: 100.0.24.0/24 is accessible from Istanbul, but 100.0.20.0/24 is reachable from Budapest'}",False,True
+,,2,1,100,1,24,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirements conflict: 'vienna cannot reach 100.0.21.0/24' and 'Traffic originating from vienna can reach the subnet 100.0.21.0/24'""}",True,True
+,,2,1,100,1,25,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict between Geneva and 100.0.4.0/24'}",False,True
+,,2,1,100,1,26,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: while budapest can access 100.0.28.0/24, strasbourg cannot reach 100.0.6.0/24 which is accessible from itself'}",True,True
+,,2,1,100,1,27,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected between reachability and load balancing. Reachability requires direct connectivity from roma to 100.0.29.0/24, but load balancing implies the need for multiple paths.'}",False,True
+,,2,1,100,1,28,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Zurich cannot reach 100.0.14.0/24, but connectivity from Zurich to 100.0.14.0/24 is established.'}",True,True
+,,2,1,100,1,29,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements. Reachability allows direct connection from Zurich to 100.0.0.0/24, but waypoint requirement suggests that traffic should go through other locations, which contradicts the direct connectivity.'}",False,True
+,,2,1,100,1,30,4.306883811950684,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'kiev': ['100.0.9.0/24'], 'strasbourg': ['100.0.24.0/24']}}}}",True,False
+,,2,1,100,1,31,1.3944792747497559,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'madrid': ['100.0.31.0/24'], 'praha': ['100.0.0.0/24']}}}}",False,False
+,,2,1,100,1,32,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for Bratislava: it cannot reach and can reach the same prefix (100.0.21.0/24)'}",True,True
+,,2,1,100,1,33,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement for Luxembourg to 100.0.20.0/24 conflicts with Amsterdam's reachability requirement for 100.0.8.0/24""}",False,True
+,,2,1,100,1,34,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint: barcelona cannot reach 100.0.23.0/24 but traffic originating from barcelona can reach the same subnet, which is contradictory'}",True,True
+,,2,1,100,1,35,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from brussels to 100.0.6.0/24 conflicts with the initial connectivity from sofia to 100.0.23.0/24'}",False,True
+,,2,1,100,1,36,6.228516101837158,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'madrid': ['100.0.1.0/24'], 'athens': ['100.0.24.0/24']}}}}",True,False
+,,2,1,100,1,37,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict: Zurich can already reach 100.0.8.0/24, but it's not allowed to reach 100.0.25.0/24.""}",False,True
+,,2,1,100,1,38,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Madrid cannot reach 100.0.23.0/24, but the subnet is also reachable from Madrid'}",True,True
+,,2,1,100,1,39,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between reachability requirements: Reachability from 'lyon' to '100.0.1.0/24' and Reachability from 'athens' to '100.0.23.0/24' may cause routing issues""}",False,True
+,,2,1,100,1,40,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict between location 'praha' and prefix '100.0.14.0/24'. Reachability is allowed, but reachability from 'praha' to the same prefix is forbidden.""}",True,True
+,,2,1,100,1,41,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Zurich can reach 100.0.4.0/24 directly, but Frankfurt also claims to be able to reach the same prefix, which creates a routing loop'}",False,True
+,,2,1,100,1,42,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Brussels cannot reach 100.0.23.0/24, but traffic originating from Brussels can reach the same subnet'}",True,True
+,,2,1,100,1,43,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict detected: bratislava can already reach 100.0.0.0/24, but connectivity from athens to 100.0.18.0/24 is established, which may cause routing conflicts'}",False,True
+,,2,1,100,1,44,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements: London cannot reach 100.0.25.0/24, but traffic from London to 100.0.25.0/24 is allowed'}",True,True
+,,2,1,100,1,45,4.129550933837891,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'strasbourg': ['100.0.26.0/24'], 'bucharest': ['100.0.13.0/24']}}}}",False,False
+,,2,1,100,1,46,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirements conflict: Basel cannot reach 100.0.32.0/24, but 100.0.32.0/24 is accessible from Basel'}",True,True
+,,2,1,100,1,47,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict: praha can't reach 100.0.15.0/24, but barcelona can""}",False,True
+,,2,1,100,1,48,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: milan cannot reach 100.0.3.0/24, but 100.0.3.0/24 is reachable from milan'}",True,True
+,,2,1,100,1,49,4.464786767959595,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'rotterdam': ['100.0.15.0/24'], 'bucharest': ['100.0.2.0/24']}}}}",False,False
+,,5,1,100,1,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: paris can reach 100.0.14.0/24, but london cannot reach 100.0.26.0/24; zurich can reach 100.0.21.0/24'}",True,True
+,,5,1,100,1,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: madrid and rotterdam have different reachability requirements for the same prefix (100.0.25.0/24)'}",False,True
+,,5,1,100,1,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: paris can reach 100.0.10.0/24, but istanbul also claims to be able to reach it. Similarly, zurich can reach 100.0.3.0/24, while sofia has already established connectivity to the same prefix.'}",True,True
+,,5,1,100,1,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from kiev to 100.0.6.0/24 and from barcelona to 100.0.14.0/24 conflict, as they are both trying to reach the same destination (100.0.6.0/24) but through different locations'}",False,True
+,,5,1,100,1,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: roma cannot reach 100.0.18.0/24, but later it can'}",True,True
+,,5,1,100,1,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Luxembourg and 100.0.26.0/24, as connectivity is established with Lyon but not directly from Luxembourg to 100.0.26.0/24.'}",False,True
+,,5,1,100,1,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: strasbourg cannot reach 100.0.22.0/24, but traffic originating from strasbourg can reach the subnet'}",True,True
+,,5,1,100,1,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting Reachability Requirements: strasbourg can reach both 100.0.9.0/24 and 100.0.23.0/24, while roma is only allowed to reach 100.0.23.0/24'}",False,True
+,,5,1,100,1,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: warsaw cannot reach 100.0.6.0/24, but roma can'}",True,True
+,,5,1,100,1,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between istanbul and 100.0.20.0/24, as it requires a path through budapest, which can only access 100.0.20.0/24'}",False,True
+,,5,1,100,1,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: budapest cannot reach 100.0.28.0/24, but it can reach the same subnet.'}",True,True
+,,5,1,100,1,11,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Reachability from praha to 100.0.14.0/24 and reachability from zurich to 100.0.14.0/24 cannot be satisfied simultaneously.'}",False,True
+,,5,1,100,1,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability: strasbourg can reach 100.0.24.0/24, but bratislava cannot reach it'}",True,True
+,,5,1,100,1,13,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with existing connectivity. Strasbourg can reach 100.0.20.0/24, while Luxembourg already has connectivity to the same prefix.'}",False,True
+,,5,1,100,1,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and load balancing rules. Reachability allows Zurich to reach 100.0.25.0/24, but Load Balancing prohibits it.'}",True,True
+,,5,1,100,1,15,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict between strasbourg and 100.0.23.0/24, as the latter is also reachable from madrid'}",False,True
+,,5,1,100,1,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: praha can reach 100.0.14.0/24, but zurich cannot'}",True,True
+,,5,1,100,1,17,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: bucharest to 100.0.20.0/24 is established, but bratislava cannot reach 100.0.0.0/24'}",False,True
+,,5,1,100,1,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict between strasbourg and 100.0.26.0/24, as well as contradictory statements about basel's reachability to 100.0.32.0/24""}",True,True
+,,5,1,100,1,19,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for location barcelona and prefix 100.0.11.0/24; barcelona can reach 100.0.11.0/24, but also 100.0.15.0/24 is accessible from barcelona'}",False,True
+,,10,1,100,1,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Traffic originating from warsaw cannot reach 100.0.23.0/24, but also traffic originating from warsaw can reach the subnet 100.0.23.0/24.'}",True,True
+,,10,1,100,1,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'There are conflicting reachability requirements: paris can reach 100.0.10.0/24, while istanbul also claims to reach the same subnet; zurich can reach 100.0.3.0/24, but frankfurt can also reach the same subnet; kiev can reach 100.0.14.0/24, and roma can also reach the same prefix'}",False,True
+,,10,1,100,1,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements found: lyon cannot reach 100.0.10.0/24, but it can reach'}",True,True
+,,10,1,100,1,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict detected: Traffic originating from Luxembourg can reach the subnet 100.0.4.0/24, but there's no connectivity established between Luxembourg and 100.0.4.0/24/24.""}",False,True
+,,10,1,100,1,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for 100.0.0.0/24: istanbul can reach it, but frankfurt cannot reach it'}",True,True
+,,10,1,100,1,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: 100.0.14.0/24 is reachable from Zurich, but also from London and Prague'}",False,True
+,,10,1,100,1,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for strasbourg: cannot reach 100.0.20.0/24, but can'}",True,True
+,,10,1,100,1,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict detected: Reachability from madrid to 100.0.23.0/24 is allowed, but it's also accessible from itself (same location)""}",False,True
+,,10,1,100,1,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements: frankfurt cannot reach 100.0.4.0/24, but it's also reachable from frankfurt.""}",True,True
+,,10,1,100,1,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: strasbourg can reach both 100.0.32.0/24 and 100.0.15.0/24, but basel is only allowed to reach 100.0.32.0/24'}",False,True
+,,20,1,100,1,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: paris cannot reach 100.0.14.0/24, but kiev can reach the same prefix.'}",True,True
+,,20,1,100,1,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for 100.0.15.0/24: reachable from both bucharest and roma'}",False,True
+,,20,1,100,1,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: subnet 100.0.20.0/24 is both reachable and not reachable from rotterdam'}",True,True
+,,20,1,100,1,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Reachability from madrid to both 100.0.14.0/24 and 100.0.23.0/24 is allowed, but this creates a loop'}",False,True
+,,20,1,100,1,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Connectivity from praha to 100.0.14.0/24 is established, but brussels cannot reach 100.0.13.0/24, and also the subnet 100.0.13.0/24 is reachable from bucharest.'}",True,True
+,,25,1,100,1,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for london: cannot reach 100.0.23.0/24, but connectivity to this prefix is established.'}",True,True
+,,25,1,100,1,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Luxembourg and 100.0.4.0/24, as Luxembourg already reaches this prefix through Milan.'}",False,True
+,,25,1,100,1,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and load balancing requirements: sofia cannot reach 100.0.23.0/24, but the subnet is reachable from sofia'}",True,True
+,,25,1,100,1,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between Reachability and Waypoint requirements. Location 'strasbourg' should not be able to reach '100.0.23.0/24', but it can according to the requirement 'Traffic originating from athens can reach the subnet 100.0.23.0/24'.""}",False,True
+,,50,1,100,1,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: paris can reach 100.0.14.0/24, but basel cannot reach it.'}",True,True
+,,50,1,100,1,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Connectivity from geneva to 100.0.4.0/24 is established, but connectivity from zurich to 100.0.4.0/24 is also established, which may cause conflicts.'}",False,True
+,,100,1,100,1,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: paris can reach both 100.0.26.0/24 and 100.0.10.0/24, while london can only reach 100.0.26.0/24.'}",True,True
+,,100,1,100,1,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements: paris can reach 100.0.14.0/24, but zurich cannot reach 100.0.14.0/24'}",False,True
+,,1,1,100,2,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Inconsistent reachability configuration for location 'amsterdam' and prefix '100.0.25.0/24'""}",True,True
+,,1,1,100,2,1,1.1910321712493896,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['vienna']""]}",False,False
+,,1,1,100,2,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Inconsistent reachability requirement for basel to 100.0.13.0/24'}",True,True
+,,1,1,100,2,3,0.9685020446777344,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,2,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for paris to 100.0.11.0/24 allows and forbids the same prefix'}",True,True
+,,1,1,100,2,5,2.9378418922424316,0,0,1,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {'from': 'geneva', 'to': '100.0.32.0/24', 'allow': True}, 'old_value': {'geneva': ['100.0.32.0/24']}}}}",False,False
+,,1,1,100,2,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself'}",True,True
+,,1,1,100,2,7,0.9584503173828125,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,2,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: Zurich cannot reach 100.0.3.0/24 and yet 100.0.3.0/24 is accessible from Zurich, this is contradictory'}",True,True
+,,1,1,100,2,9,1.2134201526641846,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['amsterdam']""]}",False,False
+,,1,1,100,2,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'bucharest' and prefix '100.0.14.0/24'. Reachability cannot be both allowed and forbidden.""}",True,True
+,,1,1,100,2,11,1.044633150100708,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,2,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Warsaw cannot reach 100.0.11.0/24, but 100.0.11.0/24 is accessible from Warsaw'}",True,True
+,,1,1,100,2,13,1.0132877826690674,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,2,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability rules for Basel and 100.0.21.0/24'}",True,True
+,,1,1,100,2,15,0.983443021774292,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,2,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement for 'roma' to '100.0.13.0/24' allows and forbids reachability at the same time, causing a conflict""}",True,True
+,,1,1,100,2,17,1.10683012008667,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['vienna']""]}",False,False
+,,1,1,100,2,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirement: previously, connectivity was not allowed, but now it's established""}",True,True
+,,1,1,100,2,19,0.9758038520812988,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,2,20,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability rules for frankfurt to 100.0.6.0/24'}",True,True
+,,1,1,100,2,21,0.9836111068725586,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,2,22,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with existing reachability'}",True,True
+,,1,1,100,2,23,0.9689521789550781,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['istanbul']""]}",False,False
+,,1,1,100,2,24,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'praha' and prefix '100.0.11.0/24'. Reachability allows reaching, but prohibition prevents reaching.""}",True,True
+,,1,1,100,2,25,1.0166821479797363,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bratislava']""]}",False,False
+,,1,1,100,2,26,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself'}",True,True
+,,1,1,100,2,27,0.9701991081237793,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,2,28,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Inconsistent reachability requirement for location 'geneva' and prefix '100.0.9.0/24'""}",True,True
+,,1,1,100,2,29,0.9996938705444336,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,2,30,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for Lyon is contradictory'}",True,True
+,,1,1,100,2,31,0.9724969863891602,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['marseille']""]}",False,False
+,,1,1,100,2,32,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements from Bratislava to 100.0.8.0/24'}",True,True
+,,1,1,100,2,33,0.9889202117919922,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']""]}",False,False
+,,1,1,100,2,34,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict detected: Reachability requirement from 'athens' to '100.0.31.0/24' cannot be both allowed and forbidden simultaneously.""}",True,True
+,,1,1,100,2,35,1.119781732559204,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,2,36,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability and waypoint have conflicting requirements for location 'lyon' and prefix '100.0.15.0/24'""}",True,True
+,,1,1,100,2,37,1.0031440258026123,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,2,38,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: geneva cannot and can reach 100.0.26.0/24 simultaneously'}",True,True
+,,1,1,100,2,39,0.993319034576416,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,2,40,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict: Zurich cannot reach 100.0.15.0/24, but traffic from Zurich can reach this prefix'}",True,True
+,,1,1,100,2,41,3.6575069427490234,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['madrid']""]}",False,False
+,,1,1,100,2,42,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Inconsistent reachability requirement'}",True,True
+,,1,1,100,2,43,0.9731788635253906,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,2,44,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Inconsistent reachability requirement for Budapest (budapest) and destination prefix (100.0.5.0/24). Initially, the reachability was forbidden, but then connectivity was established.'}",True,True
+,,1,1,100,2,45,1.14589524269104,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,2,46,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for Brussels to not reach 100.0.6.0/24 conflicts with the requirement that 100.0.6.0/24 is accessible from Brussels.'}",True,True
+,,1,1,100,2,47,1.0461382865905762,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['roma']""]}",False,False
+,,1,1,100,2,48,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for amsterdam and 100.0.20.0/24'}",True,True
+,,1,1,100,2,49,0.9910600185394287,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['strasbourg']""]}",False,False
+,,1,1,100,2,50,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: Frankfurt cannot and can both reach the same prefix (100.0.9.0/24)'}",True,True
+,,1,1,100,2,51,1.0163300037384033,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['vienna']""]}",False,False
+,,1,1,100,2,52,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: Vienna cannot reach 100.0.28.0/24, but the same prefix is also reachable from Vienna'}",True,True
+,,1,1,100,2,53,1.0332658290863037,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,2,54,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: strasbourg can reach 100.0.28.0/24, but cannot reach it according to the first requirement.'}",True,True
+,,1,1,100,2,55,1.0301849842071533,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']""]}",False,False
+,,1,1,100,2,56,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'madrid' and prefix '100.0.8.0/24'. Reachability is both allowed and forbidden.""}",True,True
+,,1,1,100,2,57,1.0591182708740234,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['amsterdam']""]}",False,False
+,,1,1,100,2,58,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements'}",True,True
+,,1,1,100,2,59,0.9700088500976562,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,2,60,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirement'}",True,True
+,,1,1,100,2,61,0.973884105682373,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""]}",False,False
+,,1,1,100,2,62,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement (cannot reach) conflicts with existing connectivity'}",True,True
+,,1,1,100,2,63,0.985285758972168,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,2,64,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: amsterdam cannot reach 100.0.6.0/24, but connectivity from amsterdam to 100.0.6.0/24 is already established'}",True,True
+,,1,1,100,2,65,1.064056158065796,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['rotterdam']""]}",False,False
+,,1,1,100,2,66,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'The requirement to allow traffic from Rotterdam to 100.0.3.0/24, but prevent reachability from Rotterdam to 100.0.3.0/24, is a conflict.'}",True,True
+,,1,1,100,2,67,1.0541150569915771,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,2,68,1.3054828643798828,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['strasbourg']""]}",True,False
+,,1,1,100,2,69,0.9627010822296143,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['madrid']""]}",False,False
+,,1,1,100,2,70,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: rotterdam cannot reach 100.0.22.0/24, but 100.0.22.0/24 is accessible from rotterdam'}",True,True
+,,1,1,100,2,71,1.0714890956878662,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['paris']""]}",False,False
+,,1,1,100,2,72,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Basel cannot reach 100.0.2.0/24 but traffic originating from Basel can reach the same prefix'}",True,True
+,,1,1,100,2,73,1.023634910583496,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""]}",False,False
+,,1,1,100,2,74,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement and waypoint requirement conflict'}",True,True
+,,1,1,100,2,75,0.9740779399871826,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,2,76,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'strasbourg' and prefix '100.0.2.0/24'. Reachability is allowed but also explicitly forbidden.""}",True,True
+,,1,1,100,2,77,2.6479740142822266,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,2,78,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Inconsistent reachability requirement for location barcelona and prefix 100.0.32.0/24'}",True,True
+,,1,1,100,2,79,0.9893529415130615,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,2,80,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability rules for location 'zurich' and prefix '100.0.26.0/24'""}",True,True
+,,1,1,100,2,81,1.0161809921264648,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['frankfurt']""]}",False,False
+,,1,1,100,2,82,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict in Reachability requirement: 'madrid cannot reach 100.0.9.0/24' and 'The subnet 100.0.9.0/24 is reachable from madrid'""}",True,True
+,,1,1,100,2,83,1.047407865524292,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['rotterdam']""]}",False,False
+,,1,1,100,2,84,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirement: kiev cannot reach 100.0.5.0/24, but connectivity from kiev to 100.0.5.0/24 is already established'}",True,True
+,,1,1,100,2,85,1.0333497524261475,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,2,86,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict in reachability requirement for location 'vienna' and prefix '100.0.6.0/24'. Both allowing and forbidding reachability found.""}",True,True
+,,1,1,100,2,87,1.0235600471496582,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['istanbul']""]}",False,False
+,,1,1,100,2,88,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself'}",True,True
+,,1,1,100,2,89,0.9765098094940186,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['marseille']""]}",False,False
+,,1,1,100,2,90,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflict: connectivity already established when reachability was forbidden'}",True,True
+,,1,1,100,2,91,0.9834980964660645,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,2,92,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'kiev' and prefix '100.0.31.0/24'""}",True,True
+,,1,1,100,2,93,1.0020720958709717,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,2,94,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements'}",True,True
+,,1,1,100,2,95,0.9748690128326416,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['istanbul']""]}",False,False
+,,1,1,100,2,96,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: Basel can and cannot reach 100.0.1.0/24 simultaneously'}",True,True
+,,1,1,100,2,97,1.106889247894287,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,2,98,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself: basel cannot reach 100.0.24.0/24, but traffic originating from basel can reach this prefix'}",True,True
+,,1,1,100,2,99,1.228437900543213,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']""]}",False,False
+,,2,1,100,2,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirements conflict: amsterdam cannot reach 100.0.25.0/24, but the subnet 100.0.25.0/24 is reachable from amsterdam'}",True,True
+,,2,1,100,2,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from basel to 100.0.25.0/24 is forbidden, as it is only allowed for sofia'}",False,True
+,,2,1,100,2,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: paris cannot reach 100.0.11.0/24 but the subnet is reachable from paris'}",True,True
+,,2,1,100,2,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirement: Amsterdam is not allowed to reach 100.0.3.0/24'}",False,True
+,,2,1,100,2,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements: Zurich can't reach 100.0.32.0/24, but Amsterdam can.""}",True,True
+,,2,1,100,2,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements. Bucharest cannot reach 100.0.8.0/24, but Prague can. This creates a conflict in network reachability.'}",False,True
+,,2,1,100,2,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: warsaw cannot reach 100.0.11.0/24, but the subnet is also reachable from warsaw'}",True,True
+,,2,1,100,2,7,6.305459022521973,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {'100.0.21.0/24': {'basel': 'allow'}}, 'old_value': {'basel': ['100.0.21.0/24'], 'athens': ['100.0.32.0/24']}}}}",False,False
+,,2,1,100,2,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: roma can reach 100.0.13.0/24, but vienna cannot reach it.'}",True,True
+,,2,1,100,2,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from Luxembourg to 100.0.10.0/24 conflicts with previous restriction on accessibility of 100.0.9.0/24 only from Marseille.'}",False,True
+,,2,1,100,2,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements: frankfurt should not be able to reach 100.0.32.0/24, but it's already allowed to reach 100.0.6.0/24""}",True,True
+,,2,1,100,2,11,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict in Reachability Requirements. Amsterdam can already connect to 100.0.2.0/24, but it's not allowed for traffic originating from Istanbul to reach 100.0.14.0/24.""}",False,True
+,,2,1,100,2,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability from Praha to 100.0.11.0/24 is forbidden, but connectivity from Praha to 100.0.11.0/24 is established, which creates a conflict.'}",True,True
+,,2,1,100,2,13,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for traffic originating from Athens to 100.0.23.0/24 conflicts with existing connectivity from Kiev to 100.0.4.0/24'}",False,True
+,,2,1,100,2,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: 100.0.9.0/24 is accessible from Geneva, but Prague cannot reach 100.0.22.0/24; whereas connectivity from Prague to 100.0.22.0/24 is established'}",True,True
+,,2,1,100,2,15,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Lyon can send packets to 100.0.29.0/24, but Marseilles cannot send packets to 100.0.31.0/24.'}",False,True
+,,2,1,100,2,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Bratislava cannot reach 100.0.8.0/24, but 100.0.8.0/24 is accessible from Bratislava'}",True,True
+,,2,1,100,2,17,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for athens to 100.0.31.0/24 and reachability requirement for luxembourg to 100.0.13.0/24 are in conflict, as they require different paths'}",False,True
+,,2,1,100,2,18,4.567827939987183,0,0,2,0,0.0,0,0,0,"{'type_changes': {""root['reachability']['lyon']"": {'old_type': <class 'list'>, 'new_type': <class 'dict'>, 'old_value': ['100.0.15.0/24'], 'new_value': {'allow': ['100.0.15.0/24']}}, ""root['reachability']['praha']"": {'old_type': <class 'list'>, 'new_type': <class 'dict'>, 'old_value': ['100.0.14.0/24'], 'new_value': {'disallow': ['100.0.14.0/24'], 'allow': ['100.0.14.0/24']}}}}",True,False
+,,2,1,100,2,19,4.546486854553223,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'geneva': ['100.0.26.0/24'], 'london': ['100.0.14.0/24']}}}}",False,False
+,,2,1,100,2,20,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: The subnet 100.0.15.0/24 is reachable from zurich, but madrid cannot reach 100.0.0.0/24, which is a subset of the former.'}",True,True
+,,2,1,100,2,21,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Geneva and Subnet 100.0.10.0/24, as well as Lyon and Subnet 100.0.2.0/24. These requirements cannot be met simultaneously.'}",False,True
+,,2,1,100,2,22,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Inconsistent reachability requirements: Reachability from 'budapest' to '100.0.5.0/24' is allowed, but reachability from 'barcelona' to '100.0.9.0/24' is allowed, whereas reachability from 'barcelona' to the same prefix '100.0.9.0/24' is not allowed.""}",True,True
+,,2,1,100,2,23,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from Brussels to 100.0.6.0/24 conflicts with existing connectivity from Roma to 100.0.8.0/24'}",False,True
+,,2,1,100,2,24,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirements conflict: Amsterdam cannot reach 100.0.20.0/24, but the subnet 100.0.20.0/24 is reachable from Amsterdam.'}",True,True
+,,2,1,100,2,25,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected between Reachability and Waypoint. Frankfurt can establish connectivity with 100.0.9.0/24, but Vienna cannot reach 100.0.13.0/24, creating a conflict.'}",False,True
+,,2,1,100,2,26,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict: Both 'sofia cannot reach 100.0.28.0/24' and 'sofia can reach 100.0.28.0/24' are provided, which is contradictory.""}",True,True
+,,2,1,100,2,27,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement from 'basel' to '100.0.8.0/24' conflicts with reachability requirement from 'strasbourg' to '100.0.28.0/24'""}",False,True
+,,2,1,100,2,28,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for Madrid to not reach 100.0.8.0/24 conflicts with the reachability requirement that allows traffic originating from Madrid to reach the same prefix.'}",True,True
+,,2,1,100,2,29,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements. Warsaw can reach 100.0.0.0/24 while traffic originating from Athens should only be able to reach 100.0.4.0/24, which is a subset of the reachable prefix for Warsaw.'}",False,True
+,,2,1,100,2,30,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from brussels to 100.0.0.0/24 exists, but reachability requirement from amsterdam to 100.0.0.0/24 does not exist'}",True,True
+,,2,1,100,2,31,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements'}",False,True
+,,2,1,100,2,32,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict in reachability requirement for 'amsterdam' and '100.0.6.0/24'. 'amsterdam cannot reach' and 'The subnet 100.0.6.0/24 is reachable from amsterdam' contradict each other.""}",True,True
+,,2,1,100,2,33,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements, both 100.0.3.0/24 and 100.0.21.0/24 are claimed to be accessible from different locations (rotterdam and athens)'}",False,True
+,,2,1,100,2,34,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict: madrid's inability to reach 100.0.22.0/24 is contradicted by its ability to reach the same prefix.""}",True,True
+,,2,1,100,2,35,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for prefixes'}",False,True
+,,2,1,100,2,36,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirement: Basal cannot reach 100.0.2.0/24, but the subnet is reachable from Basal.'}",True,True
+,,2,1,100,2,37,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements. Reachability allows 100.0.32.0/24 to be reached from rotterdam, but waypoint requirement forces traffic from rotterdam to go through london before reaching 100.0.3.0/24.'}",False,True
+,,2,1,100,2,38,5.145385026931763,0,1,1,0,0.5,0,0,0,"{'type_changes': {""root['reachability']['strasbourg']"": {'old_type': <class 'list'>, 'new_type': <class 'dict'>, 'old_value': ['100.0.2.0/24'], 'new_value': {'100.0.2.0/24': False}}}, 'dictionary_item_removed': [""root['reachability']['milan']""]}",True,False
+,,2,1,100,2,39,4.282116889953613,2,0,2,2,0.0,0,0,0,"{'values_changed': {""root['reachability']['barcelona'][1]"": {'new_value': {'prefix': '100.0.15.0/24', 'allow': True}, 'old_value': '100.0.15.0/24'}, ""root['reachability']['barcelona'][0]"": {'new_value': {'prefix': '100.0.32.0/24', 'allow': True}, 'old_value': '100.0.32.0/24'}}}",False,False
+,,2,1,100,2,40,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Zurich can reach 100.0.26.0/24, but Frankfurt cannot reach 100.0.21.0/24, which contradicts the connectivity from Frankfurt to 100.0.21.0/24'}",True,True
+,,2,1,100,2,41,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between madrid and 100.0.27.0/24, as rotterdam can also reach this prefix'}",False,True
+,,2,1,100,2,42,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting Reachability Requirements: Kiev cannot reach 100.0.5.0/24, but traffic originating from kiev can also reach the same subnet'}",True,True
+,,2,1,100,2,43,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement from 'istanbul' to '100.0.1.0/24' is in conflict with existing reachability requirement to '100.0.6.0/24' from 'vienna'""}",False,True
+,,2,1,100,2,44,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for prefix 100.0.27.0/24: brussels can reach it, while marseille cannot'}",True,True
+,,2,1,100,2,45,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements: Reachability allows traffic from Brussels to 100.0.23.0/24, but Waypoint requires traffic from Warsaw to reach 100.0.29.0/24 which is not accessible from Brussels'}",False,True
+,,2,1,100,2,46,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: kiev can reach 100.0.31.0/24, but the same prefix is not reachable from luxembourg'}",True,True
+,,2,1,100,2,47,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirement: Luxembourg cannot establish connectivity to 100.0.11.0/24, as traffic originating from Istanbul is already allowed to reach that prefix.'}",False,True
+,,2,1,100,2,48,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: barcelona cannot reach 100.0.1.0/24, but traffic originating from barcelona can reach 100.0.13.0/24'}",True,True
+,,2,1,100,2,49,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: connectivity from Basel to 100.0.24.0/24 and from Kiev to 100.0.15.0/24 cannot be simultaneously established, as they share the same destination prefix.'}",False,True
+,,5,1,100,2,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: amsterdam can reach 100.0.25.0/24, but vienna cannot reach it.'}",True,True
+,,5,1,100,2,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Connectivity from Geneva to 100.0.32.0/24 and reachability from Amsterdam to 100.0.32.0/24'}",False,True
+,,5,1,100,2,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: warsaw cannot reach 100.0.11.0/24 but can reach it, this indicates a contradictory requirement'}",True,True
+,,5,1,100,2,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Athens cannot reach 100.0.13.0/24 as roma can, while Vienna and Marseille can also reach different subnets without restrictions.'}",False,True
+,,5,1,100,2,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: frankfurt cannot reach 100.0.6.0/24, but connectivity from frankfurt to 100.0.6.0/24 is established'}",True,True
+,,5,1,100,2,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Traffic originating from bratislava and kiev can both reach the same subnet (100.0.4.0/24), which may cause congestion or other issues'}",False,True
+,,5,1,100,2,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: marseille cannot reach 100.0.31.0/24, but subnet 100.0.31.0/24 is reachable from marseille'}",True,True
+,,5,1,100,2,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Luxembourg can reach 100.0.13.0/24, but 100.0.15.0/24 is reachable from Lyon, which implies that Luxembourg cannot directly reach 100.0.15.0/24.'}",False,True
+,,5,1,100,2,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements for geneva and 100.0.10.0/24'}",True,True
+,,5,1,100,2,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: barcelona should not be able to reach 100.0.6.0/24, but brussels can reach it.'}",False,True
+,,5,1,100,2,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected: Reachability from Vienna to 100.0.28.0/24 is established, but Reachability from Sofia to 100.0.28.0/24 is denied'}",True,True
+,,5,1,100,2,11,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability: basel can reach 100.0.8.0/24, but madrid has already established connectivity to the same prefix.'}",False,True
+,,5,1,100,2,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: brussels can reach 100.0.0.0/24, but amsterdam cannot reach 100.0.6.0/24 which is a part of 100.0.0.0/24'}",True,True
+,,5,1,100,2,13,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: rotterdam can reach 100.0.1.0/24, but also can reach 100.0.3.0/24 which is reachable from strasbourg. This indicates a potential loop in the network.'}",False,True
+,,5,1,100,2,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Inconsistent reachability requirements: basel cannot reach 100.0.2.0/24, but the same prefix is also reachable from basel'}",True,True
+,,5,1,100,2,15,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Reachability from London to 100.0.3.0/24 and Reachability from Barcelona to 100.0.15.0/24'}",False,True
+,,5,1,100,2,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict found: frankfurt cannot reach 100.0.21.0/24 but it's also said to be accessible from frankfurt""}",True,True
+,,5,1,100,2,17,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict between lyon and 100.0.6.0/24, as it's not reachable according to existing connectivity from vienna""}",False,True
+,,5,1,100,2,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Luxembourg cannot reach 100.0.24.0/24 but also can reach it'}",True,True
+,,5,1,100,2,19,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Reachability to 100.0.6.0/24 is established from istanbul, but traffic originating from basel can also reach the same subnet 100.0.1.0/24'}",False,True
+,,10,1,100,2,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and load balancing requirements for destination prefix 100.0.32.0/24'}",True,True
+,,10,1,100,2,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: 100.0.14.0/24 is accessible from bucharest, but also from milan (due to 100.0.6.0/24 being accessible), and also from basel (due to 100.0.21.0/24 being accessible)'}",False,True
+,,10,1,100,2,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting Reachability Requirements: Frankfurt can reach 100.0.6.0/24, but Amsterdam cannot reach 100.0.2.0/24 (subnet 100.0.2.0/24 is contained in 100.0.6.0/24)'}",True,True
+,,10,1,100,2,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Lyon and Marseille: Both can reach the same subnet (100.0.31.0/24)'}",False,True
+,,10,1,100,2,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: madrid cannot reach 100.0.0.0/24, but traffic originating from madrid can reach the same subnet'}",True,True
+,,10,1,100,2,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflicts between vienna and strasbourg for the same destination (100.0.28.0/24)'}",False,True
+,,10,1,100,2,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for 100.0.21.0/24: both milan and athens claim to be able to reach this prefix, while rotterdam is also trying to reach the same prefix'}",True,True
+,,10,1,100,2,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability from rotterdam to 100.0.21.0/24, as paris can already reach it.'}",False,True
+,,10,1,100,2,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: frankfurt cannot reach 100.0.21.0/24, but it is accessible from zurich'}",True,True
+,,10,1,100,2,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: The subnet 100.0.23.0/24 is reachable from brussels, but also the subnet 100.0.11.0/24 is established from luxembourg.'}",False,True
+,,20,1,100,2,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirement: connectivity from athens to 100.0.32.0/24 is established, but athens cannot reach 100.0.32.0/24'}",True,True
+,,20,1,100,2,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability requirements: frankfurt can reach 100.0.6.0/24 and praha can reach 100.0.14.0/24, while the same prefix (100.0.14.0/24) is also reachable from istanbul and zurich'}",False,True
+,,20,1,100,2,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between reachability and waypoint requirements: madrid can't reach 100.0.0.0/24, but it's also established as a path for strasbourg to reach the same prefix""}",True,True
+,,20,1,100,2,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting requirements detected:\n- Reachability: Amsterdam can reach 100.0.23.0/24, but rotterdam cannot reach the same subnet.\n- Reachability: Rotterdam can reach 100.0.1.0/24 and 100.0.22.0/24, while madrid can only reach 100.0.22.0/24.'}",False,True
+,,20,1,100,2,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: zurich cannot reach 100.0.26.0/24, but 100.0.1.0/24 is accessible from basel which can be reached from zurich.'}",True,True
+,,25,1,100,2,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability requirements: Amsterdam can reach 100.0.25.0/24, but Sofia cannot reach it.'}",True,True
+,,25,1,100,2,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for 100.0.14.0/24: praha can reach it, but london also claims to be able to reach it'}",False,True
+,,25,1,100,2,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict in reachability requirements for 100.0.28.0/24: it's reachable from vienna and also from brussels, which are different locations""}",True,True
+,,25,1,100,2,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: london can reach 100.0.3.0/24, but strasbourg cannot reach it'}",False,True
+,,50,1,100,2,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between basel and 100.0.13.0/24, as well as between roma and 100.0.13.0/24'}",True,True
+,,50,1,100,2,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for prefix 100.0.28.0/24: Reachable from vienna, but also reachable from sofia'}",False,True
+,,100,1,100,2,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: luxembourg cannot reach 100.0.13.0/24, but it is accessible from luxembourg.'}",True,True
+,,100,1,100,2,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflicts between locations: amsterdam and 100.0.25.0/24, vienna and 100.0.11.0/24, basel and 100.0.13.0/24, sofia and 100.0.25.0/24; Waypoint conflicts between locations: paris and 100.0.11.0/24, geneva and 100.0.32.0/24, amsterdam and 100.0.3.0/24, luxembourg and 100.0.13.0/24; Load Balancing conflicts between locations: milan and 100.0.21.0/24, athens and 100.0.23.0/24, frankfurt and 100.0.6.0/24'}",False,True
+,,1,1,100,3,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict detected for reachability from location 'paris' to prefix '100.0.8.0/24'. Both allow and forbid statements are present, which is contradictory.""}",True,True
+,,1,1,100,3,1,1.2218139171600342,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['budapest']""]}",False,False
+,,1,1,100,3,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements. Reachability prohibits reaching 100.0.23.0/24, but waypoint allows traffic to go through this prefix.'}",True,True
+,,1,1,100,3,3,1.0205402374267578,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,3,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirement for location milan and prefix 100.0.10.0/24'}",True,True
+,,1,1,100,3,5,0.9868967533111572,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']""]}",False,False
+,,1,1,100,3,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for athens to 100.0.0.0/24 is contradictory'}",True,True
+,,1,1,100,3,7,0.9975311756134033,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['rotterdam']""]}",False,False
+,,1,1,100,3,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement is not consistent, as it allows traffic from Marseille to reach 100.0.11.0/24 but disallows reaching 100.0.11.0/24 from Marseille'}",True,True
+,,1,1,100,3,9,1.0438928604125977,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,3,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirement: basel cannot reach and can reach 100.0.18.0/24'}",True,True
+,,1,1,100,3,11,2.676007032394409,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['amsterdam']""]}",False,False
+,,1,1,100,3,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements'}",True,True
+,,1,1,100,3,13,0.9762120246887207,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,3,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between strasbourg and 100.0.21.0/24'}",True,True
+,,1,1,100,3,15,0.9811580181121826,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']""]}",False,False
+,,1,1,100,3,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for Luxembourg'}",True,True
+,,1,1,100,3,17,0.9769620895385742,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,3,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement conflicts: 'marseille cannot reach 100.0.22.0/24' and '100.0.22.0/24 is accessible from marseille'""}",True,True
+,,1,1,100,3,19,1.051738977432251,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,3,20,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for basel and 100.0.26.0/24'}",True,True
+,,1,1,100,3,21,0.9894247055053711,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['frankfurt']""]}",False,False
+,,1,1,100,3,22,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: connectivity established but reachability denied'}",True,True
+,,1,1,100,3,23,0.9849288463592529,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']""]}",False,False
+,,1,1,100,3,24,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict: milan cannot reach 100.0.6.0/24, but 100.0.6.0/24 is also reachable from milan'}",True,True
+,,1,1,100,3,25,1.0466740131378174,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,3,26,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflict: Zurich can reach and cannot reach the same prefix (100.0.4.0/24)'}",True,True
+,,1,1,100,3,27,1.000744342803955,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']""]}",False,False
+,,1,1,100,3,28,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements'}",True,True
+,,1,1,100,3,29,0.9807479381561279,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bratislava']""]}",False,False
+,,1,1,100,3,30,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: barcelona cannot reach 100.0.20.0/24, but the subnet 100.0.20.0/24 is reachable from barcelona'}",True,True
+,,1,1,100,3,31,1.064222812652588,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['strasbourg']""]}",False,False
+,,1,1,100,3,32,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'There is a conflict between reachability and waypoint requirements. Reachability does not allow barcelona to reach 100.0.23.0/24, but waypoint allows traffic from barcelona to transit through [list of locations] to reach the destination'}",True,True
+,,1,1,100,3,33,1.0785279273986816,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['frankfurt']""]}",False,False
+,,1,1,100,3,34,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Inconsistent reachability requirement for location 'rotterdam' and prefix '100.0.23.0/24'""}",True,True
+,,1,1,100,3,35,1.0073680877685547,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bratislava']""]}",False,False
+,,1,1,100,3,36,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for milan and 100.0.8.0/24 is contradictory'}",True,True
+,,1,1,100,3,37,1.0051929950714111,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}",False,False
+,,1,1,100,3,38,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability rules for location 'london'.""}",True,True
+,,1,1,100,3,39,0.9871799945831299,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,3,40,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement from athens to 100.0.15.0/24 allows traffic, but initial requirement denies reachability'}",True,True
+,,1,1,100,3,41,1.030045986175537,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['madrid']""]}",False,False
+,,1,1,100,3,42,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: the network requires that the subnet 100.0.27.0/24 is reachable from sofia, but also prohibits reachability to this subnet'}",True,True
+,,1,1,100,3,43,1.0652570724487305,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,3,44,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflict'}",True,True
+,,1,1,100,3,45,0.9741811752319336,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,3,46,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement forbids reaching 100.0.25.0/24 from Budapest, but traffic originating from Budapest is allowed to reach this prefix'}",True,True
+,,1,1,100,3,47,1.0562779903411865,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['budapest']""]}",False,False
+,,1,1,100,3,48,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'There is a conflict between the reachability requirement (cannot reach) and the connectivity requirement (connectivity established)'}",True,True
+,,1,1,100,3,49,1.0052039623260498,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,3,50,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint: Reachability allows reaching 100.0.32.0/24, while waypoint forbids budapest to reach 100.0.32.0/24'}",True,True
+,,1,1,100,3,51,1.0704419612884521,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,3,52,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Inconsistent reachability requirement'}",True,True
+,,1,1,100,3,53,0.9791488647460938,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""]}",False,False
+,,1,1,100,3,54,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with existing reachability'}",True,True
+,,1,1,100,3,55,0.9846551418304443,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,3,56,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements'}",True,True
+,,1,1,100,3,57,0.9881439208984375,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,3,58,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement contradicts with existing connectivity'}",True,True
+,,1,1,100,3,59,0.9923999309539795,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,3,60,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements'}",True,True
+,,1,1,100,3,61,0.9911329746246338,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['marseille']""]}",False,False
+,,1,1,100,3,62,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with existing connectivity'}",True,True
+,,1,1,100,3,63,0.9931530952453613,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']""]}",False,False
+,,1,1,100,3,64,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement for 'budapest' and '100.0.18.0/24' allows and forbids reachability simultaneously""}",True,True
+,,1,1,100,3,65,1.0485239028930664,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,3,66,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirement. Rotterdam is allowed and forbidden to reach the same prefix (100.0.0.0/24).'}",True,True
+,,1,1,100,3,67,1.0159552097320557,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']""]}",False,False
+,,1,1,100,3,68,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirement: kiev cannot reach 100.0.15.0/24, but also 100.0.15.0/24 is accessible from kiev'}",True,True
+,,1,1,100,3,69,1.0649158954620361,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['madrid']""]}",False,False
+,,1,1,100,3,70,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Inconsistent reachability requirement'}",True,True
+,,1,1,100,3,71,0.9721920490264893,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,3,72,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirement: barcelona can and cannot reach 100.0.2.0/24'}",True,True
+,,1,1,100,3,73,1.0361268520355225,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,3,74,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'athens' and prefix '100.0.20.0/24': reachability is both forbidden and allowed""}",True,True
+,,1,1,100,3,75,1.0567171573638916,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['rotterdam']""]}",False,False
+,,1,1,100,3,76,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability rules from Basel to 100.0.22.0/24'}",True,True
+,,1,1,100,3,77,0.9955248832702637,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,3,78,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting Reachability Requirements: Warsaw can't reach 100.0.2.0/24, but it's also accessible from Warsaw""}",True,True
+,,1,1,100,3,79,1.020359992980957,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['geneva']""]}",False,False
+,,1,1,100,3,80,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflict between athens not reaching 100.0.28.0/24 and connectivity from athens to 100.0.28.0/24 being established'}",True,True
+,,1,1,100,3,81,1.0761990547180176,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['istanbul']""]}",False,False
+,,1,1,100,3,82,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: Budapest cannot and can both reach 100.0.27.0/24'}",True,True
+,,1,1,100,3,83,0.9908950328826904,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,3,84,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for 100.0.14.0/24 from lyon'}",True,True
+,,1,1,100,3,85,0.9959230422973633,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['amsterdam']""]}",False,False
+,,1,1,100,3,86,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability rules: 'strasbourg cannot reach 100.0.24.0/24' and '100.0.24.0/24 is accessible from strasbourg'""}",True,True
+,,1,1,100,3,87,1.0681321620941162,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']""]}",False,False
+,,1,1,100,3,88,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement is not consistent with the given requirements'}",True,True
+,,1,1,100,3,89,0.9796938896179199,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,3,90,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement conflict: 'Bucharest cannot reach 100.0.13.0/24' conflicts with '100.0.13.0/24 is accessible from Bucharest'""}",True,True
+,,1,1,100,3,91,1.0646159648895264,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,3,92,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability and Waypoint conflicts found. Amsterdam cannot reach 100.0.29.0/24, but it's also considered a reachable destination.""}",True,True
+,,1,1,100,3,93,1.027980089187622,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,3,94,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Inconsistent reachability requirement for location Zurich'}",True,True
+,,1,1,100,3,95,0.9781618118286133,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}",False,False
+,,1,1,100,3,96,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'london' and prefix '100.0.0.0/24'""}",True,True
+,,1,1,100,3,97,1.0886929035186768,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['istanbul']""]}",False,False
+,,1,1,100,3,98,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between madrid and 100.0.26.0/24: cannot reach but reachable'}",True,True
+,,1,1,100,3,99,1.0309879779815674,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,2,1,100,3,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: budapest cannot reach 100.0.5.0/24, but 100.0.5.0/24 is reachable from budapest'}",True,True
+,,2,1,100,3,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Both Budapest and London can reach 100.0.3.0/24, which is not allowed according to network rules.'}",False,True
+,,2,1,100,3,2,4.594815969467163,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'milan': ['100.0.10.0/24'], 'basel': ['100.0.8.0/24']}}}}",True,False
+,,2,1,100,3,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between athens and rotterdam for different subnets (100.0.0.0/24 vs 100.0.8.0/24)'}",False,True
+,,2,1,100,3,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: 100.0.11.0/24 is accessible from marseille, but london cannot reach 100.0.24.0/24, then suddenly can reach it.'}",True,True
+,,2,1,100,3,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict between location 'basel' and prefix '100.0.18.0/24', which is already reachable from 'amsterdam' to '100.0.6.0/24'.""}",False,True
+,,2,1,100,3,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Barcelona can reach 100.0.24.0/24 while Athens cannot, and at the same time 100.0.29.0/24 is reachable from Barcelona'}",True,True
+,,2,1,100,3,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict detected between reachability requirements. Reachability from 'strasbourg' to '100.0.21.0/24' and from 'basel' to '100.0.13.0/24' indicates a conflict, as these prefixes are the same subnet""}",False,True
+,,2,1,100,3,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: while luxembourg cannot reach 100.0.8.0/24, it can reach 100.0.8.0/24 and 100.0.25.0/24'}",True,True
+,,2,1,100,3,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for marseille to reach 100.0.22.0/24 conflicts with reachability requirement that subnet 100.0.24.0/24 is reachable from lyon, as both cannot be true'}",False,True
+,,2,1,100,3,10,5.815335035324097,0,1,1,0,0.5,0,0,0,"{'type_changes': {""root['reachability']['basel']"": {'old_type': <class 'list'>, 'new_type': <class 'dict'>, 'old_value': ['100.0.26.0/24'], 'new_value': {'100.0.26.0/24': True}}}, 'dictionary_item_added': [""root['waypoint']['frankfurt']""], 'dictionary_item_removed': [""root['reachability']['frankfurt']""]}",True,False
+,,2,1,100,3,11,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Athens can already reach 100.0.10.0/24, but the requirement also allows connectivity from Basel to 100.0.10.0/24'}",False,True
+,,2,1,100,3,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: milan cannot reach 100.0.1.0/24, but it is also supposed to be reachable'}",True,True
+,,2,1,100,3,13,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements. Zurich can reach 100.0.4.0/24 directly, but according to Waypoint requirement, traffic path should include Basel as a waypoint.'}",False,True
+,,2,1,100,3,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: Basel is allowed to reach 100.0.20.0/24, but Bratislava cannot reach 100.0.1.0/24, which includes the same prefix'}",True,True
+,,2,1,100,3,15,1.5882070064544678,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'barcelona': ['100.0.20.0/24'], 'strasbourg': ['100.0.31.0/24']}}}}",False,False
+,,2,1,100,3,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability from Barcelona to 100.0.23.0/24 is allowed but reachability is not allowed in the original requirement'}",True,True
+,,2,1,100,3,17,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Rotterdam is allowed to reach 100.0.23.0/24, but Bratislava is also trying to reach a different prefix (100.0.18.0/24) which overlaps with the first prefix, this may cause routing conflicts'}",False,True
+,,2,1,100,3,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirements conflict: milan can reach 100.0.8.0/24, but bucharest cannot reach 100.0.31.0/24 and 100.0.31.0/24 is accessible from bucharest'}",True,True
+,,2,1,100,3,19,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and load balancing; london cannot reach 100.0.0.0/24, but praha should be able to'}",False,True
+,,2,1,100,3,20,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: athens should not be reachable to 100.0.15.0/24, but it is allowed; madrid cannot reach 100.0.2.0/24, but traffic from madrid can still reach it'}",True,True
+,,2,1,100,3,21,1.5756189823150635,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'sofia': ['100.0.27.0/24'], 'barcelona': ['100.0.8.0/24']}}}}",False,False
+,,2,1,100,3,22,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirements conflict: milan cannot reach 100.0.22.0/24, but 100.0.22.0/24 is accessible from milan'}",True,True
+,,2,1,100,3,23,3.690376043319702,0,2,0,0,1.0,0,0,0,"{'type_changes': {""root['reachability']['budapest']"": {'old_type': <class 'list'>, 'new_type': <class 'dict'>, 'old_value': ['100.0.25.0/24', '100.0.10.0/24'], 'new_value': {'100.0.25.0/24': True, '100.0.10.0/24': True}}}}",False,False
+,,2,1,100,3,24,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for kiev and 100.0.13.0/24'}",True,True
+,,2,1,100,3,25,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Budapest and Sofia cannot both reach different subnets'}",False,True
+,,2,1,100,3,26,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: Luxembourg cannot reach 100.0.21.0/24 but traffic originating from Luxembourg can reach the subnet'}",True,True
+,,2,1,100,3,27,4.347304344177246,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {'100.0.14.0/24': {'from': 'budapest', 'to': True}, '100.0.20.0/24': {'from': 'warsaw', 'to': True}}, 'old_value': {'budapest': ['100.0.14.0/24'], 'warsaw': ['100.0.20.0/24']}}}}",False,False
+,,2,1,100,3,28,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: kiev cannot reach 100.0.23.0/24, but the subnet 100.0.23.0/24 is reachable from kiev'}",True,True
+,,2,1,100,3,29,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for 100.0.24.0/24 from Amsterdam and 100.0.26.0/24 from Milan conflict, as they are trying to reach different prefixes from the same locations'}",False,True
+,,2,1,100,3,30,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict: luxembourg cannot reach 100.0.14.0/24, but traffic originating from luxembourg can reach the same subnet'}",True,True
+,,2,1,100,3,31,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Praha and 100.0.14.0/24, and Zurich and 100.0.5.0/24'}",False,True
+,,2,1,100,3,32,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: budapest cannot reach 100.0.18.0/24, but traffic originating from budapest can reach the same subnet'}",True,True
+,,2,1,100,3,33,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Rotterdam and 100.0.0.0/24, and Zurich and 100.0.6.0/24'}",False,True
+,,2,1,100,3,34,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability from madrid to 100.0.10.0/24 is not allowed, but traffic originating from madrid is allowed to reach this prefix'}",True,True
+,,2,1,100,3,35,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between bucharest and 100.0.26.0/24, and also between lyon and 100.0.9.0/24'}",False,True
+,,2,1,100,3,36,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for 'barcelona' and '100.0.2.0/24'. Reachability allowed in one requirement but denied in another.""}",True,True
+,,2,1,100,3,37,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict found between reachability and waypoint requirements. Reachability allows connectivity from Athens to 100.0.20.0/24, but the waypoint requirement restricts the path through Rotterdam to only access 100.0.1.0/24.'}",False,True
+,,2,1,100,3,38,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability: basel can reach 100.0.22.0/24, but lyon cannot reach 100.0.29.0/24 while traffic originating from lyon can reach the same subnet'}",True,True
+,,2,1,100,3,39,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint requirements: Geneva cannot reach 100.0.2.0/24, but it can reach 100.0.31.0/24.'}",False,True
+,,2,1,100,3,40,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Athens cannot reach 100.0.28.0/24, but traffic originating from Athens can reach the subnet 100.0.28.0/24.'}",True,True
+,,2,1,100,3,41,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement for 'budapest' to '100.0.27.0/24' conflicts with reachability requirement for 'milan' to '100.0.14.0/24', as these two prefixes are not the same.""}",False,True
+,,2,1,100,3,42,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirement: Connectivity from lyon to 100.0.14.0/24 is established, but amsterdam cannot reach 100.0.14.0/24'}",True,True
+,,2,1,100,3,43,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability requirements, as connectivity from KIEV to 100.0.0.0/24 and connectivity from STRASBOURG to 100.0.0.24.0/24 are trying to establish connections to the same prefix'}",False,True
+,,2,1,100,3,44,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for Bratislava: cannot reach 100.0.6.0/24 but it can'}",True,True
+,,2,1,100,3,45,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirement: traffic from Bucharest and Athens cannot both reach different subnets'}",False,True
+,,2,1,100,3,46,4.582302093505859,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'amsterdam': ['100.0.29.0/24'], 'praha': ['100.0.18.0/24']}}}}",True,False
+,,2,1,100,3,47,4.716045141220093,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'zurich': ['100.0.25.0/24'], 'bucharest': ['100.0.24.0/24']}}}}",False,False
+,,2,1,100,3,48,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between london and 100.0.0.0/24, as well as between istanbul and 100.0.9.0/24'}",True,True
+,,2,1,100,3,49,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for 100.0.9.0/24 from milan and reachability requirement for 100.0.26.0/24 from madrid are in conflict.'}",False,True
+,,5,1,100,3,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability requirements for paris and budapest: paris can reach 100.0.8.0/24, but budapest cannot reach 100.0.23.0/24, which is accessible from budapest'}",True,True
+,,5,1,100,3,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflicts detected: basel cannot reach 100.0.11.0/24 and marseille cannot reach 100.0.8.0/24'}",False,True
+,,5,1,100,3,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Reachability from barcelona to 100.0.29.0/24 allowed, but connectivity from amsterdam to 100.0.6.0/24 established, which includes barcelona'}",True,True
+,,5,1,100,3,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: basel can reach 100.0.13.0/24, but luxembourg and lyon also claim to be able to reach this prefix'}",False,True
+,,5,1,100,3,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements: Reachability from Basel to 100.0.26.0/24, but later requirement states that Milan can't reach 100.0.6.0/24 which is part of the same /16 as 100.0.26.0/24""}",True,True
+,,5,1,100,3,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: milan cannot reach 100.0.21.0/24, but basel can reach it'}",False,True
+,,5,1,100,3,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: strasbourg cannot reach 100.0.31.0/24, but traffic originating from strasbourg can reach this subnet'}",True,True
+,,5,1,100,3,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: bratislava can reach 100.0.18.0/24, but milan cannot reach 100.0.8.0/24 and bucharest cannot reach 100.0.31.0/24'}",False,True
+,,5,1,100,3,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from athens to 100.0.15.0/24 and milan cannot reach 100.0.22.0/24 create a conflict'}",True,True
+,,5,1,100,3,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between athens and 100.0.1.0/24, and budapest and 100.0.25.0/24. Both locations claim to reach the same prefix.'}",False,True
+,,5,1,100,3,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Connectivity from luxembourg to 100.0.21.0/24 is established, but connectivity from sofia to 100.0.1.0/24 is also established and cannot be reached through the same path.'}",True,True
+,,5,1,100,3,11,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Warsaw can reach both 100.0.20.0/24 and 100.0.1.0/24, while Amsterdam can also reach 100.0.1.0/24'}",False,True
+,,5,1,100,3,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict found: Reachability from Luxembourg to 100.0.14.0/24 and Reachability from Prague to 100.0.14.0/24, both cannot be true at the same time'}",True,True
+,,5,1,100,3,13,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict between barcelona and rotterdam, as rotterdam can reach 100.0.0.0/24 but it's not clear if barcelona can also reach this prefix""}",False,True
+,,5,1,100,3,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: athens cannot reach 100.0.20.0/24, but it is also accessible from athens'}",True,True
+,,5,1,100,3,15,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: rotterdam cannot reach 100.0.22.0/24, but basel can'}",False,True
+,,5,1,100,3,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements: athens cannot reach 100.0.26.0/24, but istanbul can; budapest cannot reach 100.0.27.0/24'}",True,True
+,,5,1,100,3,17,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from strasbourg to 100.0.24.0/24 conflicts with the reachability requirement from kiev to 100.0.0.0/24, as they both cannot be true'}",False,True
+,,5,1,100,3,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: bucharest cannot reach 100.0.13.0/24, but traffic originating from bucharest can reach the subnet'}",True,True
+,,5,1,100,3,19,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: bucharest can reach 100.0.24.0/24, but milan can also reach the same prefix'}",False,True
+,,10,1,100,3,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between paris and london: paris can reach 100.0.8.0/24, but london cannot reach it'}",True,True
+,,10,1,100,3,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between basel and 100.0.18.0/24, as well as traffic originating from amsterdam to 100.0.6.0/24, both trying to reach the same subnet.'}",False,True
+,,10,1,100,3,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability from basel to 100.0.1.0/24 is established, but frankfurt and milan can also reach this prefix, which may lead to conflicts'}",True,True
+,,10,1,100,3,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between barcelona and 100.0.23.0/24, as well as between rotterdam and 100.0.23.0/24'}",False,True
+,,10,1,100,3,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: athens cannot reach 100.0.15.0/24 but later, traffic originating from athens can reach 100.0.1.0/24 and also traffic originating from athens can reach 100.0.15.0/24'}",True,True
+,,10,1,100,3,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for destination prefix 100.0.1.0/24: budapest can reach it, but sofia and warsaw also claim to be able to reach it'}",False,True
+,,10,1,100,3,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements found. Luxembourg can reach 100.0.14.0/24, while marseille cannot reach 100.0.27.0/24, but traffic originating from praha can also reach the same subnet.'}",True,True
+,,10,1,100,3,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: bucharest can access 100.0.26.0/24, but milan can also access this prefix, which is not allowed.'}",False,True
+,,10,1,100,3,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements: Amsterdam cannot reach 100.0.14.0/24 but it's accessible from this location, and vice versa.""}",True,True
+,,10,1,100,3,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between athens and 100.0.9.0/24, as well as istanbul and 100.0.9.0/24'}",False,True
+,,20,1,100,3,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Connectivity from budapest to 100.0.5.0/24 is established, but also subnet 100.0.23.0/24 is reachable from budapest, which contradicts the connectivity prohibition from budapest to 100.0.23.0/24.'}",True,True
+,,20,1,100,3,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between basel and 100.0.26.0/24, as well as athens and 100.0.26.0/24, where both locations can reach the same prefix.'}",False,True
+,,20,1,100,3,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements found:\n- athens cannot reach 100.0.15.0/24 and\n- Traffic originating from athens can reach the subnet 100.0.1.0/24, but also\n- traffic originating from athens can reach the subnet 100.0.15.0/24'}",True,True
+,,20,1,100,3,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Luxembourg can reach 100.0.14.0/24 and 100.0.27.0/24, while Barcelona can also reach 100.0.2.0/24; Prague can reach 100.0.14.0/24, but Budapest can also reach 100.0.18.0/24; Zurich can reach 100.0.5.0/24 and 100.0.6.0/24, but Rotterdam can reach 100.0.0.0/24.'}",False,True
+,,20,1,100,3,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Traffic originating from athens can reach the subnet 100.0.28.0/24, but then amsterdam can also reach the same subnet 100.0.28.0/24, which is not allowed.'}",True,True
+,,25,1,100,3,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability: Paris is allowed to access 100.0.8.0/24, but Basel is also allowed to access it'}",True,True
+,,25,1,100,3,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability: Reachability from milan to 100.0.1.0/24 and reachability from athens to 100.0.1.0/24 both establish connectivity, but only one can be true.'}",False,True
+,,25,1,100,3,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: praha cannot reach 100.0.14.0/24, but connectivity from praha to 100.0.14.0/24 is established'}",True,True
+,,25,1,100,3,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirement: The subnet 100.0.1.0/24 is reachable from rotterdam, but the subnet 100.0.14.0/24 is not mentioned as reachable from rotterdam.'}",False,True
+,,50,1,100,3,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements between athens and 100.0.31.0/24, and between strasbourg and 100.0.31.0/24'}",True,True
+,,50,1,100,3,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability requirements for 100.0.14.0/24: budapest and luxembourg both claim to be able to reach this prefix'}",False,True
+,,100,1,100,3,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for prefix 100.0.10.0/24: Reachable from budapest, but not reachable from milan'}",True,True
+,,100,1,100,3,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and waypoint requirements: paris can reach 100.0.8.0/24, but it should not be able to reach through budapest; milan can reach 100.0.10.0/24, but it should not be able to reach through basel; london can reach 100.0.3.0/24, but it should not be able to reach through rotterdam'}",False,True
+,,1,1,100,4,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'basel' and prefix '100.0.0.0/24'""}",True,True
+,,1,1,100,4,1,0.9984757900238037,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,4,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: Frankfurt cannot reach 100.0.10.0/24, but 100.0.10.0/24 is accessible from Frankfurt'}",True,True
+,,1,1,100,4,3,1.0641961097717285,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,4,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: sofia cannot reach 100.0.13.0/24, but the subnet 100.0.13.0/24 is also reachable from sofia'}",True,True
+,,1,1,100,4,5,1.0758841037750244,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['paris']""]}",False,False
+,,1,1,100,4,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: sofia cannot reach 100.0.4.0/24, but the subnet 100.0.4.0/24 is also reachable from sofia'}",True,True
+,,1,1,100,4,7,1.165963888168335,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['vienna']""]}",False,False
+,,1,1,100,4,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirement: while allowing traffic originating from Madrid to reach 100.0.23.0/24, it is not possible for Madrid to not reach the same prefix'}",True,True
+,,1,1,100,4,9,2.419382095336914,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['geneva']""]}",False,False
+,,1,1,100,4,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: basel cannot reach 100.0.11.0/24 but traffic originating from basel can reach this prefix'}",True,True
+,,1,1,100,4,11,1.0207059383392334,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}",False,False
+,,1,1,100,4,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirement for lyon to 100.0.22.0/24. It cannot and can reach the prefix.'}",True,True
+,,1,1,100,4,13,1.2310831546783447,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}",False,False
+,,1,1,100,4,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: amsterdam cannot reach 100.0.32.0/24, but 100.0.32.0/24 is accessible from amsterdam'}",True,True
+,,1,1,100,4,15,1.153843879699707,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,4,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for Luxembourg (l1) and prefix p1 (100.0.28.0/24): allowing reachability, but also forbidding it.'}",True,True
+,,1,1,100,4,17,1.0552611351013184,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}",False,False
+,,1,1,100,4,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: milan cannot reach and then milan can reach to the same prefix 100.0.28.0/24'}",True,True
+,,1,1,100,4,19,1.217322826385498,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']""]}",False,False
+,,1,1,100,4,20,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: bratislava cannot reach 100.0.15.0/24, but the subnet is also reachable from bratislava'}",True,True
+,,1,1,100,4,21,1.0330049991607666,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,4,22,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflicts with each other'}",True,True
+,,1,1,100,4,23,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement for subnet 100.0.15.0/24 from praha not specified, cannot determine if it's allowed or forbidden.""}",False,True
+,,1,1,100,4,24,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflicts with each other'}",True,True
+,,1,1,100,4,25,1.0118179321289062,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['amsterdam']""]}",False,False
+,,1,1,100,4,26,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for basel and 100.0.23.0/24 contradict each other'}",True,True
+,,1,1,100,4,27,1.0120019912719727,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']""]}",False,False
+,,1,1,100,4,28,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for bucharest: cannot reach and can reach 100.0.3.0/24'}",True,True
+,,1,1,100,4,29,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict with existing reachability rule that prevents packets from strasbourg to reach any prefix'}",False,True
+,,1,1,100,4,30,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflict'}",True,True
+,,1,1,100,4,31,1.0717618465423584,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['madrid']""]}",False,False
+,,1,1,100,4,32,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability and waypoint requirements for location milan and prefix 100.0.0.0/24'}",True,True
+,,1,1,100,4,33,1.0189208984375,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,4,34,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for milan to 100.0.3.0/24 allows and forbids the same prefix, which creates a conflict'}",True,True
+,,1,1,100,4,35,1.0437469482421875,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['geneva']""]}",False,False
+,,1,1,100,4,36,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'The requirement that Amsterdam cannot reach 100.0.5.0/24 conflicts with the requirement that traffic originating from Amsterdam can reach the same subnet.'}",True,True
+,,1,1,100,4,37,1.0478248596191406,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,4,38,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict detected between 'brussels' and '100.0.11.0/24'. Reachability is allowed but then connectivity is also established, this is a contradictory requirement.""}",True,True
+,,1,1,100,4,39,1.1807160377502441,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['vienna']""]}",False,False
+,,1,1,100,4,40,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: istanbul cannot reach 100.0.9.0/24 but 100.0.9.0/24 is accessible from istanbul'}",True,True
+,,1,1,100,4,41,1.0635950565338135,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']""]}",False,False
+,,1,1,100,4,42,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for London (london) and prefix 100.0.24.0/24 (p1).'}",True,True
+,,1,1,100,4,43,1.0534782409667969,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['vienna']""]}",False,False
+,,1,1,100,4,44,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement forbids connection, but connectivity exists'}",True,True
+,,1,1,100,4,45,0.9998819828033447,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['istanbul']""]}",False,False
+,,1,1,100,4,46,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement does not match actual connectivity'}",True,True
+,,1,1,100,4,47,0.9813458919525146,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,4,48,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Inconsistent reachability requirement for location 'istanbul' to prefix '100.0.13.0/24'""}",True,True
+,,1,1,100,4,49,1.035268783569336,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""]}",False,False
+,,1,1,100,4,50,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with each other'}",True,True
+,,1,1,100,4,51,0.9919271469116211,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['amsterdam']""]}",False,False
+,,1,1,100,4,52,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself; praha cannot reach 100.0.14.0/24 but 100.0.14.0/24 is accessible from praha'}",True,True
+,,1,1,100,4,53,1.1149299144744873,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']""]}",False,False
+,,1,1,100,4,54,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: milan cannot reach 100.0.25.0/24, but 100.0.25.0/24 is also reachable from milan'}",True,True
+,,1,1,100,4,55,1.0954890251159668,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['marseille']""]}",False,False
+,,1,1,100,4,56,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability from Geneva to 100.0.26.0/24 allowed, but cannot reach'}",True,True
+,,1,1,100,4,57,1.0092129707336426,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,4,58,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself'}",True,True
+,,1,1,100,4,59,0.9966089725494385,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['rotterdam']""]}",False,False
+,,1,1,100,4,60,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirement for vienna'}",True,True
+,,1,1,100,4,61,1.0388438701629639,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}",False,False
+,,1,1,100,4,62,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements found for location 'barcelona' and prefix '100.0.21.0/24'.""}",True,True
+,,1,1,100,4,63,1.0606541633605957,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']""]}",False,False
+,,1,1,100,4,64,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Barcelona cannot reach 100.0.26.0/24 but it can, this is a contradictory requirement'}",True,True
+,,1,1,100,4,65,1.0799837112426758,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['vienna']""]}",False,False
+,,1,1,100,4,66,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: barcelonacannot reach 100.0.32.0/24, but 100.0.32.0/24 is accessible from barcelona'}",True,True
+,,1,1,100,4,67,1.5996320247650146,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}",False,False
+,,1,1,100,4,68,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability requirement conflicts with existing reachability'}",True,True
+,,1,1,100,4,69,0.991492748260498,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,4,70,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict detected: Reachability requirement forbids reaching 100.0.11.0/24 from Vienna, but the user also wants connectivity between these locations.'}",True,True
+,,1,1,100,4,71,3.3228821754455566,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['budapest']""]}",False,False
+,,1,1,100,4,72,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements'}",True,True
+,,1,1,100,4,73,2.564797878265381,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,4,74,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for Vienna to 100.0.26.0/24 is inconsistent'}",True,True
+,,1,1,100,4,75,1.0225050449371338,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,4,76,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflict: milan cannot reach 100.0.26.0/24 and milan can reach 100.0.26.0/24'}",True,True
+,,1,1,100,4,77,1.0760340690612793,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['istanbul']""]}",False,False
+,,1,1,100,4,78,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements for location 'budapest'.""}",True,True
+,,1,1,100,4,79,0.9877569675445557,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}",False,False
+,,1,1,100,4,80,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Luxembourg cannot reach 100.0.27.0/24 but the subnet 100.0.27.0/24 is already reachable from Luxembourg'}",True,True
+,,1,1,100,4,81,1.1975769996643066,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,4,82,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement conflicts: 'The subnet 100.0.6.0/24 is reachable from bratislava' cannot be satisfied with the requirement that 'bratislava cannot reach 100.0.6.0/24'""}",True,True
+,,1,1,100,4,83,1.1047790050506592,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}",False,False
+,,1,1,100,4,84,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for roma and destination prefix 100.0.23.0/24'}",True,True
+,,1,1,100,4,85,1.1021111011505127,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['luxembourg']""]}",False,False
+,,1,1,100,4,86,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with itself'}",True,True
+,,1,1,100,4,87,0.9991788864135742,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['marseille']""]}",False,False
+,,1,1,100,4,88,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between Reachability and Waypoint rules for location 'bratislava' and prefix '100.0.27.0/24'. Reachability allows reachability, but waypoint does not allow direct reachability.""}",True,True
+,,1,1,100,4,89,1.1238539218902588,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""]}",False,False
+,,1,1,100,4,90,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement and waypoint requirement conflict. Reachability says Paris cannot reach 100.0.18.0/24, but waypoint implies that traffic from Paris to 100.0.18.0/24 should pass through other locations.'}",True,True
+,,1,1,100,4,91,1.1211459636688232,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['warsaw']""]}",False,False
+,,1,1,100,4,92,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'reachability conflict: bratislava cannot reach 100.0.0.0/24, but the subnet is reachable from bratislava'}",True,True
+,,1,1,100,4,93,1.1545331478118896,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['paris']""]}",False,False
+,,1,1,100,4,94,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirement: allowing reachability from Zurich to 100.0.10.0/24, but denying reachability from Zurich to 100.0.10.0/24'}",True,True
+,,1,1,100,4,95,1.3061702251434326,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['rotterdam']""]}",False,False
+,,1,1,100,4,96,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement and waypoint requirement are in conflict'}",True,True
+,,1,1,100,4,97,0.9828779697418213,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['strasbourg']""]}",False,False
+,,1,1,100,4,98,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'inconsistent reachability requirement'}",True,True
+,,1,1,100,4,99,0.9936671257019043,0,0,1,0,0.0,0,0,0,"{'dictionary_item_removed': [""root['reachability']['geneva']""]}",False,False
+,,2,1,100,4,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement from 'basel' to '100.0.0.0/24' allows connectivity, but user has specified that basel cannot reach 100.0.0.0/24""}",True,True
+,,2,1,100,4,1,1.5133628845214844,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'frankfurt': ['100.0.10.0/24'], 'luxembourg': ['100.0.24.0/24']}}}}",False,False
+,,2,1,100,4,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for Sofia: cannot reach and can reach 100.0.13.0/24'}",True,True
+,,2,1,100,4,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Sofia and 100.0.4.0/24, as well as Vienna and 100.0.25.0/24'}",False,True
+,,2,1,100,4,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability and Waypoint requirements: Reachability requirement allows access to 100.0.23.0/24 from madrid, but waypoint requirement restricts reachability to 100.0.4.0/24 from geneva'}",True,True
+,,2,1,100,4,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability from 'sofia' to '100.0.8.0/24' conflicts with existing connectivity from 'basel' to '100.0.11.0/24'""}",False,True
+,,2,1,100,4,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Reachability from bucharest to 100.0.5.0/24 is allowed, but previously it was forbidden.'}",True,True
+,,2,1,100,4,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability requirements for Amsterdam and Luxembourg'}",False,True
+,,2,1,100,4,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Luxembourg cannot reach 100.0.28.0/24, but traffic originating from Luxembourg can reach 100.0.28.0/24'}",True,True
+,,2,1,100,4,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between milan and lyon, both trying to reach different prefixes (100.0.28.0/24 and 100.0.15.0/24) from different locations'}",False,True
+,,2,1,100,4,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for bratislava: cannot reach and can reach both 100.0.15.0/24'}",True,True
+,,2,1,100,4,11,1.3571088314056396,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'paris': ['100.0.8.0/24'], 'praha': ['100.0.15.0/24']}}}}",False,False
+,,2,1,100,4,12,3.5852761268615723,0,2,0,0,1.0,0,0,0,"{'type_changes': {""root['reachability']['marseille']"": {'old_type': <class 'list'>, 'new_type': <class 'dict'>, 'old_value': ['100.0.3.0/24'], 'new_value': {'100.0.3.0/24': True}}, ""root['reachability']['amsterdam']"": {'old_type': <class 'list'>, 'new_type': <class 'dict'>, 'old_value': ['100.0.13.0/24'], 'new_value': {'100.0.13.0/24': True}}}}",True,False
+,,2,1,100,4,13,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement conflicts with existing reachability'}",False,True
+,,2,1,100,4,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: bucharest is allowed to reach 100.0.3.0/24, but strasbourg cannot reach it'}",True,True
+,,2,1,100,4,15,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict between locations 'marseille' and 'madrid', prefixes '100.0.31.0/24' and '100.0.11.0/24'""}",False,True
+,,2,1,100,4,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between milan and 100.0.0.0/24, as milan is allowed to reach this prefix while praha is not allowed to reach a similar prefix (100.0.13.0/24)'}",True,True
+,,2,1,100,4,17,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: attempting to establish connectivity from both milan and geneva to different prefixes'}",False,True
+,,2,1,100,4,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflicting reachability requirements: 'amsterdam cannot reach 100.0.5.0/24' and 'Traffic originating from amsterdam can reach the subnet 100.0.5.0/24'""}",True,True
+,,2,1,100,4,19,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Subnet 100.0.11.0/24 is also reachable from Vienna'}",False,True
+,,2,1,100,4,20,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability: istanbul should not be able to reach 100.0.0.0/24, but it is allowed to reach 100.0.9.0/24'}",True,True
+,,2,1,100,4,21,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability and waypoint requirements: london can reach 100.0.24.0/24, but waypoint requirement for vienna to reach 100.0.3.0/24 is not consistent with this reachability'}",False,True
+,,2,1,100,4,22,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability from istanbul to 100.0.8.0/24 as it cannot reach initially, but then it can'}",True,True
+,,2,1,100,4,23,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements, roma cannot reach 100.0.29.0/24 and 100.0.22.0/24 is only reachable from athens'}",False,True
+,,2,1,100,4,24,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability requirement for 'istanbul' to '100.0.13.0/24' allows reachability, but connectivity requirement says it's already established, which is a conflict""}",True,True
+,,2,1,100,4,25,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for athens to 100.0.0.0/24 and connectivity from amsterdam to 100.0.27.0/24 are in conflict, as they are trying to reach different subnets within the same prefix'}",False,True
+,,2,1,100,4,26,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: praha cannot reach 100.0.14.0/24, but connectivity from praha to 100.0.14.0/24 is established.'}",True,True
+,,2,1,100,4,27,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for different locations (milan, marseille) to the same prefix'}",False,True
+,,2,1,100,4,28,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirements are inconsistent: Geneva cannot reach 100.0.26.0/24, but then can reach the same prefix.'}",True,True
+,,2,1,100,4,29,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between subnet 100.0.25.0/24 and location barcelona, which already has connectivity with another prefix'}",False,True
+,,2,1,100,4,30,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirement for vienna'}",True,True
+,,2,1,100,4,31,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements found: connectivity from Barcelona to 100.0.21.0/24 and traffic originating from Zurich reaching 100.0.25.0/24'}",False,True
+,,2,1,100,4,32,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: barcelona cannot reach 100.0.26.0/24 but 100.0.26.0/24 is accessible from barcelona'}",True,True
+,,2,1,100,4,33,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between Reachability and Waypoint. Reachability allows Barcelona to directly reach 100.0.32.0/24, while Waypoint requires traffic from London to pass through another location before reaching 100.0.5.0/24'}",False,True
+,,2,1,100,4,34,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Inconsistent reachability requirements for Luxembourg: cannot and can both try to reach 100.0.20.0/24'}",True,True
+,,2,1,100,4,35,1.336367130279541,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'vienna': ['100.0.11.0/24'], 'budapest': ['100.0.32.0/24']}}}}",False,False
+,,2,1,100,4,36,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for lyon and 100.0.13.0/24 is forbidden, but connectivity is allowed'}",True,True
+,,2,1,100,4,37,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'There is a conflict in reachability between locations. Vienna cannot reach 100.0.9.0/24 while Luxembourg can, but Vienna can reach 100.0.26.0/24.'}",False,True
+,,2,1,100,4,38,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: milan cannot reach 100.0.26.0/24, but traffic originating from milan can also reach the same subnet'}",True,True
+,,2,1,100,4,39,4.017616033554077,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'budapest': ['100.0.0.0/24'], 'milan': ['100.0.15.0/24']}}}}",False,False
+,,2,1,100,4,40,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: luxembourg cannot reach 100.0.27.0/24, but it is accessible from luxembourg.'}",True,True
+,,2,1,100,4,41,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement for subnet 100.0.6.0/24 from Bratislava and reachability requirement for subnet 100.0.10.0/24 from Prague are in conflict, as these two subnets are part of the same network'}",False,True
+,,2,1,100,4,42,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: luxembourg cannot reach 100.0.8.0/24, but luxembourg can reach 100.0.8.0/24'}",True,True
+,,2,1,100,4,43,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict detected. Connectivity from Marseille to 100.0.26.0/24 is already established, but traffic originating from Marseille can also reach 100.0.32.0/24 which may cause network congestion and routing issues.'}",False,True
+,,2,1,100,4,44,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between reachability and connectivity rules: Brussels can't reach 100.0.29.0/24, but connectivity is established""}",True,True
+,,2,1,100,4,45,1.4460718631744385,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'paris': ['100.0.18.0/24'], 'warsaw': ['100.0.3.0/24']}}}}",False,False
+,,2,1,100,4,46,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Paris cannot reach 100.0.4.0/24, but the subnet 100.0.4.0/24 is reachable from Paris'}",True,True
+,,2,1,100,4,47,1.4604182243347168,0,0,2,0,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {}, 'old_value': {'zurich': ['100.0.10.0/24'], 'rotterdam': ['100.0.14.0/24']}}}}",False,False
+,,2,1,100,4,48,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: Strasbourg cannot reach 100.0.1.0/24, but it should be able to reach because London can access it.'}",True,True
+,,2,1,100,4,49,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Athens and 100.0.23.0/24, as it is not specified whether this reachability allows or forbids the connection.'}",False,True
+,,5,1,100,4,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability: basel can reach 100.0.0.0/24, but luxembourg cannot reach 100.0.24.0/24 which is a subset of 100.0.0.0/24'}",True,True
+,,5,1,100,4,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability requirements: Sofia can reach 100.0.4.0/24, while Madrid cannot reach this subnet'}",False,True
+,,5,1,100,4,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between basel and 100.0.32.0/24, as basel cannot reach 100.0.32.0/24 but the subnet is also reachable from amsterdam'}",True,True
+,,5,1,100,4,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability requirements: luxembourg cannot reach both 100.0.13.0/24 and 100.0.28.0/24'}",False,True
+,,5,1,100,4,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: bratislava can reach 100.0.15.0/24, but praha can also access the same subnet'}",True,True
+,,5,1,100,4,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: amsterdam can reach 100.0.23.0/24, but basel can also reach the same subnet.'}",False,True
+,,5,1,100,4,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Traffic originating from marseille, madrid and milan can all reach the same subnet (100.0.31.0/24), but only milan has been allowed to reach this subnet.'}",True,True
+,,5,1,100,4,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Geneva can reach 100.0.15.0/24, but Warsaw can only reach it'}",False,True
+,,5,1,100,4,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between istanbul and 100.0.9.0/24, as the user specified that connectivity is established, but also mentioned it cannot reach'}",True,True
+,,5,1,100,4,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Istanbul can reach both 100.0.8.0/24 and 100.0.13.0/24'}",False,True
+,,5,1,100,4,10,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Connectivity is established for athens to 100.0.0.0/24, but barcelona cannot reach 100.0.10.0/24 which is a subset of the connected subnet'}",True,True
+,,5,1,100,4,11,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability requirements: marseille can reach 100.0.22.0/24, but also 100.0.26.0/24 is accessible from geneva'}",False,True
+,,5,1,100,4,12,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'vienna cannot reach 100.0.9.0/24, but traffic originating from vienna can reach the same prefix'}",True,True
+,,5,1,100,4,13,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability requirement from vienna to 100.0.31.0/24 conflicts with load balancing requirement from london to 100.0.5.0/24'}",False,True
+,,5,1,100,4,14,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: connectivity from vienna to 100.0.11.0/24 and accessibility of 100.0.13.0/24 from lyon contradict each other'}",True,True
+,,5,1,100,4,15,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability requirements: Luxembourg and Istanbul both claim to be able to reach 100.0.0.0/24, but Budapest also claims it can reach this prefix.'}",False,True
+,,5,1,100,4,16,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements found: roma cannot reach 100.0.23.0/24, but traffic originating from roma can reach the same prefix.'}",True,True
+,,5,1,100,4,17,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between Luxembourg and 100.0.8.0/24, and Marseille and 100.0.26.0/24'}",False,True
+,,5,1,100,4,18,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: warsaw cannot reach 100.0.3.0/24, but connectivity from warsaw to 100.0.3.0/24 is established.'}",True,True
+,,5,1,100,4,19,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability from rotterdam to 100.0.8.0/24 is forbidden, but connectivity from london to 100.0.8.0/24 is established'}",False,True
+,,10,1,100,4,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Reachability from sofia to 100.0.4.0/24 is both allowed and denied.'}",True,True
+,,10,1,100,4,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict between reachability and load balancing requirements: basel can't access 100.0.32.0/24, but bucharest can""}",False,True
+,,10,1,100,4,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: basel cannot reach 100.0.23.0/24, but connectivity from basel to 100.0.23.0/24 is established.'}",True,True
+,,10,1,100,4,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: madrid can reach 100.0.11.0/24, but connectivity from marseille to 100.0.31.0/24 is established, which implies that marseille and madrid cannot both reach the same prefix.'}",False,True
+,,10,1,100,4,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict found: roma cannot reach 100.0.29.0/24 but the same subnet is reachable from roma'}",True,True
+,,10,1,100,4,5,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between amsterdam and milan, as milan is also reachable from barcelona'}",False,True
+,,10,1,100,4,6,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""reachability conflict between vienna and 100.0.31.0/24, as vienna can reach this prefix but it's also accessible from barcelona""}",True,True
+,,10,1,100,4,7,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Reachability conflict between vienna and 100.0.26.0/24, as it's already established in a different location (luxembourg)""}",False,True
+,,10,1,100,4,8,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements for 100.0.23.0/24: warsaw can reach, but roma cannot'}",True,True
+,,10,1,100,4,9,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict in Reachability: paris can't reach both 100.0.3.0/24 and 100.0.4.0/24, as well as conflict in Load Balancing: multiple paths from london to 100.0.8.0/24 (directly and through rotterdam)""}",False,True
+,,20,1,100,4,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict between luxembourg and 100.0.13.0/24, as it is not allowed to reach from luxembourg to 100.0.13.0/24, but it is already established that luxembourg can reach this subnet.'}",True,True
+,,20,1,100,4,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in Reachability: Prague can reach both 100.0.13.0/24 and 100.0.15.0/24, but these two subnets are not connected.'}",False,True
+,,20,1,100,4,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'The reachability requirement for vienna to not reach 100.0.3.0/24 conflicts with the accessiblity requirement that 100.0.3.0/24 is accessible from vienna.'}",True,True
+,,20,1,100,4,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: vienna can reach both 100.0.11.0/24 and 100.0.26.0/24, but the latter is also reachable from barcelona'}",False,True
+,,20,1,100,4,4,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict: Reachability from roma to 100.0.23.0/24 forbidden, but traffic originating from roma can reach 100.0.23.0/24'}",True,True
+,,25,1,100,4,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: The subnet 100.0.4.0/24 is reachable from sofia, but also unreachable from sofia'}",True,True
+,,25,1,100,4,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Reachability conflict: Amsterdam can reach 100.0.5.0/24, but Prague can also reach 100.0.5.0/24 from a different location (Prague).'}",False,True
+,,25,1,100,4,2,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and load balancing requirements: Reachable 100.0.32.0/24 from barcelona, but also reachable from budapest which cannot reach it.'}",True,True
+,,25,1,100,4,3,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflicting reachability requirements: Luxembourg can reach 100.0.8.0/24, but also 100.0.27.0/24 which has already been established as reachable through connectivity from Luxembourg to 100.0.27.0/24.'}",False,True
+,,50,1,100,4,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'The network requirements contain conflicting reachability statements for prefixes 100.0.11.0/24 and 100.0.15.0/24.'}",True,True
+,,50,1,100,4,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict in reachability requirements: Athens can reach 100.0.3.0/24, but it cannot reach this prefix according to the original requirement that only allows reachability from athens to 100.0.0.0/24.'}",False,True
+,,100,1,100,4,0,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': ""Conflict found in load balancing requirement between location 'luxembourg' and destination prefix '100.0.13.0/24', also between location 'luxembourg' and destination prefix '100.0.28.0/24'""}",True,True
+,,100,1,100,4,1,0,0,0,0,0,0,0,0,0,"{'status': 'ERROR', 'reason': 'Conflict between reachability and load balancing requirements for destinations 100.0.10.0/24, 100.0.11.0/24, 100.0.13.0/24, 100.0.15.0/24, 100.0.20.0/24, 100.0.21.0/24, 100.0.22.0/24, 100.0.23.0/24, 100.0.24.0/24, 100.0.25.0/24, 100.0.26.0/24, 100.0.27.0/24, 100.0.28.0/24, 100.0.29.0/24, 100.0.31.0/24 and 100.0.32.0/24'}",False,True

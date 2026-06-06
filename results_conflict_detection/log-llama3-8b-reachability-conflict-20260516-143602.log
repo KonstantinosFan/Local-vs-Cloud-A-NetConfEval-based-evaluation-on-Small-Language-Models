@@ -1,0 +1,716 @@
+==== RUN #1 (CHUNK #1) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "istanbul": [
+            "100.0.4.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: istanbul cannot reach 100.0.4.0/24. Traffic originating from istanbul can reach the subnet 100.0.4.0/24.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #2) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "milan": [
+            "100.0.1.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: Connectivity from milan to 100.0.1.0/24 is established.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `milan` to `100.0.1.0/24`.
+==== RUN #1 (CHUNK #3) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "sofia": [
+            "100.0.18.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: sofia cannot reach 100.0.18.0/24. 100.0.18.0/24 is accessible from sofia.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #4) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "paris": [
+            "100.0.24.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: Connectivity from paris to 100.0.24.0/24 is established.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `paris` to `100.0.24.0/24`.
+==== RUN #1 (CHUNK #5) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "marseille": [
+            "100.0.0.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: marseille cannot reach 100.0.0.0/24. Traffic originating from marseille can reach the subnet 100.0.0.0/24.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #6) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "kiev": [
+            "100.0.22.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: 100.0.22.0/24 is accessible from kiev.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `kiev` to `100.0.22.0/24`.
+==== RUN #1 (CHUNK #7) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "milan": [
+            "100.0.10.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: milan cannot reach 100.0.10.0/24. Traffic originating from milan can reach the subnet 100.0.10.0/24.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #8) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "london": [
+            "100.0.1.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: 100.0.1.0/24 is accessible from london.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `london` to `100.0.1.0/24`.
+==== RUN #1 (CHUNK #9) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "marseille": [
+            "100.0.1.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: marseille cannot reach 100.0.1.0/24. Connectivity from marseille to 100.0.1.0/24 is established.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #10) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "athens": [
+            "100.0.25.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: Connectivity from athens to 100.0.25.0/24 is established.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `athens` to `100.0.25.0/24`.
+==== RUN #1 (CHUNK #11) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "paris": [
+            "100.0.18.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: paris cannot reach 100.0.18.0/24. paris can reach 100.0.18.0/24.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #12) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "warsaw": [
+            "100.0.9.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: The subnet 100.0.9.0/24 is reachable from warsaw.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `warsaw` to `100.0.9.0/24`.
+==== RUN #1 (CHUNK #13) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "frankfurt": [
+            "100.0.13.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: frankfurt cannot reach 100.0.13.0/24. Traffic originating from frankfurt can reach the subnet 100.0.13.0/24.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #14) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "lyon": [
+            "100.0.13.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: lyon can reach 100.0.13.0/24.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `lyon` to `100.0.13.0/24`.
+==== RUN #1 (CHUNK #15) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "athens": [
+            "100.0.14.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: athens cannot reach 100.0.14.0/24. athens can reach 100.0.14.0/24.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #16) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "frankfurt": [
+            "100.0.31.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: Connectivity from frankfurt to 100.0.31.0/24 is established.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `frankfurt` to `100.0.31.0/24`.
+==== RUN #1 (CHUNK #17) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "istanbul": [
+            "100.0.8.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: istanbul cannot reach 100.0.8.0/24. istanbul can reach 100.0.8.0/24.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #18) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "luxembourg": [
+            "100.0.14.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: The subnet 100.0.14.0/24 is reachable from luxembourg.
+{'reachability': {'luxembourg': {'100.0.14.0/24': True}}}
+Output: 
+LLM Result: {'reachability': {'luxembourg': {'100.0.14.0/24': True}}}
+==================================================================
+==== RUN #1 (CHUNK #19) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "sofia": [
+            "100.0.4.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: sofia cannot reach 100.0.4.0/24. The subnet 100.0.4.0/24 is reachable from sofia.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #20) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "frankfurt": [
+            "100.0.1.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: 100.0.1.0/24 is accessible from frankfurt.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `frankfurt` to `100.0.1.0/24`.
+==== RUN #1 (CHUNK #21) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "paris": [
+            "100.0.9.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: paris cannot reach 100.0.9.0/24. Connectivity from paris to 100.0.9.0/24 is established.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #22) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "bucharest": [
+            "100.0.31.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: 100.0.31.0/24 is accessible from bucharest.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `bucharest` to `100.0.31.0/24`.
+==== RUN #1 (CHUNK #23) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "amsterdam": [
+            "100.0.27.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: amsterdam cannot reach 100.0.27.0/24. amsterdam can reach 100.0.27.0/24.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #24) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "brussels": [
+            "100.0.31.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: brussels can reach 100.0.31.0/24.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `brussels` to `100.0.31.0/24`.
+==== RUN #1 (CHUNK #25) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "rotterdam": [
+            "100.0.24.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: rotterdam cannot reach 100.0.24.0/24. rotterdam can reach 100.0.24.0/24.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #26) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "praha": [
+            "100.0.22.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: Connectivity from praha to 100.0.22.0/24 is established.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `praha` to `100.0.22.0/24`.
+==== RUN #1 (CHUNK #27) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "roma": [
+            "100.0.32.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: roma cannot reach 100.0.32.0/24. The subnet 100.0.32.0/24 is reachable from roma.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #28) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "sofia": [
+            "100.0.10.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: Traffic originating from sofia can reach the subnet 100.0.10.0/24.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `sofia` to `100.0.10.0/24`.
+==== RUN #1 (CHUNK #29) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "lyon": [
+            "100.0.8.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: lyon cannot reach 100.0.8.0/24. The subnet 100.0.8.0/24 is reachable from lyon.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #30) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "zurich": [
+            "100.0.9.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: 100.0.9.0/24 is accessible from zurich.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `zurich` to `100.0.9.0/24`.
+==== RUN #1 (CHUNK #31) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "praha": [
+            "100.0.0.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: praha cannot reach 100.0.0.0/24. 100.0.0.0/24 is accessible from praha.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #32) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "kiev": [
+            "100.0.24.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: 100.0.24.0/24 is accessible from kiev.
+{'reachability': [{'location': 'kiev', 'prefix': '100.0.24.0/24', 'allow': True}]}
+Output: 
+LLM Result: {'reachability': [{'location': 'kiev', 'prefix': '100.0.24.0/24', 'allow': True}]}
+==================================================================
+Fail to translate expected reachability from `kiev` to `100.0.24.0/24`.
+==== RUN #1 (CHUNK #33) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "geneva": [
+            "100.0.18.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: geneva cannot reach 100.0.18.0/24. 100.0.18.0/24 is accessible from geneva.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #34) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "warsaw": [
+            "100.0.20.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: The subnet 100.0.20.0/24 is reachable from warsaw.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #35) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "paris": [
+            "100.0.32.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: paris cannot reach 100.0.32.0/24. Connectivity from paris to 100.0.32.0/24 is established.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #36) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "london": [
+            "100.0.25.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: london can reach 100.0.25.0/24.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `london` to `100.0.25.0/24`.
+==== RUN #1 (CHUNK #37) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "brussels": [
+            "100.0.18.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: brussels cannot reach 100.0.18.0/24. 100.0.18.0/24 is accessible from brussels.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #38) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "vienna": [
+            "100.0.13.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: Traffic originating from vienna can reach the subnet 100.0.13.0/24.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `vienna` to `100.0.13.0/24`.
+==== RUN #1 (CHUNK #39) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "amsterdam": [
+            "100.0.5.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: amsterdam cannot reach 100.0.5.0/24. Connectivity from amsterdam to 100.0.5.0/24 is established.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #40) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "milan": [
+            "100.0.20.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: milan can reach 100.0.20.0/24.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `milan` to `100.0.20.0/24`.
+==== RUN #1 (CHUNK #41) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "brussels": [
+            "100.0.29.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: brussels cannot reach 100.0.29.0/24. The subnet 100.0.29.0/24 is reachable from brussels.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #42) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "london": [
+            "100.0.15.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: The subnet 100.0.15.0/24 is reachable from london.
+{'reachability': [{'location': 'london', 'prefix': '100.0.15.0/24', 'allow': True}]}
+Output: 
+LLM Result: {'reachability': [{'location': 'london', 'prefix': '100.0.15.0/24', 'allow': True}]}
+==================================================================
+Fail to translate expected reachability from `london` to `100.0.15.0/24`.
+==== RUN #1 (CHUNK #43) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "marseille": [
+            "100.0.29.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: marseille cannot reach 100.0.29.0/24. marseille can reach 100.0.29.0/24.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #44) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "milan": [
+            "100.0.15.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: 100.0.15.0/24 is accessible from milan.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `milan` to `100.0.15.0/24`.
+==== RUN #1 (CHUNK #45) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "roma": [
+            "100.0.8.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: roma cannot reach 100.0.8.0/24. Connectivity from roma to 100.0.8.0/24 is established.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #46) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "praha": [
+            "100.0.5.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: praha can reach 100.0.5.0/24.
+no conflict
+Output: 
+LLM Result: no conflict
+==================================================================
+Fail to translate expected reachability from `praha` to `100.0.5.0/24`.
+==== RUN #1 (CHUNK #47) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "amsterdam": [
+            "100.0.13.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: amsterdam cannot reach 100.0.13.0/24. The subnet 100.0.13.0/24 is reachable from amsterdam.
+Output: 
+LLM Result: {}
+==================================================================
+==== RUN #1 (CHUNK #48) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "roma": [
+            "100.0.3.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: Connectivity from roma to 100.0.3.0/24 is established.
+{'reachability': {'roma': ['100.0.3.0/24']}, 'waypoint': [], 'load_balancing': []}
+Output: 
+LLM Result: {'reachability': {'roma': ['100.0.3.0/24']}, 'waypoint': [], 'load_balancing': []}
+==================================================================
