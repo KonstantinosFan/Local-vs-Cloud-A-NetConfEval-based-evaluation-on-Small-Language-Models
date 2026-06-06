@@ -1,0 +1,75 @@
+==== RUN #1 (CHUNK #1) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "istanbul": [
+            "100.0.4.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: 100.0.4.0/24 is accessible from istanbul.
+{'reachability': {'istanbul': ['100.0.4.0/24']}}
+Output: 
+LLM Result: {'reachability': {'istanbul': ['100.0.4.0/24']}}
+==================================================================
+==== RUN #2 (CHUNK #1) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "paris": [
+            "100.0.14.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: 100.0.14.0/24 is accessible from paris.
+{'reachability': {'paris': ['100.0.14.0/24']}}
+Output: 
+LLM Result: {'reachability': {'paris': ['100.0.14.0/24']}}
+==================================================================
+==== RUN #3 (CHUNK #1) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "amsterdam": [
+            "100.0.25.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: amsterdam can reach 100.0.25.0/24.
+{'reachability': {'amsterdam': ['100.0.25.0/24']}}
+Output: 
+LLM Result: {'reachability': {'amsterdam': ['100.0.25.0/24']}}
+==================================================================
+==== RUN #4 (CHUNK #1) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "paris": [
+            "100.0.8.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: Connectivity from paris to 100.0.8.0/24 is established.
+{'reachability': {'paris': ['100.0.8.0/24']}}
+Output: 
+LLM Result: {'reachability': {'paris': ['100.0.8.0/24']}}
+==================================================================
+==== RUN #5 (CHUNK #1) - BATCH: 1*1 ====
+Expected Result: {
+    "reachability": {
+        "basel": [
+            "100.0.0.0/24"
+        ]
+    },
+    "waypoint": {},
+    "loadbalancing": {}
+}
+Human Translation: Connectivity from basel to 100.0.0.0/24 is established.
+{'reachability': {'basel': ['100.0.0.0/24']}}
+Output: 
+LLM Result: {'reachability': {'basel': ['100.0.0.0/24']}}
+==================================================================

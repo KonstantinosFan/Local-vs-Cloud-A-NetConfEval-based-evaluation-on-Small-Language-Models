@@ -1,0 +1,961 @@
+model_error,format_error,batch_size,n_policy_types,max_n_requirements,iteration,chunk,time,total,success,fail,wrong,accuracy,prompt_tokens,completion_tokens,total_cost,diff
+,,1,3,300,0,0,20.60178780555725,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,1,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,2,12.057176113128662,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,3,12.517149925231934,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""]}"
+,,1,3,300,0,4,8.183409929275513,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,5,8.090171813964844,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,6,4.346361875534058,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,7,8.19286298751831,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,8,38.27520680427551,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,9,39.11007809638977,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,10,28.181814908981323,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,11,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,12,11.767733097076416,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,13,11.364734888076782,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,14,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,15,20.0969717502594,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,16,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,17,20.538433074951172,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,18,19.91037082672119,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,19,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,20,8.709559202194214,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,21,4.344753980636597,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,22,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,23,13.449022054672241,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""]}"
+,,1,3,300,0,24,34.07058382034302,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,25,9.111608743667603,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,26,24.702421188354492,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,27,39.86052894592285,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,28,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,29,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,30,9.40435004234314,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,31,36.289923906326294,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,32,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,33,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,34,38.16806674003601,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""]}"
+,,1,3,300,0,35,12.247599840164185,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,36,8.727172136306763,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,37,32.34515595436096,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,38,16.273568153381348,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,39,16.365262031555176,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,40,37.447020053863525,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,41,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,42,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,43,12.896024227142334,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,44,12.64767599105835,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,45,4.500046730041504,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,46,8.98196291923523,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,47,12.748019218444824,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,48,24.804560899734497,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,49,9.115505933761597,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,50,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,51,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,52,12.984838724136353,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,53,8.882651329040527,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,54,8.932049751281738,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,55,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,56,8.697394132614136,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,57,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,58,13.355447053909302,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,59,21.486167907714844,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,60,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,61,12.839095115661621,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,62,4.775860071182251,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,63,42.76915407180786,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""]}"
+,,1,3,300,0,64,17.07157611846924,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,65,20.692484855651855,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,66,40.729339838027954,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,67,8.692662954330444,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,68,24.62701678276062,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,69,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,70,4.800218820571899,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,71,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,72,16.469562768936157,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""]}"
+,,1,3,300,0,73,26.514541149139404,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,74,16.02228617668152,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,75,38.51054906845093,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,76,19.915849924087524,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,77,11.97547698020935,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,78,20.039633750915527,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,79,27.519609928131104,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,80,4.696275234222412,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""]}"
+,,1,3,300,0,81,35.817776918411255,3,2,1,1,0.6666666666666666,0,0,0,"{'values_changed': {""root['loadbalancing']"": {'new_value': {'(praha,100.0.9.0/0/24)': 2}, 'old_value': {'(praha,100.0.9.0/24)': 2}}}}"
+,,1,3,300,0,82,4.460291862487793,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,83,23.58343505859375,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,84,32.92962098121643,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,85,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,86,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,87,8.17929220199585,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,88,20.123839855194092,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,89,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,90,20.80275797843933,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,91,24.19318413734436,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,92,8.91913890838623,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,93,24.13740587234497,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,94,31.399741888046265,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,0,95,8.536219358444214,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,96,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,97,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,0,98,0,0,0,0,0,0,0,0,0,
+,,1,3,300,0,99,16.440165042877197,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,3,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,4,14.66461706161499,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,0,5,62.22674512863159,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['rotterdam']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,8,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,9,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,10,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,11,45.264941692352295,7,5,1,2,0.8333333333333334,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(paris,100.0.9.0/24)']"", ""root['loadbalancing']['(paris,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['reachability']['paris']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,12,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,13,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,14,70.86407279968262,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,15,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,16,72.53653502464294,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,17,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,18,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,19,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,20,20.322532176971436,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,21,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,22,10.211724996566772,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,0,23,64.36303687095642,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,0,24,93.39683103561401,3,3,3,0,0.5,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']"", ""root['waypoint']['(london,100.0.9.0/24)']"", ""root['loadbalancing']['(london,100.0.9.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,25,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,26,17.4423611164093,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,27,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,28,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,29,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,30,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,31,9.300710201263428,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']['(milan,100.0.9.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,32,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,33,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,34,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,35,73.3781909942627,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,0,36,10.59306001663208,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,0,37,56.17827391624451,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,38,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,39,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,40,50.022950172424316,5,5,1,0,0.8333333333333334,0,0,0,"{'type_changes': {""root['waypoint']['(madrid,100.0.1.0/24)']"": {'old_type': <class 'list'>, 'new_type': <class 'str'>, 'old_value': ['kiev'], 'new_value': 'kiev'}, ""root['waypoint']['(praha,100.0.9.0/24)']"": {'old_type': <class 'list'>, 'new_type': <class 'str'>, 'old_value': ['rotterdam'], 'new_value': 'rotterdam'}}, 'dictionary_item_removed': [""root['reachability']['praha']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,41,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,42,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,43,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,44,56.41066026687622,8,6,0,2,1.0,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(amsterdam,100.0.9.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.29.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,45,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,46,0,0,0,0,0,0,0,0,0,
+,,2,3,300,0,47,55.467899799346924,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,48,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,0,49,0,0,0,0,0,0,0,0,0,
+,,5,3,300,0,0,145.48220205307007,14,14,1,0,0.9333333333333333,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']['(luxembourg,100.0.4.0/24)']""]}"
+,,5,3,300,0,1,34.076955795288086,15,14,1,1,0.9333333333333333,0,0,0,"{'iterable_item_added': {""root['reachability']['kiev'][1]"": 'budapest'}, 'iterable_item_removed': {""root['reachability']['budapest'][0]"": '100.0.29.0/24'}}"
+,,5,3,300,0,2,110.26122307777405,15,15,0,0,1.0,0,0,0,{}
+,,5,3,300,0,3,48.20221018791199,14,13,2,1,0.8666666666666667,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(rotterdam,100.0.4.0/24)']"", ""root['loadbalancing']['(rotterdam,100.0.4.0/24)']""], 'iterable_item_added': {""root['reachability']['marseille'][1]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,0,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,0,5,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,0,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,0,7,0,0,0,0,0,0,0,0,0,
+,,5,3,300,0,8,30.91011905670166,14,13,2,0,0.8666666666666667,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']['(luxembourg,100.0.29.0/24)']"", ""root['loadbalancing']['(madrid,100.0.9.0/24)']""]}"
+,,5,3,300,0,9,91.68740892410278,13,13,2,0,0.8666666666666667,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(london,100.0.9.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.1.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,0,10,0,0,0,0,0,0,0,0,0,
+,,5,3,300,0,11,60.81073522567749,16,15,0,1,1.0,0,0,0,"{'iterable_item_added': {""root['reachability']['roma'][1]"": '100.0.1.0/24'}}"
+,,5,3,300,0,12,84.70006132125854,14,14,1,0,0.9333333333333333,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(sofia,100.0.4.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,0,13,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,0,14,0,0,0,0,0,0,0,0,0,
+,,5,3,300,0,15,65.50936698913574,15,15,0,0,1.0,0,0,0,{}
+,,5,3,300,0,16,32.78383421897888,15,13,2,2,0.8666666666666667,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(sofia,100.0.29/24)']""], 'dictionary_item_removed': [""root['loadbalancing']['(sofia,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['strasbourg'][1]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['reachability']['sofia'][0]"": '100.0.29.0/24', ""root['waypoint']['(sofia,100.0.29.0/24)'][0]"": 'london'}}"
+,,5,3,300,0,17,98.11012601852417,18,15,0,3,1.0,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(amsterdam,100.0.9.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['amsterdam'][1]"": '100.0.9.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,0,18,0,0,0,0,0,0,0,0,0,
+,,5,3,300,0,19,50.426209688186646,16,15,0,1,1.0,0,0,0,"{'iterable_item_added': {""root['reachability']['rotterdam'][1]"": '100.0.9.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,0,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,0,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,0,2,0,0,0,0,0,0,0,0,0,
+,,10,3,300,0,3,59.72932982444763,26,24,6,2,0.8,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(london,100.0.4.0/24)']"", ""root['loadbalancing']['(london,100.0.4.0/24)']"", ""root['loadbalancing']['(kiev,100.0.9.0/24)']"", ""root['loadbalancing']['(istanbul,100.0.29.0/24)']"", ""root['loadbalancing']['(milan,100.0.1.0/24)']""], 'iterable_item_added': {""root['reachability']['london'][1]"": '100.0.29.0/24', ""root['reachability']['kiev'][1]"": '100.0.1.0/24'}, 'iterable_item_removed': {""root['reachability']['sofia'][1]"": '100.0.1.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,0,4,0,0,0,0,0,0,0,0,0,
+,,10,3,300,0,5,199.70361280441284,23,22,8,1,0.7333333333333333,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(frankfurt,100.0.1/24)']""], 'dictionary_item_removed': [""root['waypoint']['(athens,100.0.1.0/24)']"", ""root['waypoint']['(paris,100.0.4.0/24)']"", ""root['waypoint']['(roma,100.0.9.0/24)']"", ""root['waypoint']['(zurich,100.0.29.0/24)']"", ""root['loadbalancing']['(athens,100.0.1.0/24)']"", ""root['loadbalancing']['(paris,100.0.4.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.1.0/24)']""], 'iterable_item_removed': {""root['reachability']['paris'][1]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,0,6,0,0,0,0,0,0,0,0,0,
+,,10,3,300,0,7,67.08045101165771,30,29,1,1,0.9666666666666667,0,0,0,"{'values_changed': {""root['loadbalancing']['(bucharest,100.0.29.0/24)']"": {'new_value': 4, 'old_value': 3}}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,0,8,0,0,0,0,0,0,0,0,0,
+,,10,3,300,0,9,110.8569552898407,24,23,7,1,0.7666666666666667,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']"", ""root['waypoint']['(zurich,100.0.4.0/24)']"", ""root['waypoint']['(brussels,100.0.9.0/24)']"", ""root['waypoint']['(rotterdam,100.0.1.0/24)']"", ""root['waypoint']['(amsterdam,100.0.9.0/24)']"", ""root['waypoint']['(budapest,100.0.1.0/24)']"", ""root['loadbalancing']['(zurich,100.0.4.0/24)']""], 'iterable_item_added': {""root['reachability']['bucharest'][1]"": '100.0.9.0/24'}}"
+,,20,3,300,0,0,330.2505443096161,51,46,14,5,0.7666666666666667,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(marseille,100.0.29.0/24)']"", ""root['loadbalancing']['(marseille,100.0.9.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(luxembourg,100.0.1.0/24)']"", ""root['waypoint']['(budapest,100.0.29.0/24)']"", ""root['waypoint']['(rotterdam,100.0.29.0/24)']"", ""root['waypoint']['(frankfurt,100.0.9.0/24)']"", ""root['waypoint']['(geneva,100.0.4.0/24)']"", ""root['waypoint']['(rotterdam,100.0.4.0/24)']"", ""root['loadbalancing']['(luxembourg,100.0.1.0/24)']"", ""root['loadbalancing']['(budapest,100.0.29.0/24)']"", ""root['loadbalancing']['(rotterdam,100.0.29.0/24)']"", ""root['loadbalancing']['(geneva,100.0.1.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.9.0/24)']"", ""root['loadbalancing']['(rotterdam,100.0.4.0/24)']""], 'values_changed': {""root['reachability']['rotterdam'][1]"": {'new_value': '100.0.9.0/24', 'old_value': '100.0.4.0/24'}}, 'iterable_item_added': {""root['reachability']['kiev'][1]"": '100.0.1.0/24', ""root['reachability']['marseille'][1]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['reachability']['frankfurt'][1]"": '100.0.9.0/24'}}"
+,,20,3,300,0,1,40.20611310005188,32,27,33,5,0.45,0,0,0,"{'dictionary_item_removed': [""root['reachability']['istanbul']"", ""root['reachability']['milan']"", ""root['reachability']['lyon']"", ""root['waypoint']['(madrid,100.0.29.0/24)']"", ""root['waypoint']['(barcelona,100.0.29.0/24)']"", ""root['waypoint']['(warsaw,100.0.4.0/24)']"", ""root['waypoint']['(sofia,100.0.9.0/24)']"", ""root['waypoint']['(bratislava,100.0.4.0/24)']"", ""root['waypoint']['(paris,100.0.1.0/24)']"", ""root['waypoint']['(sofia,100.0.1.0/24)']"", ""root['waypoint']['(london,100.0.4.0/24)']"", ""root['waypoint']['(kiev,100.0.9.0/24)']"", ""root['waypoint']['(istanbul,100.0.29.0/24)']"", ""root['waypoint']['(milan,100.0.1.0/24)']"", ""root['waypoint']['(lyon,100.0.4.0/24)']""], 'values_changed': {""root['loadbalancing']"": {'new_value': {'(barcelona,100.0.1.0/24)': 3, '(vienna,100.0.9.0/24)': 2, '(praha,100.0.4.0/24)': 2, '(paris,100.0.29.0/24)': 2, '(kiev,100.0.1.0/24)': 2, '(sofia,100.0.9.0/24)': 4, '(strasbourg,100.0.29.0/24)': 2}, 'old_value': {'(barcelona,100.0.1.0/24)': 3, '(vienna,100.0.9.0/24)': 3, '(praha,100.0.4.0/24)': 2, '(paris,100.0.9.0/24)': 2, '(kiev,100.0.4.0/24)': 2, '(budapest,100.0.4.0/24)': 4, '(amsterdam,100.0.4.0/24)': 7, '(madrid,100.0.9.0/24)': 2, '(barcelona,100.0.9.0/24)': 2, '(warsaw,100.0.4.0/24)': 2, '(sofia,100.0.9.0/24)': 4, '(strasbourg,100.0.29.0/24)': 2, '(bratislava,100.0.4.0/24)': 4, '(paris,100.0.1.0/24)': 2, '(sofia,100.0.1.0/24)': 2, '(london,100.0.4.0/24)': 2, '(kiev,100.0.9.0/24)': 2, '(istanbul,100.0.29.0/24)': 3, '(milan,100.0.1.0/24)': 2, '(lyon,100.0.29.0/24)': 2}}, ""root['reachability']['barcelona'][1]"": {'new_value': '100.0.9.0/24', 'old_value': '100.0.29.0/24'}}, 'iterable_item_added': {""root['reachability']['kiev'][0]"": '100.0.1.0/24'}, 'iterable_item_removed': {""root['reachability']['paris'][1]"": '100.0.1.0/24'}}"
+,,20,3,300,0,2,155.49105310440063,37,37,23,0,0.6166666666666667,0,0,0,"{'dictionary_item_removed': [""root['reachability']['roma']"", ""root['reachability']['marseille']"", ""root['reachability']['frankfurt']"", ""root['waypoint']['(zurich,100.0.1.0/24)']"", ""root['waypoint']['(london,100.0.9.0/24)']"", ""root['waypoint']['(bratislava,100.0.1.0/24)']"", ""root['waypoint']['(paris,100.0.9.0/24)']"", ""root['waypoint']['(basel,100.0.29.0/24)']"", ""root['waypoint']['(athens,100.0.9.0/24)']"", ""root['waypoint']['(athens,100.0.1.0/24)']"", ""root['loadbalancing']['(zurich,100.0.1.0/24)']"", ""root['loadbalancing']['(luxembourg,100.0.29.0/24)']"", ""root['loadbalancing']['(lyon,100.0.29.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.29.0/24)']"", ""root['loadbalancing']['(brussels,100.0.29.0/24)']"", ""root['loadbalancing']['(london,100.0.9.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.1.0/24)']"", ""root['loadbalancing']['(paris,100.0.9.0/24)']"", ""root['loadbalancing']['(basel,100.0.29.0/24)']"", ""root['loadbalancing']['(athens,100.0.9.0/24)']"", ""root['loadbalancing']['(athens,100.0.1.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.1.0/24)']""], 'values_changed': {""root['waypoint']['(zurich,100.0.29.0/24)'][0]"": {'new_value': 'kiev', 'old_value': 'london'}}, 'iterable_item_removed': {""root['reachability']['paris'][1]"": '100.0.4.0/24'}}"
+,,20,3,300,0,3,388.0710480213165,48,44,16,4,0.7333333333333333,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(frankfurt,100.0.4/24)']""], 'dictionary_item_removed': [""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['waypoint']['(madrid,100.0.4.0/24)']"", ""root['waypoint']['(luxembourg,100.0.9.0/24)']"", ""root['waypoint']['(bucharest,100.0.29.0/24)']"", ""root['waypoint']['(brussels,100.0.4.0/24)']"", ""root['waypoint']['(frankfurt,100.0.4.0/24)']"", ""root['waypoint']['(milan,100.0.4.0/24)']"", ""root['waypoint']['(strasbourg,100.0.9.0/24)']"", ""root['loadbalancing']['(basel,100.0.1.0/24)']"", ""root['loadbalancing']['(madrid,100.0.4.0/24)']"", ""root['loadbalancing']['(luxembourg,100.0.9.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.29.0/24)']"", ""root['loadbalancing']['(brussels,100.0.4.0/24)']"", ""root['loadbalancing']['(milan,100.0.4.0/24)']"", ""root['loadbalancing']['(strasbourg,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['praha'][1]"": '100.0.4.0/24', ""root['reachability']['praha'][2]"": '100.0.9.0/24', ""root['reachability']['basel'][1]"": '100.0.4.0/24'}, 'iterable_item_removed': {""root['reachability']['milan'][0]"": '100.0.9.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,3,300,0,4,0,0,0,0,0,0,0,0,0,
+,,25,3,300,0,0,84.13020896911621,65,62,13,3,0.8266666666666667,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(marseille,100.0.9.0/24)']"", ""root['loadbalancing']['(paris,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(luxembourg,100.0.1.0/24)']"", ""root['waypoint']['(rotterdam,100.0.4.0/24)']"", ""root['waypoint']['(kiev,100.0.4.0/24)']"", ""root['loadbalancing']['(luxembourg,100.0.1.0/24)']"", ""root['loadbalancing']['(marseille,100.0.29.0/24)']"", ""root['loadbalancing']['(rotterdam,100.0.4.0/24)']"", ""root['loadbalancing']['(paris,100.0.9.0/24)']"", ""root['loadbalancing']['(kiev,100.0.4.0/24)']""], 'iterable_item_added': {""root['reachability']['marseille'][1]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['reachability']['luxembourg'][1]"": '100.0.1.0/24', ""root['reachability']['frankfurt'][0]"": '100.0.29.0/24', ""root['reachability']['vienna'][0]"": '100.0.1.0/24', ""root['reachability']['kiev'][1]"": '100.0.4.0/24', ""root['reachability']['geneva'][0]"": '100.0.1.0/24'}}"
+,,25,3,300,0,1,406.8003420829773,52,47,25,5,0.6527777777777778,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']"", ""root['reachability']['brussels']"", ""root['waypoint']['(madrid,100.0.29.0/24)']"", ""root['waypoint']['(barcelona,100.0.29.0/24)']"", ""root['waypoint']['(sofia,100.0.9.0/24)']"", ""root['waypoint']['(kiev,100.0.9.0/24)']"", ""root['waypoint']['(barcelona,100.0.9.0/24)']"", ""root['waypoint']['(lyon,100.0.29.0/24)']"", ""root['waypoint']['(warsaw,100.0.29.0/24)']"", ""root['waypoint']['(brussels,100.0.29.0/24)']"", ""root['waypoint']['(london,100.0.9.0/24)']"", ""root['waypoint']['(bratislava,100.0.1.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.9.0/24)']"", ""root['loadbalancing']['(sofia,100.0.9.0/24)']"", ""root['loadbalancing']['(kiev,100.0.9.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.29.0/24)']"", ""root['loadbalancing']['(brussels,100.0.29.0/24)']"", ""root['loadbalancing']['(london,100.0.9.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.1.0/24)']""], 'values_changed': {""root['loadbalancing']['(budapest,100.0.4.0/24)']"": {'new_value': 2, 'old_value': 4}, ""root['loadbalancing']['(amsterdam,100.0.4.0/24)']"": {'new_value': 2, 'old_value': 7}, ""root['reachability']['london'][1]"": {'new_value': '100.0.29.0/24', 'old_value': '100.0.9.0/24'}}, 'iterable_item_added': {""root['reachability']['budapest'][1]"": '100.0.29.0/24', ""root['reachability']['kiev'][0]"": '100.0.1.0/24'}, 'iterable_item_removed': {""root['reachability']['warsaw'][1]"": '100.0.29.0/24', ""root['reachability']['sofia'][1]"": '100.0.1.0/24'}}"
+,,25,3,300,0,2,77.14507579803467,61,61,14,0,0.8133333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']"", ""root['waypoint']['(basel,100.0.29.0/24)']"", ""root['waypoint']['(athens,100.0.9.0/24)']"", ""root['waypoint']['(athens,100.0.1.0/24)']"", ""root['waypoint']['(paris,100.0.4.0/24)']"", ""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['loadbalancing']['(basel,100.0.29.0/24)']"", ""root['loadbalancing']['(athens,100.0.9.0/24)']"", ""root['loadbalancing']['(athens,100.0.1.0/24)']"", ""root['loadbalancing']['(paris,100.0.4.0/24)']"", ""root['loadbalancing']['(basel,100.0.1.0/24)']""], 'iterable_item_removed': {""root['reachability']['basel'][2]"": '100.0.1.0/24', ""root['reachability']['paris'][1]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,0,3,0,0,0,0,0,0,0,0,0,
+,,50,3,300,0,0,65.81221508979797,22,0,147,22,0.0,0,0,0,"{'values_changed': {'root': {'new_value': {'reachability': {'100.0.1.0/24': ['athens', 'strasbourg', 'zurich', 'kiev', 'lyon', 'praha', 'paris'], '100.0.4.0/24': ['geneva', 'strasbourg', 'luxembourg', 'kiev', 'bratislava'], '100.0.9.0/24': ['frankfurt', 'zurich', 'marseille', 'barcelona', 'madrid'], '100.0.29.0/24': ['roma', 'brussels', 'bucharest', 'paris', 'istanbul']}, 'waypoints': {'100.0.1.0/24': ['kiew'], '100.0.4.0/24': ['basel'], '100.0.9.0/24': ['rotterdam'], '100.0.29.0/24': ['london']}, 'load_balance': {'100.0.1.0/24': 2, '100.0.4.0/24': 3, '100.0.9.0/24': 2, '100.0.29.0/24': 2}}, 'old_value': {'reachability': {'athens': ['100.0.29.0/24'], 'strasbourg': ['100.0.1.0/24', '100.0.29.0/24'], 'luxembourg': ['100.0.4.0/24', '100.0.1.0/24', '100.0.29.0/24'], 'frankfurt': ['100.0.29.0/24', '100.0.9.0/24'], 'zurich': ['100.0.9.0/24', '100.0.1.0/24'], 'vienna': ['100.0.1.0/24', '100.0.9.0/24'], 'istanbul': ['100.0.9.0/24', '100.0.29.0/24'], 'kiev': ['100.0.29.0/24', '100.0.4.0/24', '100.0.9.0/24'], 'budapest': ['100.0.29.0/24', '100.0.4.0/24'], 'rotterdam': ['100.0.29.0/24', '100.0.4.0/24'], 'geneva': ['100.0.1.0/24', '100.0.4.0/24'], 'lyon': ['100.0.9.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'roma': ['100.0.29.0/24'], 'brussels': ['100.0.1.0/24', '100.0.29.0/24'], 'bucharest': ['100.0.1.0/24'], 'marseille': ['100.0.9.0/24'], 'barcelona': ['100.0.1.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'praha': ['100.0.4.0/24', '100.0.29.0/24'], 'paris': ['100.0.29.0/24', '100.0.1.0/24'], 'amsterdam': ['100.0.4.0/24'], 'madrid': ['100.0.29.0/24', '100.0.9.0/24'], 'warsaw': ['100.0.4.0/24', '100.0.29.0/24'], 'sofia': ['100.0.9.0/24', '100.0.1.0/24'], 'bratislava': ['100.0.4.0/24', '100.0.1.0/24'], 'london': ['100.0.4.0/24', '100.0.9.0/24'], 'milan': ['100.0.1.0/24']}, 'waypoint': {'(athens,100.0.29.0/24)': ['london'], '(strasbourg,100.0.1.0/24)': ['kiev'], '(luxembourg,100.0.4.0/24)': ['basel'], '(frankfurt,100.0.29.0/24)': ['london'], '(zurich,100.0.9.0/24)': ['rotterdam'], '(luxembourg,100.0.1.0/24)': ['kiev'], '(vienna,100.0.1.0/24)': ['kiev'], '(istanbul,100.0.9.0/24)': ['rotterdam'], '(kiev,100.0.29.0/24)': ['london'], '(budapest,100.0.29.0/24)': ['london'], '(rotterdam,100.0.29.0/24)': ['london'], '(geneva,100.0.1.0/24)': ['kiev'], '(lyon,100.0.9.0/24)': ['rotterdam'], '(roma,100.0.29.0/24)': ['london'], '(brussels,100.0.1.0/24)': ['kiev'], '(bucharest,100.0.1.0/24)': ['kiev'], '(marseille,100.0.9.0/24)': ['rotterdam'], '(frankfurt,100.0.9.0/24)': ['rotterdam'], '(geneva,100.0.4.0/24)': ['basel'], '(rotterdam,100.0.4.0/24)': ['basel'], '(barcelona,100.0.1.0/24)': ['kiev'], '(vienna,100.0.9.0/24)': ['rotterdam'], '(praha,100.0.4.0/24)': ['basel'], '(paris,100.0.29.0/24)': ['london'], '(kiev,100.0.4.0/24)': ['basel'], '(budapest,100.0.4.0/24)': ['basel'], '(amsterdam,100.0.4.0/24)': ['basel'], '(madrid,100.0.29.0/24)': ['london'], '(barcelona,100.0.29.0/24)': ['london'], '(warsaw,100.0.4.0/24)': ['basel'], '(sofia,100.0.9.0/24)': ['rotterdam'], '(strasbourg,100.0.29.0/24)': ['london'], '(bratislava,100.0.4.0/24)': ['basel'], '(paris,100.0.1.0/24)': ['kiev'], '(sofia,100.0.1.0/24)': ['kiev'], '(london,100.0.4.0/24)': ['basel'], '(kiev,100.0.9.0/24)': ['rotterdam'], '(istanbul,100.0.29.0/24)': ['london'], '(milan,100.0.1.0/24)': ['kiev'], '(lyon,100.0.4.0/24)': ['basel'], '(zurich,100.0.1.0/24)': ['kiev'], '(luxembourg,100.0.29.0/24)': ['london'], '(praha,100.0.29.0/24)': ['london'], '(madrid,100.0.9.0/24)': ['rotterdam'], '(barcelona,100.0.9.0/24)': ['rotterdam'], '(lyon,100.0.29.0/24)': ['london'], '(warsaw,100.0.29.0/24)': ['london'], '(brussels,100.0.29.0/24)': ['london'], '(london,100.0.9.0/24)': ['rotterdam'], '(bratislava,100.0.1.0/24)': ['kiev']}, 'loadbalancing': {'(athens,100.0.29.0/24)': 3, '(strasbourg,100.0.1.0/24)': 2, '(luxembourg,100.0.4.0/24)': 4, '(frankfurt,100.0.29.0/24)': 2, '(zurich,100.0.9.0/24)': 3, '(luxembourg,100.0.1.0/24)': 4, '(vienna,100.0.1.0/24)': 2, '(istanbul,100.0.9.0/24)': 2, '(kiev,100.0.29.0/24)': 3, '(budapest,100.0.29.0/24)': 3, '(rotterdam,100.0.29.0/24)': 2, '(geneva,100.0.1.0/24)': 5, '(lyon,100.0.9.0/24)': 6, '(roma,100.0.29.0/24)': 2, '(brussels,100.0.1.0/24)': 4, '(bucharest,100.0.1.0/24)': 2, '(marseille,100.0.29.0/24)': 4, '(frankfurt,100.0.9.0/24)': 2, '(geneva,100.0.4.0/24)': 3, '(rotterdam,100.0.4.0/24)': 3, '(barcelona,100.0.1.0/24)': 3, '(vienna,100.0.9.0/24)': 3, '(praha,100.0.4.0/24)': 2, '(paris,100.0.9.0/24)': 2, '(kiev,100.0.4.0/24)': 2, '(budapest,100.0.4.0/24)': 4, '(amsterdam,100.0.4.0/24)': 7, '(madrid,100.0.9.0/24)': 2, '(barcelona,100.0.9.0/24)': 2, '(warsaw,100.0.4.0/24)': 2, '(sofia,100.0.9.0/24)': 4, '(strasbourg,100.0.29.0/24)': 2, '(bratislava,100.0.4.0/24)': 4, '(paris,100.0.1.0/24)': 2, '(sofia,100.0.1.0/24)': 2, '(london,100.0.4.0/24)': 2, '(kiev,100.0.9.0/24)': 2, '(istanbul,100.0.29.0/24)': 3, '(milan,100.0.1.0/24)': 2, '(lyon,100.0.29.0/24)': 2, '(zurich,100.0.1.0/24)': 3, '(luxembourg,100.0.29.0/24)': 2, '(praha,100.0.29.0/24)': 3, '(warsaw,100.0.29.0/24)': 2, '(brussels,100.0.29.0/24)': 2, '(london,100.0.9.0/24)': 3, '(bratislava,100.0.1.0/24)': 2}}}}}"
+,,50,3,300,0,1,275.8061761856079,20,16,133,4,0.10738255033557047,0,0,0,"{'values_changed': {'root': {'new_value': {'reachability': {'basel': ['100.0.9.0/24', '100.0.29.0/24'], 'paris': ['100.0.1.0/24', '100.0.4.0/24'], 'athens': ['100.0.1.0/24', '100.0.9.0/24'], 'roma': ['100.0.1.0/24'], 'marseille': ['100.0.1.0/24'], 'frankfurt': ['100.0.1.0/24'], 'praha': ['100.0.1.0/24'], 'lyon': ['100.0.1.0/24'], 'istanbul': ['100.0.4.0/24'], 'milan': ['100.0.9.0/24', '100.0.29.0/24'], 'sofia': ['100.0.1.0/24', '100.0.4.0/24'], 'viena': ['100.0.1.0/24', '100.0.29.0/24'], 'bratislava': ['100.0.9.0/24'], 'barcelona': ['100.0.4.0/24']}, 'waypoints': {'basel': {'100.0.1.0/24': 'kiev', '100.0.29.0/24': 'london'}, 'paris': {'100.0.1.0/24': 'kiev', '100.0.4.0/24': 'basel'}, 'athens': {'100.0.4.0/24': 'basel'}, 'roma': {'100.0.1.0/24': 'kiev'}, 'marseille': {'100.0.29.0/24': 'london'}, 'frankfurt': {'100.0.4.0/24': 'basel'}, 'praha': {'100.0.9.0/24': 'rotterdam'}, 'lyon': {'100.0.1.0/24': 'kiev'}, 'istanbul': {'100.0.4.0/24': 'basel'}, 'milan': {'100.0.29.0/24': 'london', '100.0.9.0/24': 'rotterdam'}, 'sofia': {'100.0.1.0/24': 'kiev', '100.0.4.0/24': 'basel'}, 'viena': {'100.0.29.0/24': 'london', '100.0.1.0/24': 'kiev'}, 'bratislava': {'100.0.9.0/24': 'rotterdam'}, 'barcelona': {'100.0.4.0/24': 'basel'}}}, 'old_value': {'reachability': {'basel': ['100.0.9.0/24', '100.0.29.0/24', '100.0.1.0/24'], 'paris': ['100.0.9.0/24', '100.0.4.0/24'], 'athens': ['100.0.9.0/24', '100.0.1.0/24', '100.0.4.0/24'], 'roma': ['100.0.9.0/24', '100.0.1.0/24'], 'marseille': ['100.0.1.0/24', '100.0.29.0/24'], 'frankfurt': ['100.0.1.0/24', '100.0.4.0/24'], 'zurich': ['100.0.29.0/24', '100.0.4.0/24'], 'praha': ['100.0.1.0/24', '100.0.9.0/24'], 'lyon': ['100.0.1.0/24'], 'istanbul': ['100.0.4.0/24', '100.0.1.0/24'], 'milan': ['100.0.9.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'sofia': ['100.0.4.0/24', '100.0.29.0/24'], 'vienna': ['100.0.4.0/24', '100.0.29.0/24'], 'london': ['100.0.1.0/24'], 'madrid': ['100.0.4.0/24', '100.0.1.0/24'], 'luxembourg': ['100.0.9.0/24'], 'bucharest': ['100.0.29.0/24', '100.0.4.0/24'], 'brussels': ['100.0.4.0/24', '100.0.9.0/24'], 'amsterdam': ['100.0.1.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'warsaw': ['100.0.1.0/24', '100.0.9.0/24'], 'budapest': ['100.0.9.0/24', '100.0.1.0/24'], 'geneva': ['100.0.9.0/24', '100.0.29.0/24'], 'strasbourg': ['100.0.9.0/24', '100.0.4.0/24'], 'bratislava': ['100.0.9.0/24'], 'barcelona': ['100.0.4.0/24'], 'rotterdam': ['100.0.1.0/24']}, 'waypoint': {'(basel,100.0.9.0/24)': ['rotterdam'], '(paris,100.0.9.0/24)': ['rotterdam'], '(basel,100.0.29.0/24)': ['london'], '(athens,100.0.9.0/24)': ['rotterdam'], '(athens,100.0.1.0/24)': ['kiev'], '(paris,100.0.4.0/24)': ['basel'], '(roma,100.0.9.0/24)': ['rotterdam'], '(marseille,100.0.1.0/24)': ['kiev'], '(frankfurt,100.0.1.0/24)': ['kiev'], '(zurich,100.0.29.0/24)': ['london'], '(praha,100.0.1.0/24)': ['kiev'], '(lyon,100.0.1.0/24)': ['kiev'], '(istanbul,100.0.4.0/24)': ['basel'], '(milan,100.0.9.0/24)': ['rotterdam'], '(sofia,100.0.4.0/24)': ['basel'], '(vienna,100.0.4.0/24)': ['basel'], '(london,100.0.1.0/24)': ['kiev'], '(basel,100.0.1.0/24)': ['kiev'], '(madrid,100.0.4.0/24)': ['basel'], '(luxembourg,100.0.9.0/24)': ['rotterdam'], '(bucharest,100.0.29.0/24)': ['london'], '(brussels,100.0.4.0/24)': ['basel'], '(amsterdam,100.0.1.0/24)': ['kiev'], '(warsaw,100.0.1.0/24)': ['kiev'], '(budapest,100.0.9.0/24)': ['rotterdam'], '(frankfurt,100.0.4.0/24)': ['basel'], '(geneva,100.0.9.0/24)': ['rotterdam'], '(marseille,100.0.29.0/24)': ['london'], '(milan,100.0.4.0/24)': ['basel'], '(strasbourg,100.0.9.0/24)': ['rotterdam'], '(madrid,100.0.1.0/24)': ['kiev'], '(praha,100.0.9.0/24)': ['rotterdam'], '(strasbourg,100.0.4.0/24)': ['basel'], '(vienna,100.0.29.0/24)': ['london'], '(sofia,100.0.29.0/24)': ['london'], '(bratislava,100.0.9.0/24)': ['rotterdam'], '(roma,100.0.1.0/24)': ['kiev'], '(barcelona,100.0.4.0/24)': ['basel'], '(istanbul,100.0.1.0/24)': ['kiev'], '(amsterdam,100.0.29.0/24)': ['london'], '(warsaw,100.0.9.0/24)': ['rotterdam'], '(athens,100.0.4.0/24)': ['basel'], '(zurich,100.0.4.0/24)': ['basel'], '(geneva,100.0.29.0/24)': ['london'], '(bucharest,100.0.4.0/24)': ['basel'], '(milan,100.0.29.0/24)': ['london'], '(brussels,100.0.9.0/24)': ['rotterdam'], '(rotterdam,100.0.1.0/24)': ['kiev'], '(amsterdam,100.0.9.0/24)': ['rotterdam'], '(budapest,100.0.1.0/24)': ['kiev']}, 'loadbalancing': {'(basel,100.0.9.0/24)': 2, '(paris,100.0.9.0/24)': 2, '(basel,100.0.29.0/24)': 2, '(athens,100.0.9.0/24)': 2, '(athens,100.0.1.0/24)': 2, '(paris,100.0.4.0/24)': 2, '(roma,100.0.9.0/24)': 3, '(marseille,100.0.1.0/24)': 2, '(frankfurt,100.0.1.0/24)': 2, '(zurich,100.0.29.0/24)': 5, '(praha,100.0.1.0/24)': 2, '(lyon,100.0.1.0/24)': 2, '(istanbul,100.0.4.0/24)': 2, '(milan,100.0.9.0/24)': 2, '(sofia,100.0.4.0/24)': 4, '(vienna,100.0.4.0/24)': 2, '(london,100.0.1.0/24)': 3, '(basel,100.0.1.0/24)': 2, '(madrid,100.0.4.0/24)': 2, '(luxembourg,100.0.9.0/24)': 4, '(bucharest,100.0.29.0/24)': 3, '(brussels,100.0.4.0/24)': 2, '(amsterdam,100.0.1.0/24)': 2, '(warsaw,100.0.1.0/24)': 2, '(budapest,100.0.9.0/24)': 2, '(frankfurt,100.0.4.0/24)': 2, '(geneva,100.0.9.0/24)': 3, '(marseille,100.0.29.0/24)': 4, '(milan,100.0.4.0/24)': 2, '(strasbourg,100.0.9.0/24)': 2, '(madrid,100.0.1.0/24)': 3, '(praha,100.0.9.0/24)': 2, '(strasbourg,100.0.4.0/24)': 3, '(vienna,100.0.29.0/24)': 2, '(sofia,100.0.29.0/24)': 5, '(bratislava,100.0.9.0/24)': 7, '(roma,100.0.1.0/24)': 2, '(barcelona,100.0.4.0/24)': 3, '(istanbul,100.0.1.0/24)': 4, '(amsterdam,100.0.9.0/24)': 2, '(warsaw,100.0.9.0/24)': 2, '(athens,100.0.4.0/24)': 2, '(zurich,100.0.4.0/24)': 2, '(geneva,100.0.29.0/24)': 4, '(bucharest,100.0.4.0/24)': 2, '(milan,100.0.29.0/24)': 2, '(brussels,100.0.9.0/24)': 3, '(rotterdam,100.0.1.0/24)': 4, '(budapest,100.0.1.0/24)': 2}}}}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,100,3,300,0,0,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,0,43.568483114242554,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,1,4.856249094009399,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,2,43.48115515708923,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,3,21.098653316497803,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,4,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,5,8.848810911178589,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,7,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,8,39.18094515800476,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,9,32.86674785614014,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,10,31.112274885177612,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,11,14.304450988769531,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,12,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,13,26.238084077835083,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,14,9.341310024261475,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,15,13.228240966796875,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,16,13.558268070220947,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,17,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,18,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,19,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,20,17.933990240097046,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,21,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,22,22.30316686630249,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,23,9.11213731765747,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,24,5.064872980117798,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,25,13.724342107772827,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,26,4.793370008468628,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,27,31.115499019622803,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,28,39.47282695770264,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,29,8.937947988510132,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,30,42.79071831703186,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,31,22.216205835342407,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,32,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,33,9.042211055755615,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['reachability']""]}"
+,,1,3,300,1,34,5.046660900115967,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,35,5.01446795463562,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,36,21.8944251537323,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,37,4.8726279735565186,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,38,22.460455894470215,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,39,13.067608833312988,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,40,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,41,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,42,30.53055191040039,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,43,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,44,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,45,41.77401924133301,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,46,21.23700475692749,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,47,22.36174774169922,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,48,21.26233410835266,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,49,41.90147614479065,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,50,9.05149793624878,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,51,12.832632780075073,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,52,8.717236280441284,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,53,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,54,40.22533297538757,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,55,4.659233093261719,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,56,21.485159158706665,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,57,37.82538866996765,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,58,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,59,38.9272620677948,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,60,29.751837015151978,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,61,26.863996028900146,4,3,0,1,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""]}"
+,,1,3,300,1,62,17.287039041519165,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,63,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,64,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,65,17.433946132659912,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,66,4.9046101570129395,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,67,29.96532106399536,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,68,4.917634963989258,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,69,17.174226999282837,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,70,4.8904008865356445,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,71,17.24090003967285,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,72,9.156813859939575,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,73,30.243047952651978,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,74,4.669775724411011,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,75,31.17005681991577,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,76,13.573208093643188,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,77,17.37540602684021,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,78,25.190907955169678,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,79,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,80,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,81,30.07421112060547,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,82,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,83,35.85218405723572,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""]}"
+,,1,3,300,1,84,4.62627387046814,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,85,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,86,12.876698732376099,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,87,18.375380992889404,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,88,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,89,13.179716110229492,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,1,90,0,0,0,0,0,0,0,0,0,
+,,1,3,300,1,91,17.63013768196106,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,92,8.996850967407227,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,93,17.370253086090088,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,94,13.041016101837158,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,95,17.03687310218811,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,96,8.699443340301514,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,97,25.591794729232788,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,98,9.068002223968506,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,1,99,29.807907819747925,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,0,0,0,0,0,0,0,0,0,0,
+,,2,3,300,1,1,55.65621876716614,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,1,2,8.070296049118042,6,5,1,1,0.8333333333333334,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(sофia,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(sofia,100.0.29.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,5,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,6,0,0,0,0,0,0,0,0,0,
+,,2,3,300,1,7,14.083745002746582,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,8,0,0,0,0,0,0,0,0,0,
+,,2,3,300,1,9,6.6264729499816895,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}"
+,,2,3,300,1,10,8.51356315612793,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,1,11,34.704322814941406,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,12,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,13,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,14,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,15,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,16,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,17,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,18,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,19,0,0,0,0,0,0,0,0,0,
+,,2,3,300,1,20,55.25540494918823,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,21,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,22,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,23,0,0,0,0,0,0,0,0,0,
+,,2,3,300,1,24,60.06476902961731,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,25,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,26,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,27,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,28,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,29,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,30,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,31,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,32,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,33,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,34,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,35,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,36,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,37,0,0,0,0,0,0,0,0,0,
+,,2,3,300,1,38,21.982306718826294,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,1,39,65.3047890663147,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,40,0,0,0,0,0,0,0,0,0,
+,,2,3,300,1,41,71.48113584518433,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,42,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,43,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,44,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,45,0,0,0,0,0,0,0,0,0,
+,,2,3,300,1,46,47.62655520439148,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['bucharest']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,47,0,0,0,0,0,0,0,0,0,
+,,2,3,300,1,48,14.111918926239014,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,1,49,0,0,0,0,0,0,0,0,0,
+,,5,3,300,1,0,17.561002016067505,14,14,1,0,0.9333333333333333,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,1,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,1,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,1,3,0,0,0,0,0,0,0,0,0,
+,,5,3,300,1,4,128.20257878303528,14,13,2,1,0.8666666666666667,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(frankfurt,100.0.4/24)']""], 'dictionary_item_removed': [""root['loadbalancing']['(frankfurt,100.0.4.0/24)']""], 'iterable_item_removed': {""root['reachability']['vienna'][0]"": '100.0.1.0/24'}}"
+,,5,3,300,1,5,143.79812502861023,13,13,2,0,0.8666666666666667,0,0,0,"{'dictionary_item_added': [""root['(barcelona, 100.0.1.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(barcelona,100.0.1.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.1.0/24)']""]}"
+,,5,3,300,1,6,116.04428005218506,14,11,4,3,0.7333333333333333,0,0,0,"{'values_changed': {""root['loadbalancing']"": {'new_value': {'(marseille,100.0.29.0/24)': 1, '(amsterdam,100.0.9.0/24)': 2, '(sofia,100.0.9.0/24)': 4}, 'old_value': {'(rotterdam,100.0.29.0/24)': 2, '(bucharest,100.0.4.0/24)': 2, '(marseille,100.0.9.0/24)': 4, '(amsterdam,100.0.29.0/24)': 2, '(sofia,100.0.9.0/24)': 4}}}, 'iterable_item_added': {""root['reachability']['bucharest'][1]"": '100.0.29.0/24'}}"
+,,5,3,300,1,7,19.58905601501465,15,15,0,0,1.0,0,0,0,{}
+,,5,3,300,1,8,90.85547065734863,11,11,4,0,0.7333333333333333,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(madrid,100.0.1.0/24)']"", ""root['waypoint']['(geneva,100.0.4.0/24)']"", ""root['loadbalancing']['(madrid,100.0.1.0/24)']"", ""root['loadbalancing']['(strasbourg,100.0.29.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,1,9,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,1,10,0,0,0,0,0,0,0,0,0,
+,,5,3,300,1,11,31.423169136047363,16,13,2,3,0.8666666666666667,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(london,100.0.29.0/24)']"", ""root['loadbalancing']['(madrid,100.0.9.0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']['(madrid,100.0.29.0/24)']""], 'values_changed': {""root['loadbalancing']['(london,100.0.4.0/24)']"": {'new_value': 1, 'old_value': 2}}, 'iterable_item_removed': {""root['waypoint']['(london,100.0.9.0/24)'][0]"": 'rotterdam'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,1,12,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,1,13,0,0,0,0,0,0,0,0,0,
+,,5,3,300,1,14,33.041192293167114,16,14,1,2,0.9333333333333333,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(paris,100.0.29/24)']""], 'dictionary_item_removed': [""root['loadbalancing']['(paris,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['kiev'][1]"": '100.0.1.0/24'}}"
+,,5,3,300,1,15,53.64708089828491,15,15,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,1,16,0,0,0,0,0,0,0,0,0,
+,,5,3,300,1,17,146.35208773612976,15,15,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,1,18,0,0,0,0,0,0,0,0,0,
+,,5,3,300,1,19,49.46875190734863,15,15,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,1,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,1,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,1,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,1,3,0,0,0,0,0,0,0,0,0,
+,,10,3,300,1,4,202.79262614250183,25,24,6,1,0.8,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(amsterdam,100.0.4/24)']""], 'dictionary_item_removed': [""root['reachability']['milan']"", ""root['loadbalancing']['(milan,100.0.1.0/24)']"", ""root['loadbalancing']['(geneva,100.0.4.0/24)']"", ""root['loadbalancing']['(brussels,100.0.9.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.4.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.9.0/24)']""]}"
+,,10,3,300,1,5,52.14172172546387,23,22,8,1,0.7333333333333333,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(lyon,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['reachability']['madrid']"", ""root['waypoint']['(lyon,100.0.4.0/24)']"", ""root['waypoint']['(london,100.0.1.0/24)']"", ""root['waypoint']['(madrid,100.0.9.0/24)']"", ""root['loadbalancing']['(lyon,100.0.29.0/24)']"", ""root['loadbalancing']['(london,100.0.1.0/24)']"", ""root['loadbalancing']['(madrid,100.0.29.0/24)']"", ""root['loadbalancing']['(brussels,100.0.29.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,1,6,0,0,0,0,0,0,0,0,0,
+,,10,3,300,1,7,144.01294589042664,26,25,5,1,0.8333333333333334,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(marseille,100.0.9/24)']""], 'dictionary_item_removed': [""root['waypoint']['(marseille,100.0.9.0/24)']"", ""root['waypoint']['(bratislava,100.0.4.0/24)']"", ""root['loadbalancing']['(budapest,100.0.1.0/24)']"", ""root['loadbalancing']['(athens,100.0.9.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.4.0/24)']""]}"
+,,10,3,300,1,8,269.9563801288605,30,30,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,1,9,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,3,300,1,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,3,300,1,1,0,0,0,0,0,0,0,0,0,
+,,20,3,300,1,2,142.8943967819214,34,31,29,3,0.5166666666666667,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(london,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['reachability']['kiev']"", ""root['waypoint']['(milan,100.0.1.0/24)']"", ""root['waypoint']['(strasbourg,100.0.29.0/24)']"", ""root['waypoint']['(amsterdam,100.0.4.0/24)']"", ""root['waypoint']['(warsaw,100.0.9.0/24)']"", ""root['waypoint']['(budapest,100.0.4.0/24)']"", ""root['waypoint']['(lyon,100.0.1.0/24)']"", ""root['waypoint']['(kiev,100.0.4.0/24)']"", ""root['waypoint']['(london,100.0.4.0/24)']"", ""root['waypoint']['(london,100.0.9.0/24)']"", ""root['waypoint']['(london,100.0.1.0/24)']"", ""root['waypoint']['(madrid,100.0.9.0/24)']"", ""root['waypoint']['(brussels,100.0.29.0/24)']""], 'values_changed': {""root['loadbalancing']"": {'new_value': {'(madrid,100.0.4.0/24)': 2, '(madrid,100.0.1.0/24)': 3, '(milan,100.0.29.0/24)': 2, '(brussels,100.0.9.0/24)': 3, '(roma,100.0.1.0/24)': 2, '(praha,100.0.9.0/24)': 2, '(lyon,100.0.4.0/24)': 2, '(london,100.0.29.0/24)': 3}, 'old_value': {'(madrid,100.0.4.0/24)': 2, '(madrid,100.0.1.0/24)': 3, '(milan,100.0.1.0/24)': 2, '(strasbourg,100.0.29.0/24)': 2, '(geneva,100.0.4.0/24)': 3, '(brussels,100.0.9.0/24)': 3, '(amsterdam,100.0.4.0/24)': 7, '(warsaw,100.0.9.0/24)': 2, '(roma,100.0.1.0/24)': 2, '(praha,100.0.9.0/24)': 2, '(budapest,100.0.4.0/24)': 4, '(lyon,100.0.1.0/24)': 2, '(kiev,100.0.4.0/24)': 2, '(milan,100.0.29.0/24)': 2, '(lyon,100.0.29.0/24)': 2, '(london,100.0.4.0/24)': 2, '(london,100.0.9.0/24)': 3, '(london,100.0.1.0/24)': 3, '(madrid,100.0.29.0/24)': 2, '(brussels,100.0.29.0/24)': 2}}}, 'iterable_item_removed': {""root['reachability']['madrid'][2]"": '100.0.9.0/24', ""root['reachability']['brussels'][1]"": '100.0.29.0/24', ""root['waypoint']['(madrid,100.0.1.0/24)'][0]"": 'kiev', ""root['waypoint']['(lyon,100.0.4.0/24)'][0]"": 'basel'}}"
+,,20,3,300,1,3,391.9261438846588,51,46,14,5,0.7666666666666667,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(barcelona,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['reachability']['bucharest']"", ""root['waypoint']['(barcelona,100.0.9.0/24)']"", ""root['waypoint']['(bucharest,100.0.29.0/24)']"", ""root['waypoint']['(istanbul,100.0.9.0/24)']"", ""root['waypoint']['(budapest,100.0.1.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.29.0/24)']"", ""root['loadbalancing']['(kiev,100.0.29.0/24)']"", ""root['loadbalancing']['(paris,100.0.29.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.29.0/24)']"", ""root['loadbalancing']['(istanbul,100.0.9.0/24)']"", ""root['loadbalancing']['(budapest,100.0.1.0/24)']"", ""root['loadbalancing']['(athens,100.0.9.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.4.0/24)']""], 'iterable_item_added': {""root['reachability']['praha'][1]"": '100.0.9.0/24', ""root['reachability']['praha'][2]"": '100.0.29.0/24', ""root['reachability']['barcelona'][1]"": '100.0.29.0/24', ""root['reachability']['istanbul'][2]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['reachability']['budapest'][1]"": '100.0.1.0/24'}}"
+,,20,3,300,1,4,146.1093339920044,42,40,20,2,0.6666666666666666,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(athens,100.0.4/24)']""], 'dictionary_item_removed': [""root['waypoint']['(bratislava,100.0.9.0/24)']"", ""root['waypoint']['(paris,100.0.1.0/24)']"", ""root['waypoint']['(amsterdam,100.0.1.0/24)']"", ""root['waypoint']['(luxembourg,100.0.29.0/24)']"", ""root['waypoint']['(strasbourg,100.0.9.0/24)']"", ""root['loadbalancing']['(sofia,100.0.1.0/24)']"", ""root['loadbalancing']['(paris,100.0.4.0/24)']"", ""root['loadbalancing']['(zurich,100.0.29.0/24)']"", ""root['loadbalancing']['(madrid,100.0.29.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.9.0/24)']"", ""root['loadbalancing']['(strasbourg,100.0.4.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.1.0/24)']"", ""root['loadbalancing']['(istanbul,100.0.4.0/24)']"", ""root['loadbalancing']['(paris,100.0.1.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.1.0/24)']"", ""root['loadbalancing']['(luxembourg,100.0.29.0/24)']"", ""root['loadbalancing']['(athens,100.0.4.0/24)']""], 'values_changed': {""root['loadbalancing']['(budapest,100.0.9.0/24)']"": {'new_value': 7, 'old_value': 2}}, 'iterable_item_removed': {""root['reachability']['amsterdam'][1]"": '100.0.1.0/24', ""root['reachability']['paris'][1]"": '100.0.1.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,1,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,1,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,1,2,0,0,0,0,0,0,0,0,0,
+,,25,3,300,1,3,430.60432505607605,49,48,27,1,0.64,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']"", ""root['waypoint']['(budapest,100.0.1.0/24)']"", ""root['waypoint']['(athens,100.0.9.0/24)']"", ""root['waypoint']['(bratislava,100.0.4.0/24)']"", ""root['waypoint']['(bratislava,100.0.1.0/24)']"", ""root['waypoint']['(istanbul,100.0.4.0/24)']"", ""root['waypoint']['(paris,100.0.1.0/24)']"", ""root['waypoint']['(amsterdam,100.0.1.0/24)']"", ""root['waypoint']['(luxembourg,100.0.29.0/24)']"", ""root['waypoint']['(athens,100.0.4.0/24)']"", ""root['waypoint']['(strasbourg,100.0.9.0/24)']"", ""root['loadbalancing']['(athens,100.0.9.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.4.0/24)']"", ""root['loadbalancing']['(budapest,100.0.9.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.1.0/24)']"", ""root['loadbalancing']['(istanbul,100.0.4.0/24)']"", ""root['loadbalancing']['(paris,100.0.1.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.1.0/24)']"", ""root['loadbalancing']['(luxembourg,100.0.29.0/24)']"", ""root['loadbalancing']['(athens,100.0.4.0/24)']"", ""root['loadbalancing']['(strasbourg,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['budapest'][2]"": '100.0.4.0/24'}, 'iterable_item_removed': {""root['reachability']['istanbul'][1]"": '100.0.4.0/24', ""root['reachability']['amsterdam'][1]"": '100.0.1.0/24', ""root['reachability']['bratislava'][2]"": '100.0.1.0/24', ""root['reachability']['luxembourg'][1]"": '100.0.29.0/24', ""root['reachability']['strasbourg'][1]"": '100.0.9.0/24'}}"
+,,50,3,300,1,0,294.090167760849,5,3,147,2,0.02,0,0,0,"{'values_changed': {'root': {'new_value': {'reachability': {'sofia': ['100.0.4.0/24', '100.0.9.0/24', '100.0.29.0/24'], 'buon': ['100.0.1.0/24', '100.0.4.0/24']}, 'load_balancing': {'vienna': {'100.0.4.0/24': 2}, 'frankfurt': {'100.0.9.0/24': 2}, 'marseille': {'100.0.1.0/24': 2, '100.0.29.0/24': 4}, 'basel': {'100.0.1.0/24': 2, '100.0.9.0/24': 3, '100.0.4.0/24': 3}, 'praha': {'100.0.29.0/24': 2, '100.0.1.0/24': 5}, 'paris': {'100.0.9.0/24': 4}, 'kiev': {'100.0.1.0/24': 2, '100.0.9.0/24': 3}, 'roma': {'100.0.9.0/24': 2}, 'zurich': {'100.0.4.0/24': 2}, 'athens': {'100.0.1.0/24': 5}, 'bratislava': {'100.0.29.0/24': 2}, 'warsaw': {'100.0.9.0/24': 2, '100.0.4.0/24': 4}, 'luxembourg': {'100.0.4.0/24': 4}, 'istanbul': {'100.0.29.0/24': 3}, 'madrid': {'100.0.1.0/24': 3, '100.0.4.0/24': 2}, 'milan': {'100.0.1.0/24': 2}, 'strasbourg': {'100.0.29.0/24': 2}}}, 'old_value': {'reachability': {'vienna': ['100.0.4.0/24', '100.0.9.0/24', '100.0.1.0/24'], 'frankfurt': ['100.0.1.0/24', '100.0.4.0/24', '100.0.9.0/24'], 'geneva': ['100.0.29.0/24', '100.0.1.0/24', '100.0.4.0/24'], 'marseille': ['100.0.4.0/24', '100.0.1.0/24', '100.0.29.0/24'], 'sofia': ['100.0.29.0/24', '100.0.4.0/24', '100.0.9.0/24'], 'basel': ['100.0.1.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'praha': ['100.0.1.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'paris': ['100.0.9.0/24'], 'kiev': ['100.0.9.0/24'], 'roma': ['100.0.9.0/24', '100.0.1.0/24'], 'zurich': ['100.0.1.0/24', '100.0.4.0/24'], 'athens': ['100.0.1.0/24'], 'bratislava': ['100.0.29.0/24'], 'brussels': ['100.0.1.0/24', '100.0.4.0/24', '100.0.9.0/24'], 'warsaw': ['100.0.29.0/24', '100.0.1.0/24', '100.0.4.0/24', '100.0.9.0/24'], 'rotterdam': ['100.0.1.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'barcelona': ['100.0.1.0/24'], 'bucharest': ['100.0.4.0/24', '100.0.1.0/24'], 'amsterdam': ['100.0.9.0/24', '100.0.4.0/24'], 'istanbul': ['100.0.29.0/24'], 'luxembourg': ['100.0.4.0/24'], 'madrid': ['100.0.4.0/24', '100.0.1.0/24'], 'milan': ['100.0.1.0/24'], 'strasbourg': ['100.0.29.0/24']}, 'waypoint': {'(vienna,100.0.4.0/24)': ['basel'], '(frankfurt,100.0.1.0/24)': ['kiev'], '(geneva,100.0.29.0/24)': ['london'], '(marseille,100.0.4.0/24)': ['basel'], '(sofia,100.0.29.0/24)': ['london'], '(basel,100.0.1.0/24)': ['kiev'], '(praha,100.0.1.0/24)': ['kiev'], '(paris,100.0.9.0/24)': ['rotterdam'], '(kiev,100.0.9.0/24)': ['rotterdam'], '(roma,100.0.9.0/24)': ['rotterdam'], '(zurich,100.0.1.0/24)': ['kiev'], '(basel,100.0.29.0/24)': ['london'], '(athens,100.0.1.0/24)': ['kiev'], '(vienna,100.0.9.0/24)': ['rotterdam'], '(bratislava,100.0.29.0/24)': ['london'], '(brussels,100.0.1.0/24)': ['kiev'], '(warsaw,100.0.29.0/24)': ['london'], '(marseille,100.0.1.0/24)': ['kiev'], '(rotterdam,100.0.1.0/24)': ['kiev'], '(praha,100.0.29.0/24)': ['london'], '(basel,100.0.9.0/24)': ['rotterdam'], '(brussels,100.0.4.0/24)': ['basel'], '(frankfurt,100.0.4.0/24)': ['basel'], '(warsaw,100.0.1.0/24)': ['kiev'], '(vienna,100.0.1.0/24)': ['kiev'], '(warsaw,100.0.4.0/24)': ['basel'], '(zurich,100.0.4.0/24)': ['basel'], '(sofia,100.0.4.0/24)': ['basel'], '(rotterdam,100.0.4.0/24)': ['basel'], '(barcelona,100.0.1.0/24)': ['kiev'], '(rotterdam,100.0.29.0/24)': ['london'], '(bucharest,100.0.4.0/24)': ['basel'], '(marseille,100.0.29.0/24)': ['london'], '(amsterdam,100.0.9.0/24)': ['rotterdam'], '(sofia,100.0.9.0/24)': ['rotterdam'], '(istanbul,100.0.29.0/24)': ['london'], '(geneva,100.0.1.0/24)': ['kiev'], '(luxembourg,100.0.4.0/24)': ['basel'], '(frankfurt,100.0.9.0/24)': ['rotterdam'], '(bucharest,100.0.1.0/24)': ['kiev'], '(madrid,100.0.4.0/24)': ['basel'], '(madrid,100.0.1.0/24)': ['kiev'], '(milan,100.0.1.0/24)': ['kiev'], '(strasbourg,100.0.29.0/24)': ['london'], '(geneva,100.0.4.0/24)': ['basel'], '(brussels,100.0.9.0/24)': ['rotterdam'], '(amsterdam,100.0.4.0/24)': ['basel'], '(warsaw,100.0.9.0/24)': ['rotterdam'], '(roma,100.0.1.0/24)': ['kiev'], '(praha,100.0.9.0/24)': ['rotterdam']}, 'loadbalancing': {'(vienna,100.0.4.0/24)': 2, '(frankfurt,100.0.1.0/24)': 2, '(geneva,100.0.29.0/24)': 4, '(marseille,100.0.4.0/24)': 3, '(sofia,100.0.29.0/24)': 5, '(basel,100.0.1.0/24)': 2, '(praha,100.0.1.0/24)': 2, '(paris,100.0.29.0/24)': 2, '(kiev,100.0.9.0/24)': 2, '(roma,100.0.9.0/24)': 3, '(zurich,100.0.1.0/24)': 3, '(basel,100.0.29.0/24)': 2, '(athens,100.0.1.0/24)': 2, '(vienna,100.0.9.0/24)': 3, '(bratislava,100.0.29.0/24)': 4, '(brussels,100.0.1.0/24)': 4, '(warsaw,100.0.29.0/24)': 2, '(marseille,100.0.1.0/24)': 2, '(rotterdam,100.0.1.0/24)': 4, '(praha,100.0.29.0/24)': 3, '(basel,100.0.9.0/24)': 2, '(brussels,100.0.4.0/24)': 2, '(frankfurt,100.0.4.0/24)': 2, '(warsaw,100.0.1.0/24)': 2, '(vienna,100.0.1.0/24)': 2, '(warsaw,100.0.4.0/24)': 2, '(zurich,100.0.4.0/24)': 2, '(sofia,100.0.4.0/24)': 4, '(rotterdam,100.0.4.0/24)': 3, '(barcelona,100.0.1.0/24)': 3, '(rotterdam,100.0.29.0/24)': 2, '(bucharest,100.0.4.0/24)': 2, '(marseille,100.0.9.0/24)': 4, '(amsterdam,100.0.29.0/24)': 2, '(sofia,100.0.9.0/24)': 4, '(istanbul,100.0.29.0/24)': 3, '(geneva,100.0.1.0/24)': 5, '(luxembourg,100.0.4.0/24)': 4, '(frankfurt,100.0.9.0/24)': 2, '(bucharest,100.0.1.0/24)': 2, '(madrid,100.0.4.0/24)': 2, '(madrid,100.0.1.0/24)': 3, '(milan,100.0.1.0/24)': 2, '(strasbourg,100.0.29.0/24)': 2, '(geneva,100.0.4.0/24)': 3, '(brussels,100.0.9.0/24)': 3, '(amsterdam,100.0.4.0/24)': 7, '(warsaw,100.0.9.0/24)': 2, '(roma,100.0.1.0/24)': 2, '(praha,100.0.9.0/24)': 2}}}}}"
+,,50,3,300,1,1,140.4030020236969,28,27,120,1,0.1836734693877551,0,0,0,"{'dictionary_item_added': [""root['load-balancing']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['brussels']"", ""root['reachability']['praha']"", ""root['reachability']['bucharest']"", ""root['reachability']['luxembourg']"", ""root['reachability']['strasbourg']"", ""root['reachability']['vienna']"", ""root['reachability']['istanbul']"", ""root['reachability']['geneva']"", ""root['reachability']['marseille']"", ""root['reachability']['frankfurt']"", ""root['reachability']['athens']""], 'values_changed': {""root['waypoint']"": {'new_value': {'(budapest,100.0.4.0/24)': ['basel'], '(lyon,100.0.1.0/24)': ['kiev'], '(lyon,100.0.29.0/24)': ['kiev'], '(kiev,100.0.29.0/24)': ['london'], '(milan,100.0.4.0/24)': ['basel'], '(istanbul,100.0.4.0/24)': ['basel'], '(bucharest,100.0.9.0/24)': ['rotterdam'], '(roma,100.0.29.0/24)': ['london'], '(amsterdam,100.0.1.0/24)': ['kiev'], '(paris,100.0.4.0/24)': ['basel'], '(zurich,100.0.29.0/24)': ['london']}, 'old_value': {'(budapest,100.0.4.0/24)': ['basel'], '(lyon,100.0.1.0/24)': ['kiev'], '(kiev,100.0.4.0/24)': ['basel'], '(milan,100.0.29.0/24)': ['london'], '(lyon,100.0.4.0/24)': ['basel'], '(london,100.0.4.0/24)': ['basel'], '(london,100.0.9.0/24)': ['rotterdam'], '(london,100.0.1.0/24)': ['kiev'], '(madrid,100.0.9.0/24)': ['rotterdam'], '(brussels,100.0.29.0/24)': ['london'], '(praha,100.0.4.0/24)': ['basel'], '(lyon,100.0.29.0/24)': ['london'], '(lyon,100.0.9.0/24)': ['rotterdam'], '(barcelona,100.0.4.0/24)': ['basel'], '(barcelona,100.0.9.0/24)': ['rotterdam'], '(budapest,100.0.29.0/24)': ['london'], '(bucharest,100.0.29.0/24)': ['london'], '(luxembourg,100.0.9.0/24)': ['rotterdam'], '(strasbourg,100.0.1.0/24)': ['kiev'], '(vienna,100.0.29.0/24)': ['london'], '(istanbul,100.0.1.0/24)': ['kiev'], '(geneva,100.0.9.0/24)': ['rotterdam'], '(marseille,100.0.9.0/24)': ['rotterdam'], '(kiev,100.0.29.0/24)': ['london'], '(paris,100.0.29.0/24)': ['london'], '(frankfurt,100.0.29.0/24)': ['london'], '(istanbul,100.0.9.0/24)': ['rotterdam'], '(budapest,100.0.1.0/24)': ['kiev'], '(athens,100.0.9.0/24)': ['rotterdam'], '(bratislava,100.0.4.0/24)': ['basel'], '(roma,100.0.29.0/24)': ['london'], '(budapest,100.0.9.0/24)': ['rotterdam'], '(amsterdam,100.0.29.0/24)': ['london'], '(sofia,100.0.1.0/24)': ['kiev'], '(paris,100.0.4.0/24)': ['basel'], '(zurich,100.0.29.0/24)': ['london'], '(madrid,100.0.29.0/24)': ['london'], '(bratislava,100.0.9.0/24)': ['rotterdam'], '(luxembourg,100.0.1.0/24)': ['kiev'], '(strasbourg,100.0.4.0/24)': ['basel'], '(bratislava,100.0.1.0/24)': ['kiev'], '(milan,100.0.4.0/24)': ['basel'], '(istanbul,100.0.4.0/24)': ['basel'], '(bucharest,100.0.9.0/24)': ['rotterdam'], '(paris,100.0.1.0/24)': ['kiev'], '(barcelona,100.0.29.0/24)': ['london'], '(amsterdam,100.0.1.0/24)': ['kiev'], '(luxembourg,100.0.29.0/24)': ['london'], '(athens,100.0.4.0/24)': ['basel'], '(strasbourg,100.0.9.0/24)': ['rotterdam']}}, ""root['reachability']['london'][2]"": {'new_value': '100.0.29.0/24', 'old_value': '100.0.1.0/24'}}, 'iterable_item_removed': {""root['reachability']['budapest'][1]"": '100.0.29.0/24', ""root['reachability']['budapest'][2]"": '100.0.1.0/24', ""root['reachability']['budapest'][3]"": '100.0.9.0/24', ""root['reachability']['lyon'][1]"": '100.0.4.0/24', ""root['reachability']['lyon'][3]"": '100.0.9.0/24', ""root['reachability']['kiev'][1]"": '100.0.29.0/24', ""root['reachability']['milan'][1]"": '100.0.4.0/24', ""root['reachability']['barcelona'][1]"": '100.0.9.0/24', ""root['reachability']['barcelona'][2]"": '100.0.29.0/24', ""root['reachability']['bratislava'][1]"": '100.0.9.0/24', ""root['reachability']['bratislava'][2]"": '100.0.1.0/24', ""root['reachability']['paris'][0]"": '100.0.29.0/24', ""root['reachability']['paris'][2]"": '100.0.1.0/24', ""root['reachability']['madrid'][0]"": '100.0.9.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,100,3,300,1,0,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,0,23.46491289138794,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,1,12.59623384475708,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,2,5.188946008682251,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,5,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,6,5.295271873474121,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,7,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,8,42.229345083236694,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,9,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,10,17.522289991378784,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,11,8.924853086471558,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,12,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,13,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,14,26.571303844451904,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,15,21.05893611907959,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,16,21.25671410560608,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""]}"
+,,1,3,300,2,17,8.157559871673584,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,18,16.158998012542725,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,19,23.75823712348938,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,20,11.589358806610107,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,21,21.37757396697998,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,22,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,23,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,24,12.258608102798462,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,25,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,26,16.531389951705933,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,27,12.817528009414673,4,3,0,1,1.0,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(paris,100.0.9.0/24)']""]}"
+,,1,3,300,2,28,24.042181730270386,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,29,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,30,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,31,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,32,29.94483995437622,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,33,4.360530853271484,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,34,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,35,24.935368061065674,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,36,8.415215730667114,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,37,20.253103733062744,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,38,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,39,4.449357271194458,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,40,4.373399019241333,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,41,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,42,22.394613027572632,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,43,8.74639105796814,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,44,8.552634954452515,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,45,8.975981712341309,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,46,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,47,9.564728736877441,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,48,29.1384859085083,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,49,9.692503690719604,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,50,35.081936836242676,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""]}"
+,,1,3,300,2,51,5.363440036773682,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,52,29.826030731201172,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,53,5.8609209060668945,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,54,18.201735258102417,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,55,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,56,33.60617184638977,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,57,8.596019983291626,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,58,16.49496293067932,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,59,41.523398876190186,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,60,41.62323307991028,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,61,9.066763877868652,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,62,12.409805059432983,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,63,16.49922513961792,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,64,25.426084280014038,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,65,5.355787038803101,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,66,26.47635817527771,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,67,9.32223105430603,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,68,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,69,40.39622092247009,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,70,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,71,11.103021144866943,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,72,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,73,22.48438811302185,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,74,22.229474782943726,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,75,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,76,5.090092897415161,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,77,4.793287754058838,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,78,21.562016010284424,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,79,8.976132869720459,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,80,21.932703971862793,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,81,8.820175886154175,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,82,17.460660934448242,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,83,22.744614124298096,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,84,28.691895008087158,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,85,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,86,4.323401927947998,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,87,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,88,20.754084825515747,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,89,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,90,4.36055588722229,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,91,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,92,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,93,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,94,32.030466079711914,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,2,95,0,0,0,0,0,0,0,0,0,
+,,1,3,300,2,96,24.195943117141724,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,97,17.28726291656494,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,98,24.38709020614624,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,2,99,4.474646091461182,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,5,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,6,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,7,25.066343069076538,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,8,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,9,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,10,66.50622701644897,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,11,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,12,39.372796058654785,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,13,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,14,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,15,8.332847118377686,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,16,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,17,41.532511949539185,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,18,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,19,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,20,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,21,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,22,6.5409910678863525,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['istanbul']""]}"
+,,2,3,300,2,23,54.66800904273987,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,2,24,8.359401941299438,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,25,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,26,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,27,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,28,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,29,6.452487945556641,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""], 'iterable_item_removed': {""root['waypoint']['(brussels,100.0.4.0/24)'][0]"": 'basel'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,30,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,31,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,32,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,33,38.72933387756348,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}"
+,,2,3,300,2,34,21.817715883255005,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,2,35,24.673124074935913,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(vienna,100.0.9.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,36,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,37,48.77221608161926,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,38,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,39,7.486624002456665,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,40,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,41,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,42,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,43,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,44,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,45,0,0,0,0,0,0,0,0,0,
+,,2,3,300,2,46,53.859890937805176,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,47,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,48,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,2,49,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,2,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,2,1,0,0,0,0,0,0,0,0,0,
+,,5,3,300,2,2,39.793240785598755,10,9,6,1,0.6,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(lyon,100.0.4.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(frankfurt,100.0.1.0/24)']"", ""root['waypoint']['(warsaw,100.0.4.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.4.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.4.0/24)']""], 'iterable_item_removed': {""root['reachability']['frankfurt'][1]"": '100.0.1.0/24', ""root['reachability']['warsaw'][0]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,2,3,0,0,0,0,0,0,0,0,0,
+,,5,3,300,2,4,127.13216996192932,12,12,3,0,0.8,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']"", ""root['waypoint']['(warsaw,100.0.9.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.9.0/24)']""]}"
+,,5,3,300,2,5,46.01690602302551,15,14,1,1,0.9333333333333333,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(paris,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']['(paris,100.0.9.0/24)']""]}"
+,,5,3,300,2,6,74.89390516281128,15,15,0,0,1.0,0,0,0,{}
+,,5,3,300,2,7,76.75581812858582,11,11,4,0,0.7333333333333333,0,0,0,"{'dictionary_item_removed': [""root['reachability']['geneva']"", ""root['waypoint']['(zurich,100.0.1.0/24)']"", ""root['loadbalancing']['(zurich,100.0.1.0/24)']""], 'iterable_item_removed': {""root['reachability']['zurich'][1]"": '100.0.1.0/24'}}"
+,,5,3,300,2,8,67.76559400558472,17,14,1,3,0.9333333333333333,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(barcelona,100.0.29.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.9.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(amsterdam,100.0.4.0/24)']""], 'iterable_item_added': {""root['reachability']['barcelona'][1]"": '100.0.29.0/24'}}"
+,,5,3,300,2,9,71.71111416816711,13,12,3,1,0.8,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(strasbourg,100.0.29.0/24)']"", ""root['loadbalancing']['(marseille,100.0.4.0/24)']"", ""root['loadbalancing']['(vienna,100.0.1.0/24)']""], 'iterable_item_added': {""root['reachability']['madrid'][1]"": '100.0.29.0/24'}}"
+,,5,3,300,2,10,19.582436084747314,15,15,0,0,1.0,0,0,0,{}
+,,5,3,300,2,11,163.45341396331787,17,14,1,3,0.9333333333333333,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(amsterdam,100.0.9.0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']['(amsterdam,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['geneva'][1]"": '100.0.9.0/24', ""root['reachability']['geneva'][2]"": '100.0.29.0/24'}}"
+,,5,3,300,2,12,147.61862707138062,13,13,2,0,0.8666666666666667,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(paris,100.0.4.0/24)']"", ""root['loadbalancing']['(paris,100.0.4.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,2,13,0,0,0,0,0,0,0,0,0,
+,,5,3,300,2,14,19.26150131225586,15,15,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,2,15,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,2,16,0,0,0,0,0,0,0,0,0,
+,,5,3,300,2,17,159.66105222702026,15,15,0,0,1.0,0,0,0,{}
+,,5,3,300,2,18,126.56177997589111,10,10,5,0,0.6666666666666666,0,0,0,"{'dictionary_item_removed': [""root['reachability']['budapest']"", ""root['waypoint']['(london,100.0.4.0/24)']"", ""root['waypoint']['(budapest,100.0.29.0/24)']"", ""root['loadbalancing']['(london,100.0.4.0/24)']"", ""root['loadbalancing']['(budapest,100.0.29.0/24)']""]}"
+,,5,3,300,2,19,219.64203906059265,16,15,0,1,1.0,0,0,0,"{'iterable_item_added': {""root['reachability']['london'][1]"": '100.0.29.0/24'}}"
+,,10,3,300,2,0,135.19224405288696,20,17,13,3,0.5666666666666667,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']"", ""root['waypoint']['(rotterdam,100.0.1.0/24)']"", ""root['waypoint']['(basel,100.0.9.0/24)']"", ""root['waypoint']['(strasbourg,100.0.4.0/24)']"", ""root['waypoint']['(london,100.0.9.0/24)']"", ""root['loadbalancing']['(luxembourg,100.0.1.0/24)']"", ""root['loadbalancing']['(vienna,100.0.29.0/24)']"", ""root['loadbalancing']['(luxembourg,100.0.29.0/24)']"", ""root['loadbalancing']['(basel,100.0.9.0/24)']"", ""root['loadbalancing']['(strasbourg,100.0.4.0/24)']"", ""root['loadbalancing']['(london,100.0.9.0/24)']""], 'values_changed': {""root['reachability']['basel'][0]"": {'new_value': '100.0.4.0/24', 'old_value': '100.0.9.0/24'}}, 'iterable_item_added': {""root['reachability']['marseille'][1]"": '100.0.29.0/24', ""root['reachability']['rotterdam'][1]"": '100.0.9.0/24'}, 'iterable_item_removed': {""root['reachability']['strasbourg'][1]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,2,1,0,0,0,0,0,0,0,0,0,
+,,10,3,300,2,2,353.8501420021057,18,17,13,1,0.5666666666666667,0,0,0,"{'dictionary_item_removed': [""root['reachability']['lyon']"", ""root['reachability']['marseille']"", ""root['reachability']['basel']"", ""root['waypoint']['(bucharest,100.0.4.0/24)']"", ""root['waypoint']['(paris,100.0.29.0/24)']"", ""root['waypoint']['(athens,100.0.1.0/24)']"", ""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.29.0/24)']"", ""root['loadbalancing']['(madrid,100.0.1.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.4.0/24)']"", ""root['loadbalancing']['(paris,100.0.9.0/24)']"", ""root['loadbalancing']['(athens,100.0.1.0/24)']"", ""root['loadbalancing']['(basel,100.0.1.0/24)']""], 'iterable_item_added': {""root['reachability']['roma'][1]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,2,3,0,0,0,0,0,0,0,0,0,
+,,10,3,300,2,4,163.91345620155334,17,16,14,1,0.5333333333333333,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(barcelona,100.0.9.0/24)']""], 'dictionary_item_removed': [""root['reachability']['kiev']"", ""root['reachability']['madrid']"", ""root['waypoint']['(kiev,100.0.29.0/24)']"", ""root['waypoint']['(amsterdam,100.0.4.0/24)']"", ""root['waypoint']['(istanbul,100.0.29.0/24)']"", ""root['waypoint']['(madrid,100.0.4.0/24)']"", ""root['waypoint']['(marseille,100.0.4.0/24)']"", ""root['waypoint']['(vienna,100.0.1.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.29.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.4.0/24)']"", ""root['loadbalancing']['(istanbul,100.0.29.0/24)']"", ""root['loadbalancing']['(madrid,100.0.4.0/24)']"", ""root['loadbalancing']['(vienna,100.0.1.0/24)']""], 'iterable_item_removed': {""root['reachability']['istanbul'][0]"": '100.0.29.0/24'}}"
+,,10,3,300,2,5,91.80838322639465,32,29,1,3,0.9666666666666667,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(amsterdam,100.0.9.0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']['(amsterdam,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['milan'][1]"": '100.0.4.0/24', ""root['reachability']['amsterdam'][1]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['waypoint']['(amsterdam,100.0.9.0/24)'][0]"": 'rotterdam'}}"
+,,10,3,300,2,6,187.86992001533508,27,27,3,0,0.9,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(praha,100.0.4.0/24)']"", ""root['waypoint']['(madrid,100.0.9.0/24)']"", ""root['loadbalancing']['(praha,100.0.4.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,2,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,2,8,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,2,9,0,0,0,0,0,0,0,0,0,
+,,20,3,300,2,0,156.9301142692566,35,25,35,10,0.4166666666666667,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']"", ""root['reachability']['bucharest']""], 'values_changed': {""root['waypoint']"": {'new_value': {'(luxembourg,100.0.1.0/24)': ['kiev'], '(strasbourg,100.0.1.0/24)': ['kiev'], '(marseille,100.0.9.0/24)': ['rotterdam'], '(strasbourg,100.0.29.0/24)': ['kiev'], '(lyon,100.0.29.0/24)': ['london'], '(vienna,100.0.29.0/24)': ['london']}, 'old_value': {'(luxembourg,100.0.1.0/24)': ['kiev'], '(strasbourg,100.0.1.0/24)': ['kiev'], '(marseille,100.0.9.0/24)': ['rotterdam'], '(rotterdam,100.0.1.0/24)': ['kiev'], '(sofia,100.0.29.0/24)': ['london'], '(vienna,100.0.29.0/24)': ['london'], '(luxembourg,100.0.29.0/24)': ['london'], '(basel,100.0.9.0/24)': ['rotterdam'], '(strasbourg,100.0.4.0/24)': ['basel'], '(london,100.0.9.0/24)': ['rotterdam'], '(istanbul,100.0.1.0/24)': ['kiev'], '(frankfurt,100.0.4.0/24)': ['basel'], '(lyon,100.0.29.0/24)': ['london'], '(frankfurt,100.0.1.0/24)': ['kiev'], '(warsaw,100.0.4.0/24)': ['basel'], '(praha,100.0.9.0/24)': ['rotterdam'], '(madrid,100.0.29.0/24)': ['london'], '(bucharest,100.0.1.0/24)': ['kiev'], '(lyon,100.0.1.0/24)': ['kiev'], '(rotterdam,100.0.4.0/24)': ['basel']}}, ""root['loadbalancing']"": {'new_value': {'(luxembourg,100.0.1.0/24)': 2, '(strasbourg,100.0.1.0/24)': 4, '(marseille,100.0.9.0/24)': None, '(frankfurt,100.0.1.0/24)': 2, '(lyon,100.0.29.0/24)': 5, '(warsaw,100.0.4.0/24)': 2, '(praha,100.0.9.0/24)': 2, '(madrid,100.0.29.0/24)': None}, 'old_value': {'(luxembourg,100.0.1.0/24)': 4, '(strasbourg,100.0.1.0/24)': 2, '(marseille,100.0.29.0/24)': 4, '(rotterdam,100.0.1.0/24)': 4, '(sofia,100.0.29.0/24)': 5, '(vienna,100.0.29.0/24)': 2, '(luxembourg,100.0.29.0/24)': 2, '(basel,100.0.9.0/24)': 2, '(strasbourg,100.0.4.0/24)': 3, '(london,100.0.9.0/24)': 3, '(istanbul,100.0.1.0/24)': 4, '(frankfurt,100.0.4.0/24)': 2, '(lyon,100.0.4.0/24)': 2, '(frankfurt,100.0.1.0/24)': 2, '(warsaw,100.0.4.0/24)': 2, '(praha,100.0.9.0/24)': 2, '(madrid,100.0.9.0/24)': 2, '(bucharest,100.0.1.0/24)': 2, '(lyon,100.0.1.0/24)': 2, '(rotterdam,100.0.4.0/24)': 3}}, ""root['reachability']['lyon'][1]"": {'new_value': '100.0.4.0/24', 'old_value': '100.0.1.0/24'}}, 'iterable_item_added': {""root['reachability']['rotterdam'][1]"": '100.0.29.0/24', ""root['reachability']['rotterdam'][3]"": '100.0.9.0/24', ""root['reachability']['basel'][1]"": '100.0.4.0/24'}}"
+,,20,3,300,2,1,351.1704580783844,39,35,25,4,0.5833333333333334,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(zurich,100.0.4/24)']""], 'dictionary_item_removed': [""root['waypoint']['(warsaw,100.0.29.0/24)']"", ""root['waypoint']['(lyon,100.0.9.0/24)']"", ""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['waypoint']['(bratislava,100.0.29.0/24)']"", ""root['waypoint']['(zurich,100.0.4.0/24)']"", ""root['waypoint']['(bucharest,100.0.29.0/24)']"", ""root['waypoint']['(zurich,100.0.1.0/24)']""], 'values_changed': {""root['loadbalancing']"": {'new_value': {'(roma,100.0.4.0/24)': 2, '(marseille,100.0.29.0/24)': 4, '(bucharest,100.0.4.0/24)': 2, '(paris,100.0.29.0/24)': 2, '(bratislava,100.0.9.0/24)': 7, '(bucharest,100.0.29.0/24)': 3}, 'old_value': {'(roma,100.0.4.0/24)': 2, '(warsaw,100.0.29.0/24)': 2, '(madrid,100.0.1.0/24)': 3, '(warsaw,100.0.9.0/24)': 2, '(lyon,100.0.9.0/24)': 6, '(marseille,100.0.29.0/24)': 4, '(bucharest,100.0.4.0/24)': 2, '(paris,100.0.9.0/24)': 2, '(athens,100.0.1.0/24)': 2, '(basel,100.0.1.0/24)': 2, '(bratislava,100.0.29.0/24)': 4, '(bratislava,100.0.9.0/24)': 7, '(frankfurt,100.0.29.0/24)': 2, '(budapest,100.0.1.0/24)': 2, '(istanbul,100.0.4.0/24)': 2, '(zurich,100.0.4.0/24)': 2, '(geneva,100.0.1.0/24)': 5, '(bucharest,100.0.29.0/24)': 3, '(sofia,100.0.4.0/24)': 4, '(zurich,100.0.1.0/24)': 3}}}, 'iterable_item_added': {""root['reachability']['roma'][1]"": '100.0.29.0/24', ""root['reachability']['paris'][1]"": '100.0.9.0/24', ""root['waypoint']['(bratislava,100.0.9.0/24)'][1]"": 'london'}, 'iterable_item_removed': {""root['reachability']['warsaw'][0]"": '100.0.29.0/24', ""root['reachability']['bucharest'][1]"": '100.0.29.0/24', ""root['reachability']['zurich'][1]"": '100.0.1.0/24'}}"
+,,20,3,300,2,2,331.205934047699,39,31,29,8,0.5166666666666667,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(barcelona,100.0.29.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.9.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(bratislava,100.0.1.0/24)']"", ""root['waypoint']['(madrid,100.0.4.0/24)']"", ""root['waypoint']['(marseille,100.0.4.0/24)']"", ""root['waypoint']['(vienna,100.0.1.0/24)']"", ""root['waypoint']['(strasbourg,100.0.29.0/24)']"", ""root['waypoint']['(sofia,100.0.9.0/24)']"", ""root['waypoint']['(istanbul,100.0.9.0/24)']"", ""root['waypoint']['(milan,100.0.9.0/24)']"", ""root['waypoint']['(budapest,100.0.4.0/24)']"", ""root['waypoint']['(amsterdam,100.0.9.0/24)']"", ""root['waypoint']['(vienna,100.0.4.0/24)']"", ""root['waypoint']['(brussels,100.0.4.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.1.0/24)']"", ""root['loadbalancing']['(madrid,100.0.4.0/24)']"", ""root['loadbalancing']['(marseille,100.0.4.0/24)']"", ""root['loadbalancing']['(vienna,100.0.1.0/24)']"", ""root['loadbalancing']['(strasbourg,100.0.29.0/24)']"", ""root['loadbalancing']['(sofia,100.0.9.0/24)']"", ""root['loadbalancing']['(istanbul,100.0.9.0/24)']"", ""root['loadbalancing']['(milan,100.0.9.0/24)']"", ""root['loadbalancing']['(budapest,100.0.4.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.29.0/24)']"", ""root['loadbalancing']['(vienna,100.0.4.0/24)']"", ""root['loadbalancing']['(brussels,100.0.4.0/24)']""], 'values_changed': {""root['loadbalancing']['(geneva,100.0.4.0/24)']"": {'new_value': 7, 'old_value': 3}}, 'iterable_item_added': {""root['reachability']['paris'][1]"": '100.0.9.0/24', ""root['reachability']['bratislava'][1]"": '100.0.29.0/24', ""root['reachability']['barcelona'][0]"": '100.0.4.0/24', ""root['reachability']['barcelona'][2]"": '100.0.29.0/24', ""root['reachability']['kiev'][0]"": '100.0.1.0/24'}, 'iterable_item_removed': {""root['reachability']['amsterdam'][1]"": '100.0.9.0/24', ""root['reachability']['istanbul'][1]"": '100.0.9.0/24', ""root['reachability']['marseille'][1]"": '100.0.1.0/24', ""root['reachability']['vienna'][1]"": '100.0.4.0/24'}}"
+,,20,3,300,2,3,223.35525488853455,41,37,23,4,0.6166666666666667,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(praha,100.0.4/24)']""], 'dictionary_item_removed': [""root['reachability']['vienna']"", ""root['reachability']['athens']"", ""root['waypoint']['(paris,100.0.4.0/24)']"", ""root['waypoint']['(zurich,100.0.9.0/24)']"", ""root['waypoint']['(bucharest,100.0.9.0/24)']"", ""root['waypoint']['(brussels,100.0.9.0/24)']"", ""root['waypoint']['(vienna,100.0.9.0/24)']"", ""root['waypoint']['(frankfurt,100.0.9.0/24)']"", ""root['waypoint']['(brussels,100.0.29.0/24)']"", ""root['waypoint']['(athens,100.0.9.0/24)']"", ""root['loadbalancing']['(paris,100.0.4.0/24)']"", ""root['loadbalancing']['(zurich,100.0.9.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.9.0/24)']"", ""root['loadbalancing']['(praha,100.0.4.0/24)']"", ""root['loadbalancing']['(praha,100.0.29.0/24)']"", ""root['loadbalancing']['(brussels,100.0.9.0/24)']"", ""root['loadbalancing']['(vienna,100.0.9.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.9.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.4.0/24)']"", ""root['loadbalancing']['(brussels,100.0.29.0/24)']"", ""root['loadbalancing']['(athens,100.0.9.0/24)']""], 'values_changed': {""root['loadbalancing']['(brussels,100.0.1.0/24)']"": {'new_value': 2, 'old_value': 4}, ""root['loadbalancing']['(amsterdam,100.0.29.0/24)']"": {'new_value': 3, 'old_value': 2}}, 'iterable_item_added': {""root['reachability']['kiev'][1]"": '100.0.1.0/24'}}"
+,,20,3,300,2,4,266.3769681453705,45,39,21,6,0.65,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(basel,100.0.4.0/24)']"", ""root['loadbalancing']['(basel,100.0.4.0/24)']""], 'dictionary_item_removed': [""root['reachability']['paris']"", ""root['waypoint']['(geneva,100.0.9.0/24)']"", ""root['waypoint']['(milan,100.0.4.0/24)']"", ""root['waypoint']['(london,100.0.4.0/24)']"", ""root['waypoint']['(budapest,100.0.29.0/24)']"", ""root['waypoint']['(paris,100.0.9.0/24)']"", ""root['waypoint']['(athens,100.0.4.0/24)']"", ""root['waypoint']['(london,100.0.1.0/24)']"", ""root['waypoint']['(roma,100.0.9.0/24)']"", ""root['loadbalancing']['(geneva,100.0.9.0/24)']"", ""root['loadbalancing']['(milan,100.0.4.0/24)']"", ""root['loadbalancing']['(london,100.0.4.0/24)']"", ""root['loadbalancing']['(budapest,100.0.29.0/24)']"", ""root['loadbalancing']['(paris,100.0.9.0/24)']"", ""root['loadbalancing']['(athens,100.0.4.0/24)']"", ""root['loadbalancing']['(london,100.0.1.0/24)']"", ""root['loadbalancing']['(roma,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['rotterdam'][1]"": '100.0.1.0/24', ""root['reachability']['rotterdam'][2]"": '100.0.9.0/24', ""root['reachability']['basel'][0]"": '100.0.4.0/24', ""root['reachability']['london'][2]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['reachability']['roma'][1]"": '100.0.9.0/24', ""root['reachability']['milan'][1]"": '100.0.4.0/24', ""root['reachability']['budapest'][1]"": '100.0.29.0/24', ""root['reachability']['athens'][1]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,2,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,2,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,2,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,2,3,0,0,0,0,0,0,0,0,0,
+,,50,3,300,2,0,44.766273021698,4,4,145,0,0.026845637583892617,0,0,0,"{'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""], 'values_changed': {""root['reachability']"": {'new_value': {'bratislava': ['100.0.9.0/24', '100.0.29.0/24'], 'budapest': ['100.0.1.0/24'], 'frankfurt': ['100.0.29.0/24']}, 'old_value': {'luxembourg': ['100.0.1.0/24', '100.0.29.0/24'], 'strasbourg': ['100.0.1.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'marseille': ['100.0.9.0/24', '100.0.29.0/24', '100.0.4.0/24'], 'rotterdam': ['100.0.1.0/24', '100.0.4.0/24'], 'sofia': ['100.0.29.0/24', '100.0.4.0/24'], 'vienna': ['100.0.29.0/24', '100.0.1.0/24'], 'basel': ['100.0.9.0/24', '100.0.1.0/24'], 'london': ['100.0.9.0/24'], 'istanbul': ['100.0.1.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'frankfurt': ['100.0.4.0/24', '100.0.1.0/24', '100.0.29.0/24'], 'lyon': ['100.0.29.0/24', '100.0.1.0/24', '100.0.9.0/24'], 'warsaw': ['100.0.4.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'praha': ['100.0.9.0/24'], 'madrid': ['100.0.29.0/24', '100.0.1.0/24', '100.0.4.0/24'], 'bucharest': ['100.0.1.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'roma': ['100.0.4.0/24'], 'paris': ['100.0.29.0/24', '100.0.1.0/24'], 'athens': ['100.0.1.0/24'], 'bratislava': ['100.0.29.0/24', '100.0.9.0/24', '100.0.1.0/24'], 'budapest': ['100.0.1.0/24'], 'zurich': ['100.0.4.0/24', '100.0.1.0/24'], 'geneva': ['100.0.1.0/24'], 'barcelona': ['100.0.9.0/24'], 'kiev': ['100.0.29.0/24'], 'amsterdam': ['100.0.4.0/24']}}}}"
+,,50,3,300,2,1,661.7370340824127,2,1,148,1,0.006711409395973154,0,0,0,"{'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""], 'values_changed': {""root['reachability']"": {'new_value': {'kiev': ['100.0.1.0/24', '100.0.4.0/24']}, 'old_value': {'sofia': ['100.0.9.0/24'], 'istanbul': ['100.0.9.0/24'], 'milan': ['100.0.9.0/24', '100.0.29.0/24', '100.0.1.0/24', '100.0.4.0/24'], 'budapest': ['100.0.4.0/24', '100.0.9.0/24', '100.0.29.0/24'], 'marseille': ['100.0.1.0/24'], 'praha': ['100.0.1.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'geneva': ['100.0.4.0/24', '100.0.9.0/24', '100.0.29.0/24'], 'amsterdam': ['100.0.9.0/24', '100.0.29.0/24', '100.0.1.0/24'], 'vienna': ['100.0.4.0/24', '100.0.9.0/24'], 'brussels': ['100.0.4.0/24', '100.0.1.0/24', '100.0.9.0/24', '100.0.29.0/24'], 'kiev': ['100.0.4.0/24'], 'strasbourg': ['100.0.9.0/24'], 'paris': ['100.0.4.0/24', '100.0.9.0/24'], 'zurich': ['100.0.9.0/24'], 'bucharest': ['100.0.9.0/24'], 'madrid': ['100.0.9.0/24'], 'roma': ['100.0.1.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'luxembourg': ['100.0.9.0/24', '100.0.4.0/24'], 'frankfurt': ['100.0.9.0/24'], 'barcelona': ['100.0.1.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'athens': ['100.0.9.0/24', '100.0.29.0/24', '100.0.4.0/24'], 'rotterdam': ['100.0.29.0/24'], 'lyon': ['100.0.4.0/24'], 'warsaw': ['100.0.1.0/24'], 'london': ['100.0.4.0/24', '100.0.1.0/24'], 'basel': ['100.0.29.0/24']}}}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,100,3,300,2,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,0,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,1,25.660787343978882,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,2,9.660336971282959,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,3,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,4,19.209444761276245,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,5,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,6,19.305403232574463,4,3,0,1,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""]}"
+,,1,3,300,3,7,17.25061011314392,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,8,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,9,9.143002986907959,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,10,29.708988904953003,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,11,22.061553955078125,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,12,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,13,4.62419581413269,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,14,13.253227949142456,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,15,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,16,5.1286139488220215,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,17,4.782868385314941,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,18,28.804626941680908,4,3,0,1,1.0,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(madrid,100.0.9.0/24)']""]}"
+,,1,3,300,3,19,13.272189855575562,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,20,34.798994064331055,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,21,9.046567916870117,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,22,9.176124095916748,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,23,43.552201986312866,4,0,3,4,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {'MARSEILLE': ['100.0.29.0/24']}, 'old_value': {'marseille': ['100.0.29.0/24']}}, ""root['waypoint']"": {'new_value': {'(MARSEILLE,100.0.29.0/24)': ['LONDON'], '(MARSEILLE,100.0.9.0/24)': []}, 'old_value': {'(marseille,100.0.29.0/24)': ['london']}}, ""root['loadbalancing']"": {'new_value': {'(MARSEILLE,100.0.9.0/24)': 4}, 'old_value': {'(marseille,100.0.9.0/24)': 4}}}}"
+,,1,3,300,3,24,13.160558938980103,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,25,12.987452983856201,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,26,28.329243183135986,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,27,17.053655862808228,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,28,9.345844984054565,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,29,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,30,9.424375057220459,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,31,12.808026790618896,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,32,35.82207703590393,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,33,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,34,13.651767253875732,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,35,21.253459930419922,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,36,17.342556953430176,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,37,8.760013818740845,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,38,30.962400674819946,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,39,9.022934198379517,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,40,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,41,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,42,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,43,21.492279767990112,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,44,4.627517938613892,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,45,13.158614158630371,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,46,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,47,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,48,17.00501298904419,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,49,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,50,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,51,13.028215885162354,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,52,13.255207061767578,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,53,5.0406811237335205,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,54,30.52315378189087,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,55,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,56,21.9616060256958,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,57,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,58,22.01094102859497,3,2,1,1,0.6666666666666666,0,0,0,"{'values_changed': {""root['loadbalancing']"": {'new_value': {'(barcelona,100.0.9.0/0/24)': 2}, 'old_value': {'(barcelona,100.0.9.0/24)': 2}}}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,59,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,60,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,61,21.71002197265625,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,62,13.330293893814087,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,63,5.5772411823272705,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,64,30.537447929382324,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,65,13.179219007492065,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,66,9.016983985900879,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,67,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,68,9.09610390663147,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,69,33.42461013793945,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,70,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,71,18.26587176322937,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,72,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,73,9.354357957839966,3,0,3,3,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {'Bucharest': ['100.0.4.0/24']}, 'old_value': {'bucharest': ['100.0.4.0/24']}}, ""root['waypoint']"": {'new_value': {'(Bucharest,100.0.4.0/24)': ['Basel']}, 'old_value': {'(bucharest,100.0.4.0/24)': ['basel']}}, ""root['loadbalancing']"": {'new_value': {'(Bucharest,100.0.4.0/24)': 2}, 'old_value': {'(bucharest,100.0.4.0/24)': 2}}}}"
+,,1,3,300,3,74,33.67062187194824,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,75,9.09283995628357,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,76,9.402569770812988,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,77,16.964787244796753,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,78,13.103269815444946,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,79,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,80,21.29025101661682,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,81,29.52224898338318,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,82,4.916522026062012,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,83,26.08848214149475,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,84,33.4431471824646,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,85,13.679742813110352,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,86,41.88251185417175,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,87,32.3151478767395,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,88,13.848737001419067,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""]}"
+,,1,3,300,3,89,21.429430961608887,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,3,90,0,0,0,0,0,0,0,0,0,
+,,1,3,300,3,91,36.25620794296265,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,92,42.44872689247131,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,93,16.923023223876953,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,94,17.75339102745056,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,95,18.041078090667725,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,96,8.890861988067627,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,97,29.40564513206482,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,98,4.867034912109375,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,3,99,22.803356885910034,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""]}"
+,,2,3,300,3,0,21.409051179885864,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['praha']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,4,0,0,0,0,0,0,0,0,0,
+,,2,3,300,3,5,7.065819978713989,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,7,0,0,0,0,0,0,0,0,0,
+,,2,3,300,3,8,51.26874089241028,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,9,0,0,0,0,0,0,0,0,0,
+,,2,3,300,3,10,57.24674892425537,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,11,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,12,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,13,0,0,0,0,0,0,0,0,0,
+,,2,3,300,3,14,8.277971029281616,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,15,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,16,0,0,0,0,0,0,0,0,0,
+,,2,3,300,3,17,40.91145300865173,6,6,0,0,1.0,0,0,0,"{'iterable_item_removed': {""root['waypoint']['(rotterdam,100.0.4.0/24)'][0]"": 'basel'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,18,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,19,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,20,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,21,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,22,0,0,0,0,0,0,0,0,0,
+,,2,3,300,3,23,50.22768783569336,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,24,0,0,0,0,0,0,0,0,0,
+,,2,3,300,3,25,48.31131100654602,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,3,26,33.9105019569397,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['milan']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,27,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,28,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,29,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,30,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,31,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,32,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,33,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,34,0,0,0,0,0,0,0,0,0,
+,,2,3,300,3,35,7.69924521446228,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,3,36,21.07549285888672,6,6,0,0,1.0,0,0,0,{}
+,,2,3,300,3,37,30.13587784767151,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']['(madrid,100.0.1.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,38,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,39,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,40,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,41,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,42,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,43,0,0,0,0,0,0,0,0,0,
+,,2,3,300,3,44,14.209199905395508,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,45,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,46,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,47,0,0,0,0,0,0,0,0,0,
+,,2,3,300,3,48,48.43943810462952,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,3,49,0,0,0,0,0,0,0,0,0,
+,,5,3,300,3,0,18.354721784591675,15,14,1,1,0.9333333333333333,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(lyon,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(lyon,100.0.4.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,1,0,0,0,0,0,0,0,0,0,
+,,5,3,300,3,2,59.38126087188721,13,13,2,0,0.8666666666666667,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['loadbalancing']['(basel,100.0.1.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,3,0,0,0,0,0,0,0,0,0,
+,,5,3,300,3,4,68.20349788665771,16,14,1,2,0.9333333333333333,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(marseille,100.0.1.0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']['(marseille,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['milan'][1]"": '100.0.29.0/24'}}"
+,,5,3,300,3,5,44.99345803260803,14,14,1,0,0.9333333333333333,0,0,0,"{'iterable_item_removed': {""root['reachability']['praha'][0]"": '100.0.1.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,7,0,0,0,0,0,0,0,0,0,
+,,5,3,300,3,8,67.5474009513855,13,13,2,0,0.8666666666666667,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']['(kiev,100.0.29.0/24)']""], 'iterable_item_removed': {""root['reachability']['kiev'][1]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,9,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,10,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,11,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,12,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,13,0,0,0,0,0,0,0,0,0,
+,,5,3,300,3,14,139.52087879180908,16,15,0,1,1.0,0,0,0,"{'iterable_item_added': {""root['reachability']['brussels'][1]"": '100.0.1.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,15,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,16,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,17,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,3,18,0,0,0,0,0,0,0,0,0,
+,,5,3,300,3,19,136.55171823501587,15,14,1,1,0.9333333333333333,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(milan,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['athens'][1]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,3,0,0,0,0,0,0,0,0,0,0,
+,,10,3,300,3,1,212.6997208595276,30,25,5,5,0.8333333333333334,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(amsterdam,100.0.29.0/24)']"", ""root['loadbalancing']['(madrid,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['waypoint']['(budapest,100.0.29.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.9.0/24)']"", ""root['loadbalancing']['(madrid,100.0.9.0/24)']"", ""root['loadbalancing']['(budapest,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['geneva'][1]"": '100.0.1.0/24', ""root['reachability']['basel'][0]"": '100.0.4.0/24', ""root['reachability']['basel'][2]"": '100.0.9.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,3,2,0,0,0,0,0,0,0,0,0,
+,,10,3,300,3,3,155.30475997924805,22,21,9,1,0.7,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(bratislava,100.0.9.0/24)']"", ""root['waypoint']['(bucharest,100.0.1.0/24)']""], 'values_changed': {""root['loadbalancing']"": {'new_value': {'(warsaw,100.0.9.0/24)': 2, '(bratislava,100.0.9.0/24)': 7, '(bucharest,100.0.1.0/24)': 2}, 'old_value': {'(warsaw,100.0.9.0/24)': 2, '(marseille,100.0.4.0/24)': 3, '(bratislava,100.0.4.0/24)': 4, '(luxembourg,100.0.29.0/24)': 2, '(basel,100.0.29.0/24)': 2, '(rotterdam,100.0.4.0/24)': 3, '(brussels,100.0.1.0/24)': 4, '(amsterdam,100.0.1.0/24)': 2, '(bratislava,100.0.9.0/24)': 7, '(bucharest,100.0.1.0/24)': 2}}}, 'iterable_item_added': {""root['reachability']['basel'][0]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,3,4,0,0,0,0,0,0,0,0,0,
+,,10,3,300,3,5,74.72830009460449,25,22,7,3,0.7586206896551724,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['waypoint']['(rotterdam,100.0.29.0/24)']"", ""root['waypoint']['(barcelona,100.0.9.0/24)']"", ""root['waypoint']['(barcelona,100.0.1.0/24)']"", ""root['loadbalancing']['(rotterdam,100.0.29.0/24)']"", ""root['loadbalancing']['(luxembourg,100.0.1.0/24)']""], 'values_changed': {""root['loadbalancing']['(sofia,100.0.1.0/24)']"": {'new_value': 4, 'old_value': 2}}, 'iterable_item_removed': {""root['reachability']['barcelona'][0]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,3,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,3,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,3,8,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,3,9,0,0,0,0,0,0,0,0,0,
+,,20,3,300,3,0,356.9839189052582,39,35,25,4,0.5833333333333334,0,0,0,"{'dictionary_item_added': [""root['reachability'][' frankfurt']"", ""root['waypoint']['(amsterdam,100.0.9.0/24)']"", ""root['loadbalancing']['(lyon,100.0.4.0/24)']""], 'dictionary_item_removed': [""root['reachability']['frankfurt']"", ""root['reachability']['budapest']"", ""root['reachability']['madrid']"", ""root['waypoint']['(zurich,100.0.4.0/24)']"", ""root['waypoint']['(geneva,100.0.4.0/24)']"", ""root['waypoint']['(amsterdam,100.0.4.0/24)']"", ""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['waypoint']['(amsterdam,100.0.29.0/24)']"", ""root['waypoint']['(frankfurt,100.0.1.0/24)']"", ""root['waypoint']['(budapest,100.0.4.0/24)']"", ""root['waypoint']['(madrid,100.0.29.0/24)']"", ""root['waypoint']['(budapest,100.0.29.0/24)']"", ""root['loadbalancing']['(zurich,100.0.4.0/24)']"", ""root['loadbalancing']['(lyon,100.0.29.0/24)']"", ""root['loadbalancing']['(praha,100.0.9.0/24)']"", ""root['loadbalancing']['(geneva,100.0.4.0/24)']"", ""root['loadbalancing']['(basel,100.0.1.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.9.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.1.0/24)']"", ""root['loadbalancing']['(budapest,100.0.4.0/24)']"", ""root['loadbalancing']['(madrid,100.0.9.0/24)']"", ""root['loadbalancing']['(budapest,100.0.29.0/24)']""], 'values_changed': {""root['reachability']['geneva'][1]"": {'new_value': '100.0.29.0/24', 'old_value': '100.0.4.0/24'}}}"
+,,20,3,300,3,1,220.792564868927,41,38,21,3,0.6440677966101694,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(marseille,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['reachability']['rotterdam']"", ""root['reachability']['brussels']"", ""root['reachability']['bucharest']"", ""root['waypoint']['(marseille,100.0.9.0/24)']"", ""root['waypoint']['(warsaw,100.0.9.0/24)']"", ""root['waypoint']['(marseille,100.0.4.0/24)']"", ""root['waypoint']['(brussels,100.0.1.0/24)']"", ""root['waypoint']['(amsterdam,100.0.1.0/24)']"", ""root['waypoint']['(bratislava,100.0.9.0/24)']"", ""root['waypoint']['(bucharest,100.0.1.0/24)']"", ""root['loadbalancing']['(milan,100.0.9.0/24)']"", ""root['loadbalancing']['(marseille,100.0.9.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.9.0/24)']"", ""root['loadbalancing']['(marseille,100.0.4.0/24)']"", ""root['loadbalancing']['(rotterdam,100.0.4.0/24)']"", ""root['loadbalancing']['(brussels,100.0.1.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.1.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.9.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.1.0/24)']""], 'iterable_item_added': {""root['reachability']['vienna'][1]"": '100.0.29.0/24', ""root['reachability']['basel'][0]"": '100.0.4.0/24'}, 'iterable_item_removed': {""root['reachability']['marseille'][2]"": '100.0.4.0/24', ""root['reachability']['bratislava'][1]"": '100.0.9.0/24'}}"
+,,20,3,300,3,2,239.24205994606018,30,25,34,5,0.423728813559322,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(london,100.0.29.0/24)']"", ""root['waypoint']['(basel,100.0.4.0/24)']""], 'dictionary_item_removed': [""root['reachability']['rotterdam']"", ""root['reachability']['lyon']"", ""root['reachability']['milan']"", ""root['reachability']['bucharest']"", ""root['reachability']['istanbul']"", ""root['waypoint']['(sofia,100.0.9.0/24)']"", ""root['waypoint']['(kiev,100.0.29.0/24)']"", ""root['waypoint']['(basel,100.0.9.0/24)']"", ""root['waypoint']['(london,100.0.4.0/24)']"", ""root['waypoint']['(barcelona,100.0.4.0/24)']"", ""root['waypoint']['(rotterdam,100.0.29.0/24)']"", ""root['waypoint']['(lyon,100.0.9.0/24)']"", ""root['waypoint']['(milan,100.0.4.0/24)']"", ""root['waypoint']['(bucharest,100.0.29.0/24)']"", ""root['waypoint']['(istanbul,100.0.29.0/24)']"", ""root['waypoint']['(barcelona,100.0.9.0/24)']""], 'values_changed': {""root['loadbalancing']"": {'new_value': {'(bratislava,100.0.29.0/24)': 4, '(kiev,100.0.9.0/24)': 2, '(sofia,100.0.1.0/24)': 2, '(london,100.0.9.0/24)': 3, '(barcelona,100.0.29.0/24)': 3, '(barcelona,100.0.4.0/24)': 3}, 'old_value': {'(bratislava,100.0.29.0/24)': 4, '(kiev,100.0.9.0/24)': 2, '(sofia,100.0.9.0/24)': 4, '(kiev,100.0.29.0/24)': 3, '(paris,100.0.29.0/24)': 2, '(basel,100.0.9.0/24)': 2, '(kiev,100.0.4.0/24)': 2, '(london,100.0.4.0/24)': 2, '(barcelona,100.0.4.0/24)': 3, '(london,100.0.9.0/24)': 3, '(sofia,100.0.1.0/24)': 2, '(rotterdam,100.0.29.0/24)': 2, '(lyon,100.0.9.0/24)': 6, '(milan,100.0.4.0/24)': 2, '(bucharest,100.0.29.0/24)': 3, '(istanbul,100.0.29.0/24)': 3, '(barcelona,100.0.9.0/24)': 2, '(luxembourg,100.0.1.0/24)': 4, '(barcelona,100.0.1.0/24)': 3}}}, 'iterable_item_added': {""root['reachability']['london'][0]"": '100.0.29.0/24', ""root['reachability']['basel'][1]"": '100.0.4.0/24'}, 'iterable_item_removed': {""root['reachability']['kiev'][1]"": '100.0.29.0/24', ""root['reachability']['sofia'][1]"": '100.0.1.0/24', ""root['reachability']['london'][1]"": '100.0.9.0/24', ""root['reachability']['barcelona'][0]"": '100.0.4.0/24'}}"
+,,20,3,300,3,3,250.12709403038025,34,33,27,1,0.55,0,0,0,"{'dictionary_item_removed': [""root['reachability']['strasbourg']"", ""root['reachability']['madrid']"", ""root['reachability']['paris']"", ""root['reachability']['milan']"", ""root['waypoint']['(vienna,100.0.29.0/24)']"", ""root['waypoint']['(warsaw,100.0.1.0/24)']"", ""root['waypoint']['(bucharest,100.0.9.0/24)']"", ""root['waypoint']['(bucharest,100.0.4.0/24)']"", ""root['waypoint']['(brussels,100.0.4.0/24)']"", ""root['waypoint']['(madrid,100.0.1.0/24)']"", ""root['waypoint']['(strasbourg,100.0.9.0/24)']"", ""root['waypoint']['(paris,100.0.1.0/24)']"", ""root['loadbalancing']['(vienna,100.0.29.0/24)']"", ""root['loadbalancing']['(brussels,100.0.29.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.1.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.9.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.4.0/24)']"", ""root['loadbalancing']['(brussels,100.0.4.0/24)']"", ""root['loadbalancing']['(madrid,100.0.1.0/24)']"", ""root['loadbalancing']['(strasbourg,100.0.9.0/24)']"", ""root['loadbalancing']['(milan,100.0.1.0/24)']"", ""root['loadbalancing']['(paris,100.0.1.0/24)']""], 'values_changed': {""root['loadbalancing']['(luxembourg,100.0.4.0/24)']"": {'new_value': 3, 'old_value': 4}}, 'iterable_item_removed': {""root['reachability']['warsaw'][1]"": '100.0.1.0/24', ""root['reachability']['brussels'][2]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,3,300,3,4,0,0,0,0,0,0,0,0,0,
+,,25,3,300,3,0,251.12759971618652,52,36,39,16,0.48,0,0,0,"{'dictionary_item_added': [""root['reachability'][' frankfurt']""], 'dictionary_item_removed': [""root['reachability']['frankfurt']""], 'values_changed': {""root['waypoint']"": {'new_value': {'(strasbourg,100.0.1.0/24)': ['kiev'], '(praha,100.0.4.0/24)': ['basel'], '(praha,100.0.9.0/24)': ['rotterdam'], '(geneva,100.0.29.0/24)': ['london'], '(vienna,100.0.4.0/24)': ['basel'], '(istanbul,100.0.1.0/24)': ['kiev'], '(zurich,100.0.9.0/24)': ['rotterdam'], '(amsterdam,100.0.29.0/24)': ['london'], '(basel,100.0.4.0/24)': ['basel'], '(budapest,100.0.29.0/24)': ['london'], '(madrid,100.0.9.0/24)': ['london']}, 'old_value': {'(strasbourg,100.0.1.0/24)': ['kiev'], '(praha,100.0.4.0/24)': ['basel'], '(zurich,100.0.4.0/24)': ['basel'], '(lyon,100.0.4.0/24)': ['basel'], '(bratislava,100.0.1.0/24)': ['kiev'], '(praha,100.0.9.0/24)': ['rotterdam'], '(frankfurt,100.0.4.0/24)': ['basel'], '(geneva,100.0.9.0/24)': ['rotterdam'], '(vienna,100.0.4.0/24)': ['basel'], '(athens,100.0.29.0/24)': ['london'], '(istanbul,100.0.4.0/24)': ['basel'], '(zurich,100.0.29.0/24)': ['london'], '(geneva,100.0.4.0/24)': ['basel'], '(amsterdam,100.0.4.0/24)': ['basel'], '(basel,100.0.1.0/24)': ['kiev'], '(amsterdam,100.0.29.0/24)': ['london'], '(frankfurt,100.0.1.0/24)': ['kiev'], '(budapest,100.0.4.0/24)': ['basel'], '(madrid,100.0.29.0/24)': ['london'], '(budapest,100.0.29.0/24)': ['london'], '(zurich,100.0.9.0/24)': ['rotterdam'], '(vienna,100.0.9.0/24)': ['rotterdam'], '(milan,100.0.9.0/24)': ['rotterdam'], '(marseille,100.0.29.0/24)': ['london'], '(istanbul,100.0.1.0/24)': ['kiev']}}, ""root['loadbalancing']"": {'new_value': {'(strasbourg,100.0.1.0/24)': 2, '(praha,100.0.4.0/24)': 2, '(praha,100.0.9.0/24)': 2, '(geneva,100.0.29.0/24)': 3, '(vienna,100.0.4.0/24)': 2, '(istanbul,100.0.1.0/24)': 2, '(zurich,100.0.9.0/24)': 2, '(amsterdam,100.0.29.0/24)': 3, '(basel,100.0.4.0/24)': 2, '(budapest,100.0.29.0/24)': 3, '(madrid,100.0.9.0/24)': 2}, 'old_value': {'(strasbourg,100.0.1.0/24)': 2, '(praha,100.0.4.0/24)': 2, '(zurich,100.0.4.0/24)': 2, '(lyon,100.0.29.0/24)': 2, '(bratislava,100.0.1.0/24)': 2, '(praha,100.0.9.0/24)': 2, '(frankfurt,100.0.4.0/24)': 2, '(geneva,100.0.9.0/24)': 3, '(vienna,100.0.4.0/24)': 2, '(athens,100.0.29.0/24)': 3, '(istanbul,100.0.4.0/24)': 2, '(zurich,100.0.29.0/24)': 5, '(geneva,100.0.4.0/24)': 3, '(amsterdam,100.0.4.0/24)': 7, '(basel,100.0.1.0/24)': 2, '(amsterdam,100.0.9.0/24)': 2, '(frankfurt,100.0.1.0/24)': 2, '(budapest,100.0.4.0/24)': 4, '(madrid,100.0.9.0/24)': 2, '(budapest,100.0.29.0/24)': 3, '(zurich,100.0.9.0/24)': 3, '(vienna,100.0.9.0/24)': 3, '(milan,100.0.9.0/24)': 2, '(marseille,100.0.9.0/24)': 4, '(istanbul,100.0.1.0/24)': 4}}}, 'iterable_item_added': {""root['reachability']['lyon'][1]"": '100.0.29.0/24', ""root['reachability']['vienna'][1]"": '100.0.29.0/24', ""root['reachability']['amsterdam'][1]"": '100.0.9.0/24', ""root['reachability']['basel'][1]"": '100.0.4.0/24', ""root['reachability']['basel'][2]"": '100.0.9.0/24', ""root['reachability']['basel'][3]"": '100.0.29.0/24', ""root['reachability']['madrid'][0]"": '100.0.9.0/24'}, 'iterable_item_removed': {""root['reachability']['geneva'][1]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,3,1,0,0,0,0,0,0,0,0,0,
+,,25,3,300,3,2,59.636109828948975,48,45,29,3,0.6081081081081081,0,0,0,"{'dictionary_item_removed': [""root['reachability']['rotterdam']"", ""root['reachability']['athens']"", ""root['waypoint']['(rotterdam,100.0.29.0/24)']"", ""root['waypoint']['(barcelona,100.0.29.0/24)']"", ""root['waypoint']['(barcelona,100.0.1.0/24)']"", ""root['waypoint']['(warsaw,100.0.29.0/24)']"", ""root['waypoint']['(luxembourg,100.0.4.0/24)']"", ""root['waypoint']['(sofia,100.0.4.0/24)']"", ""root['waypoint']['(brussels,100.0.9.0/24)']"", ""root['waypoint']['(lyon,100.0.1.0/24)']"", ""root['waypoint']['(athens,100.0.9.0/24)']"", ""root['waypoint']['(bucharest,100.0.9.0/24)']"", ""root['waypoint']['(bucharest,100.0.4.0/24)']"", ""root['waypoint']['(brussels,100.0.4.0/24)']"", ""root['loadbalancing']['(rotterdam,100.0.29.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.1.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.29.0/24)']"", ""root['loadbalancing']['(luxembourg,100.0.4.0/24)']"", ""root['loadbalancing']['(sofia,100.0.4.0/24)']"", ""root['loadbalancing']['(brussels,100.0.9.0/24)']"", ""root['loadbalancing']['(lyon,100.0.1.0/24)']"", ""root['loadbalancing']['(athens,100.0.9.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.9.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.4.0/24)']"", ""root['loadbalancing']['(brussels,100.0.4.0/24)']""], 'values_changed': {""root['loadbalancing']['(lyon,100.0.9.0/24)']"": {'new_value': 2, 'old_value': 6}, ""root['loadbalancing']['(strasbourg,100.0.4.0/24)']"": {'new_value': 4, 'old_value': 3}, ""root['reachability']['sofia'][1]"": {'new_value': '100.0.29.0/24', 'old_value': '100.0.4.0/24'}}, 'iterable_item_added': {""root['waypoint']['(barcelona,100.0.9.0/24)'][1]"": 'kiev'}, 'iterable_item_removed': {""root['reachability']['lyon'][1]"": '100.0.1.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,3,3,0,0,0,0,0,0,0,0,0,
+,,50,3,300,3,0,490.2792019844055,28,24,125,4,0.1610738255033557,0,0,0,"{'values_changed': {'root': {'new_value': {'reachability': {'strasbourg': ['100.0.1.0/24'], 'praha': ['100.0.4.0/24', '100.0.9.0/24'], 'zurich': ['100.0.4.0/24', '100.0.29.0/24'], 'lyon': ['100.0.4.0/24', '100.0.29.0/24'], 'bratislava': ['100.0.1.0/24'], 'frankfurt': ['100.0.4.0/24'], 'geneva': ['100.0.9.0/24'], 'vienna': ['100.0.4.0/24'], 'istanbul': ['100.0.4.0/24'], 'milan': ['100.0.9.0/24'], 'roma': ['100.0.9.0/24'], 'warsaw': ['100.0.4.0/24', '100.0.9.0/24'], 'marseille': ['100.0.29.0/24'], 'luxembourg': ['100.0.29.0/24'], 'basel': ['100.0.1.0/24', '100.0.4.0/24', '100.0.9.0/24', '100.0.29.0/24'], 'rotterdam': ['100.0.4.0/24', '100.0.9.0/24', '100.0.29.0/24'], 'brussels': ['100.0.1.0/24'], 'bucharest': ['100.0.1.0/24'], 'sofia': ['100.0.9.0/24']}, 'reachability2': {'kiev': ['100.0.4.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'london': ['100.0.1.0/24', '100.0.4.0/24', '100.0.9.0/24', '100.0.29.0/24'], 'barcelona': ['100.0.4.0/24']}}, 'old_value': {'reachability': {'strasbourg': ['100.0.1.0/24'], 'praha': ['100.0.4.0/24', '100.0.9.0/24', '100.0.1.0/24'], 'zurich': ['100.0.4.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'lyon': ['100.0.4.0/24'], 'bratislava': ['100.0.1.0/24', '100.0.4.0/24', '100.0.9.0/24', '100.0.29.0/24'], 'frankfurt': ['100.0.4.0/24', '100.0.1.0/24'], 'geneva': ['100.0.9.0/24', '100.0.4.0/24'], 'vienna': ['100.0.4.0/24', '100.0.9.0/24'], 'athens': ['100.0.29.0/24'], 'istanbul': ['100.0.4.0/24', '100.0.1.0/24'], 'amsterdam': ['100.0.4.0/24', '100.0.29.0/24', '100.0.1.0/24'], 'basel': ['100.0.1.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'budapest': ['100.0.4.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'madrid': ['100.0.29.0/24'], 'milan': ['100.0.9.0/24'], 'marseille': ['100.0.29.0/24', '100.0.9.0/24', '100.0.4.0/24'], 'roma': ['100.0.9.0/24'], 'warsaw': ['100.0.4.0/24', '100.0.9.0/24'], 'luxembourg': ['100.0.29.0/24'], 'rotterdam': ['100.0.4.0/24'], 'brussels': ['100.0.1.0/24'], 'bucharest': ['100.0.1.0/24'], 'kiev': ['100.0.9.0/24', '100.0.29.0/24', '100.0.4.0/24'], 'sofia': ['100.0.9.0/24'], 'paris': ['100.0.9.0/24'], 'london': ['100.0.4.0/24', '100.0.9.0/24'], 'barcelona': ['100.0.4.0/24']}, 'waypoint': {'(strasbourg,100.0.1.0/24)': ['kiev'], '(praha,100.0.4.0/24)': ['basel'], '(zurich,100.0.4.0/24)': ['basel'], '(lyon,100.0.4.0/24)': ['basel'], '(bratislava,100.0.1.0/24)': ['kiev'], '(praha,100.0.9.0/24)': ['rotterdam'], '(frankfurt,100.0.4.0/24)': ['basel'], '(geneva,100.0.9.0/24)': ['rotterdam'], '(vienna,100.0.4.0/24)': ['basel'], '(athens,100.0.29.0/24)': ['london'], '(istanbul,100.0.4.0/24)': ['basel'], '(zurich,100.0.29.0/24)': ['london'], '(geneva,100.0.4.0/24)': ['basel'], '(amsterdam,100.0.4.0/24)': ['basel'], '(basel,100.0.1.0/24)': ['kiev'], '(amsterdam,100.0.29.0/24)': ['london'], '(frankfurt,100.0.1.0/24)': ['kiev'], '(budapest,100.0.4.0/24)': ['basel'], '(madrid,100.0.29.0/24)': ['london'], '(budapest,100.0.29.0/24)': ['london'], '(zurich,100.0.9.0/24)': ['rotterdam'], '(vienna,100.0.9.0/24)': ['rotterdam'], '(milan,100.0.9.0/24)': ['rotterdam'], '(marseille,100.0.29.0/24)': ['london'], '(istanbul,100.0.1.0/24)': ['kiev'], '(budapest,100.0.9.0/24)': ['rotterdam'], '(roma,100.0.9.0/24)': ['rotterdam'], '(marseille,100.0.9.0/24)': ['rotterdam'], '(warsaw,100.0.4.0/24)': ['basel'], '(praha,100.0.1.0/24)': ['kiev'], '(warsaw,100.0.9.0/24)': ['rotterdam'], '(marseille,100.0.4.0/24)': ['basel'], '(bratislava,100.0.4.0/24)': ['basel'], '(luxembourg,100.0.29.0/24)': ['london'], '(basel,100.0.29.0/24)': ['london'], '(rotterdam,100.0.4.0/24)': ['basel'], '(brussels,100.0.1.0/24)': ['kiev'], '(amsterdam,100.0.1.0/24)': ['kiev'], '(bratislava,100.0.9.0/24)': ['rotterdam'], '(bucharest,100.0.1.0/24)': ['kiev'], '(bratislava,100.0.29.0/24)': ['london'], '(kiev,100.0.9.0/24)': ['rotterdam'], '(sofia,100.0.9.0/24)': ['rotterdam'], '(kiev,100.0.29.0/24)': ['london'], '(paris,100.0.9.0/24)': ['rotterdam'], '(basel,100.0.9.0/24)': ['rotterdam'], '(kiev,100.0.4.0/24)': ['basel'], '(london,100.0.4.0/24)': ['basel'], '(barcelona,100.0.4.0/24)': ['basel'], '(london,100.0.9.0/24)': ['rotterdam']}, 'loadbalancing': {'(strasbourg,100.0.1.0/24)': 2, '(praha,100.0.4.0/24)': 2, '(zurich,100.0.4.0/24)': 2, '(lyon,100.0.29.0/24)': 2, '(bratislava,100.0.1.0/24)': 2, '(praha,100.0.9.0/24)': 2, '(frankfurt,100.0.4.0/24)': 2, '(geneva,100.0.9.0/24)': 3, '(vienna,100.0.4.0/24)': 2, '(athens,100.0.29.0/24)': 3, '(istanbul,100.0.4.0/24)': 2, '(zurich,100.0.29.0/24)': 5, '(geneva,100.0.4.0/24)': 3, '(amsterdam,100.0.4.0/24)': 7, '(basel,100.0.1.0/24)': 2, '(amsterdam,100.0.9.0/24)': 2, '(frankfurt,100.0.1.0/24)': 2, '(budapest,100.0.4.0/24)': 4, '(madrid,100.0.9.0/24)': 2, '(budapest,100.0.29.0/24)': 3, '(zurich,100.0.9.0/24)': 3, '(vienna,100.0.9.0/24)': 3, '(milan,100.0.9.0/24)': 2, '(marseille,100.0.9.0/24)': 4, '(istanbul,100.0.1.0/24)': 4, '(budapest,100.0.9.0/24)': 2, '(roma,100.0.9.0/24)': 3, '(warsaw,100.0.4.0/24)': 2, '(praha,100.0.1.0/24)': 2, '(warsaw,100.0.9.0/24)': 2, '(marseille,100.0.4.0/24)': 3, '(bratislava,100.0.4.0/24)': 4, '(luxembourg,100.0.29.0/24)': 2, '(basel,100.0.29.0/24)': 2, '(rotterdam,100.0.4.0/24)': 3, '(brussels,100.0.1.0/24)': 4, '(amsterdam,100.0.1.0/24)': 2, '(bratislava,100.0.9.0/24)': 7, '(bucharest,100.0.1.0/24)': 2, '(bratislava,100.0.29.0/24)': 4, '(kiev,100.0.9.0/24)': 2, '(sofia,100.0.9.0/24)': 4, '(kiev,100.0.29.0/24)': 3, '(paris,100.0.29.0/24)': 2, '(basel,100.0.9.0/24)': 2, '(kiev,100.0.4.0/24)': 2, '(london,100.0.4.0/24)': 2, '(barcelona,100.0.4.0/24)': 3, '(london,100.0.9.0/24)': 3}}}}}"
+,,50,3,300,3,1,280.1020359992981,4,4,145,0,0.026845637583892617,0,0,0,"{'values_changed': {'root': {'new_value': {'reachability': {'madrid': ['100.0.4.0/24'], 'athens': ['100.0.1.0/24', '100.0.4.0/24'], 'vienna': ['100.0.1.0/24']}, 'load-balancing': {'sofia': {'100.0.29.0/24': 2}, 'bucharest': {'100.0.9.0/24': 2, '100.0.4.0/24': 2}}}, 'old_value': {'reachability': {'sofia': ['100.0.1.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'rotterdam': ['100.0.29.0/24', '100.0.1.0/24'], 'lyon': ['100.0.9.0/24', '100.0.1.0/24', '100.0.29.0/24'], 'milan': ['100.0.4.0/24', '100.0.1.0/24', '100.0.29.0/24'], 'bucharest': ['100.0.29.0/24', '100.0.9.0/24', '100.0.4.0/24'], 'istanbul': ['100.0.29.0/24'], 'barcelona': ['100.0.29.0/24', '100.0.9.0/24', '100.0.1.0/24'], 'luxembourg': ['100.0.1.0/24', '100.0.4.0/24', '100.0.9.0/24'], 'warsaw': ['100.0.29.0/24', '100.0.1.0/24'], 'geneva': ['100.0.1.0/24', '100.0.29.0/24'], 'frankfurt': ['100.0.9.0/24'], 'brussels': ['100.0.9.0/24', '100.0.29.0/24', '100.0.4.0/24'], 'athens': ['100.0.9.0/24', '100.0.1.0/24', '100.0.4.0/24'], 'strasbourg': ['100.0.4.0/24', '100.0.9.0/24', '100.0.29.0/24'], 'vienna': ['100.0.29.0/24', '100.0.1.0/24'], 'madrid': ['100.0.1.0/24', '100.0.9.0/24', '100.0.4.0/24'], 'paris': ['100.0.29.0/24', '100.0.1.0/24', '100.0.4.0/24'], 'marseille': ['100.0.1.0/24'], 'budapest': ['100.0.1.0/24'], 'roma': ['100.0.1.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'zurich': ['100.0.1.0/24'], 'amsterdam': ['100.0.9.0/24']}, 'waypoint': {'(sofia,100.0.1.0/24)': ['kiev'], '(rotterdam,100.0.29.0/24)': ['london'], '(lyon,100.0.9.0/24)': ['rotterdam'], '(milan,100.0.4.0/24)': ['basel'], '(bucharest,100.0.29.0/24)': ['london'], '(istanbul,100.0.29.0/24)': ['london'], '(barcelona,100.0.29.0/24)': ['london'], '(luxembourg,100.0.1.0/24)': ['kiev'], '(barcelona,100.0.9.0/24)': ['rotterdam'], '(barcelona,100.0.1.0/24)': ['kiev'], '(warsaw,100.0.29.0/24)': ['london'], '(luxembourg,100.0.4.0/24)': ['basel'], '(geneva,100.0.1.0/24)': ['kiev'], '(frankfurt,100.0.9.0/24)': ['rotterdam'], '(sofia,100.0.4.0/24)': ['basel'], '(brussels,100.0.9.0/24)': ['rotterdam'], '(lyon,100.0.1.0/24)': ['kiev'], '(athens,100.0.9.0/24)': ['rotterdam'], '(strasbourg,100.0.4.0/24)': ['basel'], '(vienna,100.0.29.0/24)': ['london'], '(brussels,100.0.29.0/24)': ['london'], '(warsaw,100.0.1.0/24)': ['kiev'], '(bucharest,100.0.9.0/24)': ['rotterdam'], '(bucharest,100.0.4.0/24)': ['basel'], '(brussels,100.0.4.0/24)': ['basel'], '(madrid,100.0.1.0/24)': ['kiev'], '(strasbourg,100.0.9.0/24)': ['rotterdam'], '(paris,100.0.29.0/24)': ['london'], '(milan,100.0.1.0/24)': ['kiev'], '(paris,100.0.1.0/24)': ['kiev'], '(luxembourg,100.0.9.0/24)': ['rotterdam'], '(marseille,100.0.1.0/24)': ['kiev'], '(budapest,100.0.1.0/24)': ['kiev'], '(madrid,100.0.9.0/24)': ['rotterdam'], '(roma,100.0.1.0/24)': ['kiev'], '(zurich,100.0.1.0/24)': ['kiev'], '(madrid,100.0.4.0/24)': ['basel'], '(roma,100.0.4.0/24)': ['basel'], '(rotterdam,100.0.1.0/24)': ['kiev'], '(athens,100.0.1.0/24)': ['kiev'], '(vienna,100.0.1.0/24)': ['kiev'], '(roma,100.0.29.0/24)': ['london'], '(amsterdam,100.0.9.0/24)': ['rotterdam'], '(geneva,100.0.29.0/24)': ['london'], '(strasbourg,100.0.29.0/24)': ['london'], '(sofia,100.0.29.0/24)': ['london'], '(lyon,100.0.29.0/24)': ['london'], '(athens,100.0.4.0/24)': ['basel'], '(paris,100.0.4.0/24)': ['basel'], '(milan,100.0.29.0/24)': ['london']}, 'loadbalancing': {'(sofia,100.0.1.0/24)': 2, '(rotterdam,100.0.29.0/24)': 2, '(lyon,100.0.9.0/24)': 6, '(milan,100.0.4.0/24)': 2, '(bucharest,100.0.29.0/24)': 3, '(istanbul,100.0.29.0/24)': 3, '(barcelona,100.0.9.0/24)': 2, '(luxembourg,100.0.1.0/24)': 4, '(barcelona,100.0.1.0/24)': 3, '(warsaw,100.0.29.0/24)': 2, '(luxembourg,100.0.4.0/24)': 4, '(geneva,100.0.1.0/24)': 5, '(frankfurt,100.0.9.0/24)': 2, '(sofia,100.0.4.0/24)': 4, '(brussels,100.0.9.0/24)': 3, '(lyon,100.0.1.0/24)': 2, '(athens,100.0.9.0/24)': 2, '(strasbourg,100.0.4.0/24)': 3, '(vienna,100.0.29.0/24)': 2, '(brussels,100.0.29.0/24)': 2, '(warsaw,100.0.1.0/24)': 2, '(bucharest,100.0.9.0/24)': 2, '(bucharest,100.0.4.0/24)': 2, '(brussels,100.0.4.0/24)': 2, '(madrid,100.0.1.0/24)': 3, '(strasbourg,100.0.9.0/24)': 2, '(paris,100.0.29.0/24)': 2, '(milan,100.0.1.0/24)': 2, '(paris,100.0.1.0/24)': 2, '(luxembourg,100.0.9.0/24)': 4, '(marseille,100.0.1.0/24)': 2, '(budapest,100.0.1.0/24)': 2, '(madrid,100.0.9.0/24)': 2, '(roma,100.0.1.0/24)': 2, '(zurich,100.0.1.0/24)': 3, '(madrid,100.0.4.0/24)': 2, '(roma,100.0.4.0/24)': 2, '(rotterdam,100.0.1.0/24)': 4, '(athens,100.0.1.0/24)': 2, '(vienna,100.0.1.0/24)': 2, '(roma,100.0.29.0/24)': 2, '(amsterdam,100.0.9.0/24)': 2, '(geneva,100.0.29.0/24)': 4, '(strasbourg,100.0.29.0/24)': 2, '(sofia,100.0.29.0/24)': 5, '(lyon,100.0.29.0/24)': 2, '(athens,100.0.4.0/24)': 2, '(paris,100.0.4.0/24)': 2, '(milan,100.0.29.0/24)': 2}}}}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,100,3,300,3,0,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,0,22.405149936676025,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,1,8.853343963623047,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,2,12.935226678848267,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,3,8.628219842910767,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,4,43.38203001022339,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,5,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,6,26.327733039855957,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,7,38.930694818496704,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,8,4.65087103843689,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,9,30.690692901611328,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""]}"
+,,1,3,300,4,10,38.183146953582764,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,11,8.929411172866821,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,12,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,13,8.927806854248047,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,14,16.712620973587036,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,15,47.368130683898926,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,16,5.299499988555908,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""]}"
+,,1,3,300,4,17,9.02930998802185,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,18,8.942923784255981,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,19,26.232584953308105,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,20,9.018725156784058,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,21,33.53880286216736,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""]}"
+,,1,3,300,4,22,13.42374300956726,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,23,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,24,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,25,8.99066424369812,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,26,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,27,4.737246990203857,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,28,4.978929042816162,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,29,34.11569690704346,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,30,8.916337966918945,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,31,8.822551012039185,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,32,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,33,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,34,42.12484097480774,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,35,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,36,9.27170205116272,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,37,9.087612867355347,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,38,33.65108799934387,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,39,43.28314399719238,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,40,4.870865821838379,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,41,4.588495969772339,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,42,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,43,17.123183012008667,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,44,13.74635910987854,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,45,4.888445854187012,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,46,16.952435970306396,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,47,5.461472034454346,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""]}"
+,,1,3,300,4,48,21.888771057128906,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,49,25.27943706512451,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,50,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,51,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,52,9.513402938842773,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,53,26.015955924987793,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,54,4.981587886810303,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,55,4.947587013244629,3,3,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""]}"
+,,1,3,300,4,56,25.213627099990845,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,57,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,58,29.451948881149292,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,59,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,60,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,61,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,62,33.62237501144409,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,63,8.614380121231079,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,64,12.852516174316406,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,65,5.10365104675293,3,0,3,3,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {'Bucharest': ['100.0.1.0/24']}, 'old_value': {'bucharest': ['100.0.1.0/24']}}, ""root['waypoint']"": {'new_value': {'(Bucharest,100.0.1.0/24)': ['Kiev']}, 'old_value': {'(bucharest,100.0.1.0/24)': ['kiev']}}, ""root['loadbalancing']"": {'new_value': {'(Bucharest,100.0.1.0/24)': 2}, 'old_value': {'(bucharest,100.0.1.0/24)': 2}}}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,66,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,67,8.841366052627563,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,68,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,69,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,70,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,71,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,72,13.276055097579956,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,73,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,74,4.573471546173096,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,75,4.867701053619385,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,76,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,77,30.35965895652771,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,78,30.34648895263672,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,79,12.340487003326416,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,80,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,81,9.001272916793823,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,82,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,83,4.818558931350708,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,84,9.078706979751587,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,85,41.79028296470642,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,86,8.619446039199829,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,87,21.800748109817505,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,88,33.87801194190979,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,89,4.822214126586914,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,90,4.637580156326294,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,91,42.2665901184082,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,92,17.28678607940674,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,93,4.81562876701355,3,3,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,94,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,95,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,3,300,4,96,0,0,0,0,0,0,0,0,0,
+,,1,3,300,4,97,17.439050912857056,3,1,2,2,0.3333333333333333,0,0,0,"{'dictionary_item_added': [""root['reachability']['loadbalancing']"", ""root['reachability']['waypoint']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,1,3,300,4,98,13.038817644119263,3,3,0,0,1.0,0,0,0,{}
+,,1,3,300,4,99,25.42135787010193,3,3,0,0,1.0,0,0,0,{}
+,,2,3,300,4,0,7.91553521156311,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,4,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,5,12.136705160140991,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']['(budapest,100.0.9.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,8,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,9,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,10,15.027890920639038,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,11,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,12,32.09921193122864,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['london']""]}"
+,,2,3,300,4,13,29.268335819244385,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,14,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,15,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,16,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,17,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,18,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,19,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,20,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,21,9.219372034072876,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,22,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,23,7.914680004119873,6,0,6,6,0.0,0,0,0,"{'values_changed': {""root['reachability']"": {'new_value': {'Marseille': ['100.0.1.0/24'], 'Basel': ['100.0.29.0/24']}, 'old_value': {'marseille': ['100.0.1.0/24'], 'basel': ['100.0.29.0/24']}}, ""root['waypoint']"": {'new_value': {'(Marseille,100.0.1.0/24)': ['Kiev'], '(Basel,100.0.29.0/24)': ['London']}, 'old_value': {'(marseille,100.0.1.0/24)': ['kiev'], '(basel,100.0.29.0/24)': ['london']}}, ""root['loadbalancing']"": {'new_value': {'(Marseille,100.0.1.0/24)': 2, '(Basel,100.0.29.0/24)': 2}, 'old_value': {'(marseille,100.0.1.0/24)': 2, '(basel,100.0.29.0/24)': 2}}}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,24,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,25,8.907799005508423,7,5,1,2,0.8333333333333334,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(lyon,100.0.4.0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']['(lyon,100.0.4.0/24)']""], 'iterable_item_added': {""root['reachability']['lyon'][1]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,26,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,27,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,28,27.272891759872437,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,29,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,30,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,31,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,32,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,33,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,34,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,35,7.1382598876953125,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['paris']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,36,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,37,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,38,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,39,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,40,46.225624799728394,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['brussels']""]}"
+,,2,3,300,4,41,55.87467694282532,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['geneva']""]}"
+,,2,3,300,4,42,35.8449809551239,6,6,0,0,1.0,0,0,0,{}
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,43,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,44,13.751780986785889,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['athens']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,45,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,46,0,0,0,0,0,0,0,0,0,
+,,2,3,300,4,47,63.03922080993652,5,5,1,0,0.8333333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['sofia']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,48,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,3,300,4,49,0,0,0,0,0,0,0,0,0,
+,,5,3,300,4,0,71.07756018638611,14,14,1,0,0.9333333333333333,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']['(madrid,100.0.4.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,4,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,4,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,4,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,4,4,0,0,0,0,0,0,0,0,0,
+,,5,3,300,4,5,154.1764280796051,15,12,3,3,0.8,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']"", ""root['loadbalancing']['(london,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(frankfurt,100.0.29.0/24)']"", ""root['loadbalancing']['(london,100.0.4.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['london'][1]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['waypoint']['(kiev,100.0.29.0/24)'][0]"": 'london'}}"
+,,5,3,300,4,6,46.32836604118347,14,14,1,0,0.9333333333333333,0,0,0,"{'iterable_item_removed': {""root['reachability']['basel'][0]"": '100.0.9.0/24'}}"
+,,5,3,300,4,7,74.34273099899292,13,13,2,0,0.8666666666666667,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(sofia,100.0.9.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.1.0/24)']""]}"
+,,5,3,300,4,8,17.847310781478882,16,14,1,2,0.9333333333333333,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(madrid,100.0.29.0/24)']"", ""root['loadbalancing']['(madrid,100.0.9.0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']['(milan,100.0.1.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,4,9,0,0,0,0,0,0,0,0,0,
+,,5,3,300,4,10,41.41366910934448,14,12,3,2,0.8,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(lyon,100.0.4.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(lyon,100.0.29.0/24)']"", ""root['waypoint']['(warsaw,100.0.9.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['lyon'][1]"": '100.0.4.0/24'}}"
+,,5,3,300,4,11,83.68875122070312,12,12,3,0,0.8,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['waypoint']['(strasbourg,100.0.4.0/24)']"", ""root['loadbalancing']['(basel,100.0.1.0/24)']"", ""root['loadbalancing']['(roma,100.0.29.0/24)']""]}"
+,,5,3,300,4,12,28.708503007888794,12,12,3,0,0.8,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(madrid,100.0.29.0/24)']"", ""root['loadbalancing']['(madrid,100.0.29.0/24)']""], 'iterable_item_removed': {""root['reachability']['madrid'][0]"": '100.0.29.0/24'}}"
+,,5,3,300,4,13,12.782572984695435,10,10,5,0,0.6666666666666666,0,0,0,"{'dictionary_item_removed': [""root['reachability']['amsterdam']"", ""root['waypoint']['(warsaw,100.0.29.0/24)']"", ""root['waypoint']['(amsterdam,100.0.29.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.29.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.29.0/24)']""]}"
+,,5,3,300,4,14,74.5487380027771,13,12,3,1,0.8,0,0,0,"{'dictionary_item_removed': [""root['reachability']['kiev']"", ""root['waypoint']['(kiev,100.0.4.0/24)']"", ""root['loadbalancing']['(kiev,100.0.4.0/24)']""], 'iterable_item_added': {""root['reachability']['vienna'][1]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,3,300,4,15,0,0,0,0,0,0,0,0,0,
+,,5,3,300,4,16,52.65307593345642,12,11,4,1,0.7333333333333333,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(zurich,100.0.29.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.9.0/24)']""], 'values_changed': {""root['loadbalancing']['(roma,100.0.4.0/24)']"": {'new_value': 3, 'old_value': 2}}, 'iterable_item_removed': {""root['reachability']['zurich'][0]"": '100.0.29.0/24'}}"
+,,5,3,300,4,17,113.5413088798523,15,15,0,0,1.0,0,0,0,{}
+,,5,3,300,4,18,28.70414090156555,13,13,2,0,0.8666666666666667,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(budapest,100.0.1.0/24)']"", ""root['loadbalancing']['(budapest,100.0.1.0/24)']""]}"
+,,5,3,300,4,19,44.687981605529785,14,12,3,2,0.8,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(barcelona,100.0.1/24)']""], 'dictionary_item_removed': [""root['waypoint']['(rotterdam,100.0.29.0/24)']"", ""root['loadbalancing']['(rotterdam,100.0.29.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.1.0/24)']""], 'iterable_item_added': {""root['reachability']['brussels'][1]"": '100.0.9.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,4,0,0,0,0,0,0,0,0,0,0,
+,,10,3,300,4,1,96.31606721878052,16,15,15,1,0.5,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(marseille,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['reachability']['marseille']"", ""root['reachability']['paris']"", ""root['waypoint']['(marseille,100.0.9.0/24)']"", ""root['waypoint']['(paris,100.0.29.0/24)']"", ""root['waypoint']['(frankfurt,100.0.1.0/24)']"", ""root['waypoint']['(geneva,100.0.1.0/24)']"", ""root['waypoint']['(frankfurt,100.0.4.0/24)']"", ""root['loadbalancing']['(budapest,100.0.9.0/24)']"", ""root['loadbalancing']['(paris,100.0.9.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.1.0/24)']"", ""root['loadbalancing']['(strasbourg,100.0.1.0/24)']"", ""root['loadbalancing']['(geneva,100.0.1.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.4.0/24)']""], 'values_changed': {""root['waypoint']['(london,100.0.9.0/24)'][0]"": {'new_value': 'kiev', 'old_value': 'rotterdam'}}, 'iterable_item_removed': {""root['reachability']['frankfurt'][1]"": '100.0.4.0/24', ""root['reachability']['geneva'][0]"": '100.0.1.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,4,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,4,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,4,4,0,0,0,0,0,0,0,0,0,
+,,10,3,300,4,5,173.99190306663513,16,16,14,0,0.5333333333333333,0,0,0,"{'dictionary_item_removed': [""root['reachability']['basel']"", ""root['reachability']['strasbourg']"", ""root['reachability']['roma']"", ""root['waypoint']['(athens,100.0.29.0/24)']"", ""root['waypoint']['(warsaw,100.0.9.0/24)']"", ""root['waypoint']['(paris,100.0.1.0/24)']"", ""root['waypoint']['(lyon,100.0.1.0/24)']"", ""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['loadbalancing']['(lyon,100.0.4.0/24)']"", ""root['loadbalancing']['(athens,100.0.29.0/24)']"", ""root['loadbalancing']['(warsaw,100.0.9.0/24)']"", ""root['loadbalancing']['(paris,100.0.1.0/24)']"", ""root['loadbalancing']['(basel,100.0.1.0/24)']""], 'iterable_item_removed': {""root['reachability']['lyon'][1]"": '100.0.1.0/24'}}"
+,,10,3,300,4,6,71.66221785545349,24,21,9,3,0.7,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(madrid,100.0.29.0/24)']"", ""root['waypoint']['(bucharest,100.0.1.0/24)']"", ""root['waypoint']['(warsaw,100.0.29.0/24)']"", ""root['waypoint']['(amsterdam,100.0.29.0/24)']"", ""root['waypoint']['(praha,100.0.29.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.1.0/24)']"", ""root['loadbalancing']['(praha,100.0.29.0/24)']""], 'values_changed': {""root['loadbalancing']['(rotterdam,100.0.4.0/24)']"": {'new_value': 2, 'old_value': 3}, ""root['loadbalancing']['(vienna,100.0.9.0/24)']"": {'new_value': 1, 'old_value': 3}}, 'iterable_item_added': {""root['reachability']['vienna'][1]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,4,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,4,8,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,3,300,4,9,0,0,0,0,0,0,0,0,0,
+,,20,3,300,4,0,101.11495804786682,50,42,18,8,0.7,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(istanbul,100.0.4/24)']"", ""root['waypoint']['(paris,100.0.29/24)']"", ""root['waypoint']['(frankfurt,100.0.1/24)']"", ""root['waypoint']['(geneva,100.0.1/24)']"", ""root['loadbalancing']['(marseille,100.0.9.0/24)']"", ""root['loadbalancing']['(paris,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['waypoint']['(bratislava,100.0.9.0/24)']"", ""root['waypoint']['(budapest,100.0.9.0/24)']"", ""root['waypoint']['(istanbul,100.0.4.0/24)']"", ""root['waypoint']['(london,100.0.9.0/24)']"", ""root['waypoint']['(paris,100.0.29.0/24)']"", ""root['waypoint']['(frankfurt,100.0.1.0/24)']"", ""root['waypoint']['(strasbourg,100.0.1.0/24)']"", ""root['waypoint']['(geneva,100.0.1.0/24)']"", ""root['waypoint']['(frankfurt,100.0.4.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.1.0/24)']"", ""root['loadbalancing']['(london,100.0.1.0/24)']"", ""root['loadbalancing']['(budapest,100.0.9.0/24)']"", ""root['loadbalancing']['(marseille,100.0.29.0/24)']"", ""root['loadbalancing']['(paris,100.0.9.0/24)']"", ""root['loadbalancing']['(strasbourg,100.0.1.0/24)']"", ""root['loadbalancing']['(frankfurt,100.0.4.0/24)']""], 'iterable_item_added': {""root['reachability']['bratislava'][2]"": '100.0.29.0/24', ""root['reachability']['london'][2]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['reachability']['budapest'][1]"": '100.0.9.0/24', ""root['reachability']['strasbourg'][1]"": '100.0.1.0/24'}}"
+,,20,3,300,4,1,108.68138289451599,47,38,22,9,0.6333333333333333,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(brussels,100.0.4/24)']"", ""root['waypoint']['(basel,100.0.9/24)']"", ""root['waypoint']['(barcelona,100.0.9/24)']"", ""root['waypoint']['(barcelona,100.0.29/24)']"", ""root['loadbalancing']['(kiev,100.0.1.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.9.0/24)']""], 'dictionary_item_removed': [""root['reachability']['london']"", ""root['reachability']['paris']"", ""root['waypoint']['(london,100.0.4.0/24)']"", ""root['waypoint']['(kiev,100.0.29.0/24)']"", ""root['waypoint']['(brussels,100.0.4.0/24)']"", ""root['waypoint']['(basel,100.0.9.0/24)']"", ""root['waypoint']['(barcelona,100.0.9.0/24)']"", ""root['waypoint']['(istanbul,100.0.9.0/24)']"", ""root['waypoint']['(amsterdam,100.0.1.0/24)']"", ""root['waypoint']['(paris,100.0.4.0/24)']"", ""root['waypoint']['(sofia,100.0.9.0/24)']"", ""root['loadbalancing']['(kiev,100.0.9.0/24)']"", ""root['loadbalancing']['(london,100.0.4.0/24)']"", ""root['loadbalancing']['(kiev,100.0.29.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.29.0/24)']"", ""root['loadbalancing']['(istanbul,100.0.9.0/24)']"", ""root['loadbalancing']['(amsterdam,100.0.1.0/24)']"", ""root['loadbalancing']['(paris,100.0.4.0/24)']"", ""root['loadbalancing']['(sofia,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['vienna'][1]"": '100.0.29.0/24', ""root['reachability']['basel'][1]"": '100.0.4.0/24', ""root['reachability']['barcelona'][1]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['reachability']['istanbul'][1]"": '100.0.9.0/24', ""root['reachability']['sofia'][1]"": '100.0.9.0/24', ""root['reachability']['kiev'][1]"": '100.0.29.0/24'}}"
+,,20,3,300,4,2,110.27288103103638,49,46,14,3,0.7666666666666667,0,0,0,"{'dictionary_item_added': [""root['loadbalancing']['(lyon,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['reachability']['madrid']"", ""root['reachability']['strasbourg']"", ""root['waypoint']['(madrid,100.0.9.0/24)']"", ""root['waypoint']['(lyon,100.0.1.0/24)']"", ""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['waypoint']['(strasbourg,100.0.4.0/24)']"", ""root['loadbalancing']['(madrid,100.0.29.0/24)']"", ""root['loadbalancing']['(lyon,100.0.4.0/24)']"", ""root['loadbalancing']['(lyon,100.0.1.0/24)']"", ""root['loadbalancing']['(basel,100.0.1.0/24)']"", ""root['loadbalancing']['(strasbourg,100.0.4.0/24)']""], 'values_changed': {""root['reachability']['lyon'][1]"": {'new_value': '100.0.4.0/24', 'old_value': '100.0.1.0/24'}, ""root['reachability']['basel'][1]"": {'new_value': '100.0.4.0/24', 'old_value': '100.0.1.0/24'}}, 'iterable_item_removed': {""root['reachability']['geneva'][0]"": '100.0.29.0/24'}}"
+,,20,3,300,4,3,298.9111340045929,34,31,29,3,0.5166666666666667,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(kiev,100.0.1.0/24)']""], 'dictionary_item_removed': [""root['reachability']['marseille']"", ""root['reachability']['barcelona']"", ""root['reachability']['budapest']"", ""root['reachability']['zurich']"", ""root['reachability']['roma']"", ""root['waypoint']['(praha,100.0.1.0/24)']"", ""root['waypoint']['(lyon,100.0.9.0/24)']"", ""root['waypoint']['(vienna,100.0.1.0/24)']"", ""root['waypoint']['(kiev,100.0.4.0/24)']"", ""root['waypoint']['(marseille,100.0.4.0/24)']"", ""root['waypoint']['(barcelona,100.0.29.0/24)']"", ""root['waypoint']['(budapest,100.0.4.0/24)']"", ""root['waypoint']['(zurich,100.0.1.0/24)']"", ""root['waypoint']['(roma,100.0.9.0/24)']"", ""root['loadbalancing']['(rotterdam,100.0.4.0/24)']"", ""root['loadbalancing']['(bucharest,100.0.1.0/24)']"", ""root['loadbalancing']['(praha,100.0.1.0/24)']"", ""root['loadbalancing']['(bratislava,100.0.4.0/24)']"", ""root['loadbalancing']['(paris,100.0.9.0/24)']"", ""root['loadbalancing']['(lyon,100.0.9.0/24)']"", ""root['loadbalancing']['(vienna,100.0.1.0/24)']"", ""root['loadbalancing']['(kiev,100.0.4.0/24)']"", ""root['loadbalancing']['(marseille,100.0.4.0/24)']"", ""root['loadbalancing']['(barcelona,100.0.29.0/24)']"", ""root['loadbalancing']['(budapest,100.0.4.0/24)']"", ""root['loadbalancing']['(zurich,100.0.1.0/24)']"", ""root['loadbalancing']['(roma,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['rotterdam'][1]"": '100.0.9.0/24', ""root['reachability']['kiev'][0]"": '100.0.1.0/24'}, 'iterable_item_removed': {""root['reachability']['vienna'][1]"": '100.0.1.0/24', ""root['reachability']['lyon'][1]"": '100.0.9.0/24'}}"
+,,20,3,300,4,4,46.8640820980072,37,35,25,2,0.5833333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['zurich']"", ""root['reachability']['strasbourg']"", ""root['reachability']['barcelona']"", ""root['waypoint']['(zurich,100.0.29.0/24)']"", ""root['waypoint']['(bucharest,100.0.9.0/24)']"", ""root['waypoint']['(sofia,100.0.4.0/24)']"", ""root['waypoint']['(rotterdam,100.0.29.0/24)']"", ""root['waypoint']['(brussels,100.0.1.0/24)']"", ""root['waypoint']['(strasbourg,100.0.9.0/24)']"", ""root['waypoint']['(barcelona,100.0.1.0/24)']""], 'values_changed': {""root['loadbalancing']"": {'new_value': {'(rome,100.0.4.0/24)': 3, '(brussels,100.0.29.0/24)': 2, '(warsaw,100.0.1.0/24)': 2, '(athens,100.0.1.0/24)': 2, '(marseille,100.0.29.0/24)': 4, '(budapest,100.0.1.0/24)': 2, '(luxembourg,100.0.9.0/24)': 4}, 'old_value': {'(roma,100.0.4.0/24)': 2, '(brussels,100.0.29.0/24)': 2, '(zurich,100.0.29.0/24)': 5, '(geneva,100.0.4.0/24)': 3, '(bucharest,100.0.9.0/24)': 2, '(vienna,100.0.29.0/24)': 2, '(marseille,100.0.29.0/24)': 4, '(warsaw,100.0.1.0/24)': 2, '(bucharest,100.0.4.0/24)': 2, '(athens,100.0.1.0/24)': 2, '(milan,100.0.9.0/24)': 2, '(praha,100.0.9.0/24)': 2, '(budapest,100.0.1.0/24)': 2, '(luxembourg,100.0.9.0/24)': 4, '(rotterdam,100.0.1.0/24)': 4, '(sofia,100.0.4.0/24)': 4, '(rotterdam,100.0.29.0/24)': 2, '(brussels,100.0.1.0/24)': 4, '(strasbourg,100.0.9.0/24)': 2, '(barcelona,100.0.1.0/24)': 3}}, ""root['reachability']['rotterdam'][1]"": {'new_value': '100.0.9.0/24', 'old_value': '100.0.29.0/24'}}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,4,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,4,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,3,300,4,2,0,0,0,0,0,0,0,0,0,
+,,25,3,300,4,3,242.9090449810028,53,43,32,10,0.5733333333333334,0,0,0,"{'dictionary_item_removed': [""root['reachability']['barcelona']"", ""root['reachability']['rotterdam']"", ""root['waypoint']['(barcelona,100.0.29.0/24)']"", ""root['waypoint']['(zurich,100.0.1.0/24)']"", ""root['waypoint']['(bucharest,100.0.4.0/24)']"", ""root['waypoint']['(budapest,100.0.1.0/24)']"", ""root['waypoint']['(rotterdam,100.0.1.0/24)']"", ""root['waypoint']['(rotterdam,100.0.29.0/24)']"", ""root['waypoint']['(brussels,100.0.1.0/24)']"", ""root['waypoint']['(barcelona,100.0.1.0/24)']""], 'values_changed': {""root['loadbalancing']"": {'new_value': {'(marseille,100.0.4.0/24)': 3, '(marseille,100.0.29.0/24)': 4, '(budapest,100.0.1.0/24)': 2, '(roma,100.0.9.0/24)': 3, '(roma,100.0.4.0/24)': 2, '(brussels,100.0.29.0/24)': 2, '(zurich,100.0.29.0/24)': 5, '(geneva,100.0.4/24)': 3, '(bucharest,100.0.9/0)': 2, '(vienna,100.0.29/0)': 2, '(warsaw,100.0.1/0)': 2, '(athens,100.0.1/0)': 2, '(milan,100.9/0)': 2, '(praha,100.9/0)': 2, '(luxembourg,100.9/0)': 4, '(sofia,100.4/0)': 4, '(strasbourg,100.9/0)': 2}, 'old_value': {'(marseille,100.0.4.0/24)': 3, '(barcelona,100.0.29.0/24)': 2, '(budapest,100.0.4.0/24)': 4, '(zurich,100.0.1.0/24)': 3, '(roma,100.0.9.0/24)': 3, '(roma,100.0.4.0/24)': 2, '(brussels,100.0.29.0/24)': 2, '(zurich,100.0.29.0/24)': 5, '(geneva,100.0.4.0/24)': 3, '(bucharest,100.0.9.0/24)': 2, '(vienna,100.0.29.0/24)': 2, '(marseille,100.0.29.0/24)': 4, '(warsaw,100.0.1.0/24)': 2, '(bucharest,100.0.4.0/24)': 2, '(athens,100.0.1.0/24)': 2, '(milan,100.0.9.0/24)': 2, '(praha,100.0.9.0/24)': 2, '(budapest,100.0.1.0/24)': 2, '(luxembourg,100.0.9.0/24)': 4, '(rotterdam,100.0.1.0/24)': 4, '(sofia,100.0.4.0/24)': 4, '(rotterdam,100.0.29.0/24)': 2, '(brussels,100.0.1.0/24)': 4, '(strasbourg,100.0.9.0/24)': 2, '(barcelona,100.0.1.0/24)': 3}}}, 'iterable_item_removed': {""root['reachability']['zurich'][1]"": '100.0.29.0/24', ""root['reachability']['brussels'][1]"": '100.0.1.0/24'}}"
+,,50,3,300,4,0,109.03003692626953,1,0,150,1,0.0,0,0,0,"{'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""], 'values_changed': {""root['reachability']"": {'new_value': {'warsaw': ['100.0.4/0']}, 'old_value': {'athens': ['100.0.9.0/24', '100.0.4.0/24'], 'budapest': ['100.0.29.0/24', '100.0.9.0/24'], 'madrid': ['100.0.4.0/24', '100.0.1.0/24', '100.0.9.0/24'], 'roma': ['100.0.1.0/24'], 'bratislava': ['100.0.1.0/24', '100.0.9.0/24'], 'amsterdam': ['100.0.9.0/24', '100.0.4.0/24', '100.0.1.0/24'], 'strasbourg': ['100.0.29.0/24', '100.0.1.0/24'], 'luxembourg': ['100.0.1.0/24', '100.0.4.0/24'], 'milan': ['100.0.4.0/24', '100.0.1.0/24'], 'london': ['100.0.1.0/24', '100.0.9.0/24', '100.0.4.0/24'], 'marseille': ['100.0.9.0/24', '100.0.1.0/24'], 'istanbul': ['100.0.4.0/24', '100.0.29.0/24', '100.0.9.0/24', '100.0.1.0/24'], 'paris': ['100.0.29.0/24', '100.0.4.0/24'], 'frankfurt': ['100.0.1.0/24', '100.0.4.0/24', '100.0.29.0/24'], 'geneva': ['100.0.1.0/24', '100.0.29.0/24', '100.0.9.0/24'], 'vienna': ['100.0.4.0/24'], 'sofia': ['100.0.29.0/24', '100.0.9.0/24'], 'kiev': ['100.0.9.0/24', '100.0.29.0/24'], 'zurich': ['100.0.9.0/24', '100.0.4.0/24'], 'warsaw': ['100.0.4.0/24'], 'brussels': ['100.0.4.0/24', '100.0.9.0/24'], 'basel': ['100.0.9.0/24', '100.0.29.0/24'], 'barcelona': ['100.0.9.0/24'], 'bucharest': ['100.0.29.0/24']}}}}"
+,,50,3,300,4,1,240.91386127471924,3,3,146,0,0.020134228187919462,0,0,0,"{'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""], 'values_changed': {""root['reachability']"": {'new_value': {'barcelona': ['100.0.29.0/24', '100.0.1.0/24'], 'strasbourg': ['100.0.9.0/24']}, 'old_value': {'frankfurt': ['100.0.9.0/24'], 'lyon': ['100.0.29.0/24', '100.0.1.0/24', '100.0.4.0/24', '100.0.9.0/24'], 'athens': ['100.0.29.0/24', '100.0.1.0/24'], 'warsaw': ['100.0.9.0/24', '100.0.29.0/24', '100.0.1.0/24'], 'paris': ['100.0.1.0/24', '100.0.9.0/24'], 'praha': ['100.0.4.0/24', '100.0.29.0/24', '100.0.1.0/24', '100.0.9.0/24'], 'basel': ['100.0.1.0/24'], 'strasbourg': ['100.0.4.0/24', '100.0.9.0/24'], 'roma': ['100.0.29.0/24', '100.0.9.0/24', '100.0.4.0/24'], 'rotterdam': ['100.0.4.0/24', '100.0.1.0/24', '100.0.29.0/24'], 'vienna': ['100.0.9.0/24', '100.0.1.0/24', '100.0.29.0/24'], 'luxembourg': ['100.0.29.0/24', '100.0.9.0/24'], 'madrid': ['100.0.29.0/24'], 'bucharest': ['100.0.1.0/24', '100.0.9.0/24', '100.0.4.0/24'], 'amsterdam': ['100.0.29.0/24'], 'bratislava': ['100.0.4.0/24'], 'kiev': ['100.0.4.0/24'], 'marseille': ['100.0.4.0/24', '100.0.29.0/24'], 'barcelona': ['100.0.29.0/24', '100.0.1.0/24'], 'budapest': ['100.0.4.0/24', '100.0.1.0/24'], 'zurich': ['100.0.1.0/24', '100.0.29.0/24'], 'brussels': ['100.0.29.0/24', '100.0.1.0/24'], 'geneva': ['100.0.4.0/24'], 'milan': ['100.0.9.0/24'], 'sofia': ['100.0.4.0/24']}}}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,100,3,300,4,0,0,0,0,0,0,0,0,0,0,

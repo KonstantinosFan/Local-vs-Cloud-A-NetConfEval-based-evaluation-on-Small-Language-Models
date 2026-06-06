@@ -1,0 +1,6 @@
+model_error,format_error,batch_size,n_policy_types,max_n_requirements,iteration,chunk,time,total,success,fail,wrong,accuracy,prompt_tokens,completion_tokens,total_cost,diff
+,,1,1,1,0,0,5.010516881942749,1,1,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,1,1,1,1,0,1.6216650009155273,1,1,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,1,1,1,2,0,1.5903308391571045,1,1,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,1,1,1,3,0,1.5946400165557861,1,1,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,1,1,1,4,0,1.5994892120361328,1,1,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"

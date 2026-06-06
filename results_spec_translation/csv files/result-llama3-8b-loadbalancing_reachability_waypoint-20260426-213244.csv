@@ -1,0 +1,6 @@
+model_error,format_error,batch_size,n_policy_types,max_n_requirements,iteration,chunk,time,total,success,fail,wrong,accuracy,prompt_tokens,completion_tokens,total_cost,diff
+,,3,3,9,0,0,52.31078290939331,9,9,0,0,1.0,0,0,0,{}
+,,3,3,9,1,0,50.48825192451477,7,7,2,0,0.7777777777777778,0,0,0,"{'dictionary_item_removed': [""root['reachability']['frankfurt']"", ""root['reachability']['geneva']""]}"
+,,3,3,9,2,0,40.24087977409363,8,8,1,0,0.8888888888888888,0,0,0,"{'dictionary_item_removed': [""root['waypoint']['(marseille,100.0.9.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,3,3,9,3,0,0,0,0,0,0,0,0,0,0,
+,,3,3,9,4,0,10.639547109603882,9,9,0,0,1.0,0,0,0,{}

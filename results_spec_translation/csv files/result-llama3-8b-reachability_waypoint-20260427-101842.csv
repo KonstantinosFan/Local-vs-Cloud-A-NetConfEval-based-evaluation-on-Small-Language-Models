@@ -1,0 +1,961 @@
+model_error,format_error,batch_size,n_policy_types,max_n_requirements,iteration,chunk,time,total,success,fail,wrong,accuracy,prompt_tokens,completion_tokens,total_cost,diff
+,,1,2,200,0,0,22.210450887680054,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,1,11.774070978164673,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,2,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,3,5.955635070800781,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,4,7.757867097854614,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,5,16.65826725959778,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,6,17.73368239402771,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,7,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,8,23.163749933242798,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,9,8.496261835098267,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,10,5.473222017288208,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,11,7.713072299957275,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,12,24.26412582397461,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,13,21.659959077835083,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,14,3.0917818546295166,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,15,20.501367807388306,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,16,15.697700023651123,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,17,5.626177072525024,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,18,8.772629022598267,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,19,5.700081825256348,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,20,7.764991998672485,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,21,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,22,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,23,8.574237823486328,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,24,8.153761148452759,2,1,1,1,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['waypoint']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,1,2,200,0,25,18.51589870452881,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,26,3.2285549640655518,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,27,10.897990942001343,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,28,2.8770577907562256,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,29,14.579609870910645,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,30,14.65885591506958,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,31,6.275392055511475,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,32,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,33,9.36172080039978,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,34,13.797301054000854,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,35,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,36,5.685617208480835,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,37,14.4880690574646,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,38,20.51049494743347,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,39,14.768117666244507,3,2,0,1,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,40,2.961972951889038,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,41,14.99878215789795,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,42,5.752263307571411,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,43,11.166765689849854,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,44,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,45,6.027635812759399,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,46,22.097799062728882,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,47,5.507260084152222,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,48,3.2273879051208496,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,49,12.88106393814087,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,50,5.74501371383667,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,51,3.333065986633301,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,52,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,53,30.763669967651367,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,54,16.716585159301758,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,55,10.434489250183105,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,56,15.098765850067139,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,57,3.008514881134033,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,58,8.26301908493042,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,59,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,60,5.534664154052734,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,61,8.44139289855957,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,62,14.90474271774292,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,63,11.982464075088501,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,64,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,65,15.903974771499634,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,66,25.214208126068115,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,67,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,68,5.40140175819397,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,69,5.629688739776611,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,70,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,71,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,72,9.3510901927948,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,73,26.126967906951904,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,74,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,75,5.991681098937988,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,76,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,77,18.248382806777954,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,78,16.863102912902832,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,79,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,80,17.242481231689453,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,81,8.583762884140015,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,82,5.737748861312866,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,83,3.0902159214019775,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,84,3.0321059226989746,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,85,26.540508031845093,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,86,9.796303033828735,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,87,6.469162940979004,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,0,88,0,0,0,0,0,0,0,0,0,
+,,1,2,200,0,89,3.876150131225586,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,90,30.345629930496216,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,91,9.570632934570312,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,92,16.096748113632202,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,93,12.09305715560913,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,94,6.5990378856658936,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,95,20.711844205856323,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,96,6.009858131408691,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,97,3.096045970916748,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,98,19.513997077941895,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,0,99,20.53129005432129,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,1,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,2,5.048868656158447,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,3,44.16003894805908,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,4,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,5,13.510092973709106,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,6,22.710231065750122,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,7,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,8,17.506361722946167,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,9,8.681643009185791,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,10,30.946706295013428,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,11,14.078904151916504,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,12,35.69717311859131,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,13,45.519861698150635,4,3,1,1,0.75,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(brussels,100.0.1.0/0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(brussels,100.0.1.0/24)']""]}"
+,,2,2,200,0,14,22.846905946731567,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,15,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,16,26.992138862609863,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,17,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,18,13.016268014907837,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,19,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,20,25.075855016708374,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,21,33.814269065856934,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,22,13.11421799659729,6,4,0,2,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,23,41.23706293106079,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,24,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,25,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,26,9.389595031738281,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,27,18.33424210548401,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,28,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,29,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,30,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,31,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,32,10.18573808670044,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,33,9.625769138336182,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,34,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,35,9.651039838790894,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,36,7.690126180648804,2,2,2,0,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,2,2,200,0,37,5.169090747833252,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,38,5.244444131851196,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,39,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,40,34.85760426521301,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,41,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,42,9.419209003448486,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,0,43,18.877449989318848,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,44,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,45,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,46,9.434676170349121,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,47,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,0,48,0,0,0,0,0,0,0,0,0,
+,,2,2,200,0,49,5.278936862945557,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,5,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,7,0,0,0,0,0,0,0,0,0,
+,,5,2,200,0,8,46.59875988960266,6,6,4,0,0.6,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_removed': {""root['reachability']['zurich'][0]"": '100.0.29.0/24', ""root['reachability']['roma'][0]"": '100.0.29.0/24', ""root['reachability']['marseille'][0]"": '100.0.29.0/24', ""root['reachability']['geneva'][0]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,9,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,10,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,11,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,12,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,13,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,14,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,15,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,16,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,17,0,0,0,0,0,0,0,0,0,
+,,5,2,200,0,18,75.61677479743958,10,10,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,0,19,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,0,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,0,1,0,0,0,0,0,0,0,0,0,
+,,10,2,200,0,2,200.02867007255554,20,20,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,10,2,200,0,3,22.887601137161255,20,19,1,1,0.95,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_added': {""root['reachability']['basel'][1]"": '100.0.4.0/24'}, 'iterable_item_removed': {""root['reachability']['vienna'][1]"": '100.0.4.0/24'}}"
+,,10,2,200,0,4,46.38456606864929,22,20,0,2,1.0,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(london,100.0.29.0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_added': {""root['reachability']['london'][1]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,0,5,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,0,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,0,7,0,0,0,0,0,0,0,0,0,
+,,10,2,200,0,8,75.16665005683899,20,19,1,1,0.95,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_added': {""root['reachability']['london'][1]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['reachability']['istanbul'][0]"": '100.0.29.0/24', ""root['waypoint']['(london,100.0.4.0/24)'][0]"": 'basel'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,0,9,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,0,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,0,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,0,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,0,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,0,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,0,0,0,0,0,0,0,0,0,0,0,
+,,25,2,200,0,1,377.0860028266907,37,34,16,3,0.68,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(basel,100.0.4.0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['amsterdam']"", ""root['reachability']['strasbourg']"", ""root['waypoint']['(marseille,100.0.1.0/24)']"", ""root['waypoint']['(vienna,100.0.4.0/24)']"", ""root['waypoint']['(basel,100.0.9.0/24)']"", ""root['waypoint']['(zurich,100.0.29.0/24)']"", ""root['waypoint']['(geneva,100.0.29.0/24)']"", ""root['waypoint']['(bucharest,100.0.9.0/24)']"", ""root['waypoint']['(amsterdam,100.0.9.0/24)']"", ""root['waypoint']['(madrid,100.0.4.0/24)']"", ""root['waypoint']['(strasbourg,100.0.1.0/24)']"", ""root['waypoint']['(warsaw,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['basel'][0]"": '100.0.4.0/24', ""root['reachability']['london'][1]"": '100.0.29.0/24', ""root['waypoint']['(zurich,100.0.1.0/24)'][1]"": '100.0.29.0/24', ""root['waypoint']['(zurich,100.0.1.0/24)'][2]"": 'london'}, 'iterable_item_removed': {""root['reachability']['madrid'][1]"": '100.0.4.0/24', ""root['reachability']['bucharest'][1]"": '100.0.9.0/24', ""root['reachability']['warsaw'][1]"": '100.0.9.0/24', ""root['reachability']['vienna'][1]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,0,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,0,3,0,0,0,0,0,0,0,0,0,
+,,50,2,200,0,0,418.19509387016296,44,35,65,9,0.35,0,0,0,"{'dictionary_item_added': [""root['reachability']['buchsrest']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['milan']"", ""root['reachability']['praha']"", ""root['reachability']['rotterdam']"", ""root['reachability']['sofia']"", ""root['reachability']['bratislava']"", ""root['reachability']['strasbourg']"", ""root['reachability']['budapest']"", ""root['reachability']['bucharest']"", ""root['reachability']['london']"", ""root['reachability']['amsterdam']""], 'values_changed': {""root['waypoint']"": {'new_value': {'(paris,100.0.4.0/24)': ['basel'], '(barcelona,100.0.1.0/24)': ['kiev', 'kraft'], '(roma,100.0.9.0/24)': ['rotterdam'], '(basel,100.0.1.0/24)': ['kiev'], '(kiev,100.0.29.0/24)': ['london'], '(vienna,100.0.29.0/24)': ['london'], '(marseille,100.0.4.0/24)': ['basel'], '(brussels,100.0.9.0/24)': ['rotterdam'], '(frankfurt,100.0.1.0/24)': ['kiev'], '(luxembourg,100.0.4.0/24)': ['basel'], '(zurich,100.0.29.0/24)': ['london'], '(buchsrest,100.0.29.0/24)': ['london'], '(warsaw,100.0.9.0/24)': ['rotterdam'], '(geneva,100.0.4.0/24)': ['basel'], '(athens,100.0.29.0/24)': ['london'], '(madrid,100.0.1.0/24)': ['kiev']}, 'old_value': {'(paris,100.0.4.0/24)': ['basel'], '(barcelona,100.0.1.0/24)': ['kiev'], '(roma,100.0.9.0/24)': ['rotterdam'], '(basel,100.0.1.0/24)': ['kiev'], '(kiev,100.0.9.0/24)': ['rotterdam'], '(vienna,100.0.1.0/24)': ['kiev'], '(basel,100.0.29.0/24)': ['london'], '(barcelona,100.0.4.0/24)': ['basel'], '(paris,100.0.29.0/24)': ['london'], '(milan,100.0.4.0/24)': ['basel'], '(praha,100.0.1.0/24)': ['kiev'], '(rotterdam,100.0.4.0/24)': ['basel'], '(brussels,100.0.9.0/24)': ['rotterdam'], '(sofia,100.0.1.0/24)': ['kiev'], '(frankfurt,100.0.4.0/24)': ['basel'], '(roma,100.0.4.0/24)': ['basel'], '(kiev,100.0.4.0/24)': ['basel'], '(kiev,100.0.29.0/24)': ['london'], '(bratislava,100.0.4.0/24)': ['basel'], '(luxembourg,100.0.4.0/24)': ['basel'], '(marseille,100.0.4.0/24)': ['basel'], '(strasbourg,100.0.4.0/24)': ['basel'], '(budapest,100.0.29.0/24)': ['london'], '(zurich,100.0.9.0/24)': ['rotterdam'], '(brussels,100.0.29.0/24)': ['london'], '(madrid,100.0.1.0/24)': ['kiev'], '(frankfurt,100.0.1.0/24)': ['kiev'], '(brussels,100.0.1.0/24)': ['kiev'], '(bucharest,100.0.4.0/24)': ['basel'], '(warsaw,100.0.4.0/24)': ['basel'], '(marseille,100.0.1.0/24)': ['kiev'], '(luxembourg,100.0.1.0/24)': ['kiev'], '(vienna,100.0.9.0/24)': ['rotterdam'], '(athens,100.0.29.0/24)': ['london'], '(zurich,100.0.1.0/24)': ['kiev'], '(paris,100.0.1.0/24)': ['kiev'], '(vienna,100.0.4.0/24)': ['basel'], '(basel,100.0.9.0/24)': ['rotterdam'], '(milan,100.0.29.0/24)': ['london'], '(geneva,100.0.4.0/24)': ['basel'], '(london,100.0.1.0/24)': ['kiev'], '(zurich,100.0.29.0/24)': ['london'], '(roma,100.0.29.0/24)': ['london'], '(marseille,100.0.29.0/24)': ['london'], '(geneva,100.0.29.0/24)': ['london'], '(bucharest,100.0.9.0/24)': ['rotterdam'], '(amsterdam,100.0.9.0/24)': ['rotterdam'], '(madrid,100.0.4.0/24)': ['basel'], '(strasbourg,100.0.1.0/24)': ['kiev'], '(warsaw,100.0.9.0/24)': ['rotterdam']}}, ""root['reachability']['barcelona'][1]"": {'new_value': '100.0.9.0/24', 'old_value': '100.0.4.0/24'}, ""root['reachability']['vienna'][1]"": {'new_value': '100.0.29.0/24', 'old_value': '100.0.9.0/24'}, ""root['reachability']['roma'][0]"": {'new_value': '100.0.1.0/24', 'old_value': '100.0.9.0/24'}}, 'iterable_item_added': {""root['reachability']['basel'][1]"": '100.0.4.0/24', ""root['reachability']['kiev'][0]"": '100.0.1.0/24'}, 'iterable_item_removed': {""root['reachability']['paris'][1]"": '100.0.29.0/24', ""root['reachability']['paris'][2]"": '100.0.1.0/24', ""root['reachability']['vienna'][2]"": '100.0.4.0/24', ""root['reachability']['marseille'][1]"": '100.0.1.0/24', ""root['reachability']['marseille'][2]"": '100.0.29.0/24', ""root['reachability']['brussels'][2]"": '100.0.1.0/24', ""root['reachability']['frankfurt'][0]"": '100.0.4.0/24', ""root['reachability']['luxembourg'][1]"": '100.0.1.0/24', ""root['reachability']['zurich'][1]"": '100.0.1.0/24', ""root['reachability']['zurich'][2]"": '100.0.29.0/24', ""root['reachability']['warsaw'][1]"": '100.0.9.0/24', ""root['reachability']['geneva'][0]"": '100.0.4.0/24', ""root['reachability']['madrid'][1]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,50,2,200,0,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,100,2,200,0,0,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,0,20.188884973526,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,1,24.815996170043945,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,2,3.5161380767822266,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,3,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,4,3.769758939743042,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,5,28.554682970046997,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,6,14.941497087478638,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,7,7.369976997375488,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,8,6.686992883682251,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,9,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,10,6.872071266174316,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,11,3.3078298568725586,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,12,8.359530210494995,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,13,15.865894079208374,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,14,3.519871950149536,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,15,3.357508897781372,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,16,3.65539813041687,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,17,6.1959710121154785,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,18,3.3210132122039795,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,19,6.915405035018921,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,20,9.22792387008667,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,21,6.276403903961182,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,22,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,23,3.3015520572662354,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,24,17.82904815673828,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,25,3.2702629566192627,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,26,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,27,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,28,15.126747131347656,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,29,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,30,16.0431911945343,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,31,18.56608533859253,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,32,22.040649890899658,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,33,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,34,25.664463996887207,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,35,3.2798290252685547,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,36,6.9561238288879395,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,37,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,38,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,39,14.504487752914429,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,40,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,41,19.044631004333496,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,42,10.497220993041992,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,43,6.397426128387451,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,44,6.264800071716309,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,45,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,46,21.727456092834473,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,47,3.6704680919647217,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,48,13.169649124145508,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,49,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,50,10.845001935958862,3,2,0,1,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,51,20.416762113571167,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,52,21.39726710319519,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,53,13.052747011184692,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,54,3.2803261280059814,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,55,10.135349035263062,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,56,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,57,23.873512983322144,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,58,3.275838851928711,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,59,3.3801751136779785,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,60,26.587830066680908,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,61,12.944093942642212,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,62,22.37109112739563,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,63,3.291836977005005,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,64,11.94959807395935,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,65,30.41882300376892,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,66,3.5421440601348877,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,67,12.936013221740723,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,68,9.683582067489624,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,69,6.240386724472046,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,70,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,71,3.2765190601348877,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,72,20.90384793281555,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,73,5.838402032852173,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,74,15.849891185760498,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,75,19.247782707214355,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,76,6.285245895385742,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,77,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,78,3.5380609035491943,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,79,3.4588000774383545,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,80,6.271329879760742,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,81,3.5490338802337646,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,82,12.53096890449524,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,83,3.2948007583618164,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,84,31.262505054473877,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,85,7.968455791473389,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,86,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,87,12.932069063186646,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,88,6.140559196472168,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,89,3.5471651554107666,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,90,3.382201910018921,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,91,9.920273065567017,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,92,6.6167519092559814,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,93,3.2691709995269775,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,94,24.062437772750854,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,95,6.695180892944336,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,1,96,0,0,0,0,0,0,0,0,0,
+,,1,2,200,1,97,13.390194177627563,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,98,23.402085065841675,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,1,99,3.523573875427246,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,0,13.651871919631958,2,2,2,0,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,2,2,200,1,1,29.239355087280273,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,2,28.399375915527344,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,3,3.7804508209228516,2,2,2,0,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,4,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,5,12.365129947662354,2,2,2,0,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,2,2,200,1,6,18.198159217834473,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,7,5.504685878753662,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,8,13.771270990371704,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,9,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,10,9.72649598121643,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,11,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,12,23.621690034866333,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,13,13.597444772720337,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,14,5.002544164657593,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,15,19.219686031341553,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,16,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,17,18.58978509902954,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,18,30.752649068832397,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']"", ""root['reachability']['kiev']"", ""root['reachability']['kolkata']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,19,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,20,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,21,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,22,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,23,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,24,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,25,9.902614116668701,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,26,42.936464071273804,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,27,25.42340898513794,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,28,37.528416872024536,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,29,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,30,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,31,6.778443098068237,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,32,16.28367304801941,2,2,2,0,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']"", ""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,33,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,34,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,35,6.249303817749023,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,36,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,37,6.244032859802246,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,38,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,39,12.667895078659058,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,40,29.865083932876587,3,0,4,3,0.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'values_changed': {""root['reachability']"": {'new_value': {'Marseille': ['100.0.29.0/24'], 'Strasbourg': ['100.0.9.0/24'], 'London': [], 'Rotterdam': []}, 'old_value': {'marseille': ['100.0.29.0/24'], 'strasbourg': ['100.0.9.0/24']}}, ""root['waypoint']"": {'new_value': {'(Marseille,100.0.29.0/24)': ['London']}, 'old_value': {'(marseille,100.0.29.0/24)': ['london'], '(strasbourg,100.0.9.0/24)': ['rotterdam']}}}}"
+,,2,2,200,1,41,5.403867959976196,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,42,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,43,13.425733089447021,2,2,2,0,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,2,2,200,1,44,40.91012501716614,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,1,45,24.008889198303223,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']"", ""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,46,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,47,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,1,48,0,0,0,0,0,0,0,0,0,
+,,2,2,200,1,49,16.16580104827881,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,5,2,200,1,0,17.8505859375,8,8,2,0,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['vienna']"", ""root['waypoint']['(vienna,100.0.9.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,5,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,8,0,0,0,0,0,0,0,0,0,
+,,5,2,200,1,9,9.223881959915161,7,7,3,0,0.7,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(brussels,100.0.4.0/24)']"", ""root['waypoint']['(frankfurt,100.0.4.0/24)']""], 'iterable_item_removed': {""root['reachability']['frankfurt'][0]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,10,0,0,0,0,0,0,0,0,0,
+,,5,2,200,1,11,108.94186997413635,9,8,2,1,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(rotterdam,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['amsterdam'][1]"": '100.0.9.0/24'}, 'iterable_item_removed': {""root['reachability']['bratislava'][1]"": '100.0.9.0/24'}}"
+,,5,2,200,1,12,43.26771903038025,10,10,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,5,2,200,1,13,29.974267959594727,8,8,2,0,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(budapest,100.0.9.0/24)']""], 'iterable_item_removed': {""root['reachability']['budapest'][0]"": '100.0.9.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,14,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,15,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,16,0,0,0,0,0,0,0,0,0,
+,,5,2,200,1,17,21.949263095855713,9,9,1,0,0.9,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_removed': {""root['reachability']['paris'][0]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,1,18,0,0,0,0,0,0,0,0,0,
+,,5,2,200,1,19,31.791851043701172,9,9,1,0,0.9,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['milan']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,1,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,1,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,1,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,1,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,1,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,1,5,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,1,6,0,0,0,0,0,0,0,0,0,
+,,10,2,200,1,7,167.08232021331787,17,15,5,2,0.75,0,0,0,"{'dictionary_item_added': [""root['reachability'][' frankfurt']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['frankfurt']"", ""root['reachability']['madrid']"", ""root['waypoint']['(strasbourg,100.0.29.0/24)']"", ""root['waypoint']['(madrid,100.0.9.0/24)']"", ""root['waypoint']['(zurich,100.0.1.0/24)']""], 'iterable_item_added': {""root['reachability']['zurich'][1]"": '100.0.29.0/24', ""root['waypoint']['(zurich,100.0.4.0/24)'][1]"": '100.0.1.0/24', ""root['waypoint']['(zurich,100.0.4.0/24)'][2]"": 'kiev'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,1,8,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,1,9,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,1,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,1,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,1,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,1,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,1,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,1,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,1,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,1,2,0,0,0,0,0,0,0,0,0,
+,,25,2,200,1,3,112.39639401435852,36,33,17,3,0.66,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['rotterdam']"", ""root['waypoint']['(madrid,100.0.9.0/24)']"", ""root['waypoint']['(basel,100.0.29.0/24)']"", ""root['waypoint']['(zurich,100.0.9.0/24)']"", ""root['waypoint']['(strasbourg,100.0.1.0/24)']"", ""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['waypoint']['(rotterdam,100.0.4.0/24)']"", ""root['waypoint']['(paris,100.0.4.0/24)']"", ""root['waypoint']['(frankfurt,100.0.9.0/24)']"", ""root['waypoint']['(london,100.0.9.0/24)']"", ""root['waypoint']['(milan,100.0.1.0/24)']""], 'values_changed': {""root['reachability']['zurich'][1]"": {'new_value': '100.0.29.0/24', 'old_value': '100.0.1.0/24'}}, 'iterable_item_added': {""root['reachability']['basel'][1]"": '100.0.4.0/24', ""root['reachability']['kiev'][0]"": '100.0.1.0/24'}, 'iterable_item_removed': {""root['reachability']['zurich'][2]"": '100.0.9.0/24', ""root['reachability']['vienna'][1]"": '100.0.29.0/24', ""root['reachability']['strasbourg'][1]"": '100.0.9.0/24', ""root['reachability']['strasbourg'][2]"": '100.0.1.0/24', ""root['reachability']['paris'][1]"": '100.0.4.0/24'}}"
+,,50,2,200,1,0,142.83970999717712,41,40,60,1,0.4,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(barcelona,100.0.1.0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['sofia']"", ""root['reachability']['madrid']"", ""root['reachability']['warsaw']"", ""root['reachability']['rotterdam']"", ""root['reachability']['london']"", ""root['reachability']['kiev']"", ""root['waypoint']['(sofia,100.0.4.0/24)']"", ""root['waypoint']['(sofia,100.0.9.0/24)']"", ""root['waypoint']['(brussels,100.0.29.0/24)']"", ""root['waypoint']['(madrid,100.0.1.0/24)']"", ""root['waypoint']['(brussels,100.0.9.0/24)']"", ""root['waypoint']['(vienna,100.0.1.0/24)']"", ""root['waypoint']['(warsaw,100.0.4.0/24)']"", ""root['waypoint']['(luxembourg,100.0.1.0/24)']"", ""root['waypoint']['(lyon,100.0.4.0/24)']"", ""root['waypoint']['(marseille,100.0.9.0/24)']"", ""root['waypoint']['(praha,100.0.29.0/24)']"", ""root['waypoint']['(sofia,100.0.29.0/24)']"", ""root['waypoint']['(madrid,100.0.4.0/24)']"", ""root['waypoint']['(budapest,100.0.1.0/24)']"", ""root['waypoint']['(milan,100.0.29.0/24)']"", ""root['waypoint']['(rotterdam,100.0.1.0/24)']"", ""root['waypoint']['(roma,100.0.9.0/24)']"", ""root['waypoint']['(milan,100.0.4.0/24)']"", ""root['waypoint']['(lyon,100.0.29.0/24)']"", ""root['waypoint']['(praha,100.0.1.0/24)']"", ""root['waypoint']['(barcelona,100.0.29.0/24)']"", ""root['waypoint']['(istanbul,100.0.1.0/24)']"", ""root['waypoint']['(athens,100.0.4.0/24)']"", ""root['waypoint']['(warsaw,100.0.9.0/24)']"", ""root['waypoint']['(roma,100.0.1.0/24)']"", ""root['waypoint']['(london,100.0.1.0/24)']"", ""root['waypoint']['(london,100.0.4.0/24)']"", ""root['waypoint']['(lyon,100.0.1.0/24)']"", ""root['waypoint']['(warsaw,100.0.29.0/24)']"", ""root['waypoint']['(kiev,100.0.4.0/24)']"", ""root['waypoint']['(brussels,100.0.4.0/24)']"", ""root['waypoint']['(frankfurt,100.0.4.0/24)']""], 'iterable_item_added': {""root['waypoint']['(istanbul,100.0.9.0/24)'][0]"": 'kiev', ""root['waypoint']['(vienna,100.0.9.0/24)'][0]"": 'kiev', ""root['waypoint']['(praha,100.0.9.0/24)'][0]"": 'kiev'}, 'iterable_item_removed': {""root['reachability']['brussels'][1]"": '100.0.29.0/24', ""root['reachability']['brussels'][3]"": '100.0.4.0/24', ""root['reachability']['istanbul'][1]"": '100.0.1.0/24', ""root['reachability']['vienna'][1]"": '100.0.1.0/24', ""root['reachability']['luxembourg'][1]"": '100.0.1.0/24', ""root['reachability']['frankfurt'][1]"": '100.0.4.0/24', ""root['reachability']['lyon'][2]"": '100.0.29.0/24', ""root['reachability']['lyon'][3]"": '100.0.1.0/24', ""root['reachability']['marseille'][1]"": '100.0.1.0/24', ""root['reachability']['praha'][1]"": '100.0.9.0/24', ""root['reachability']['roma'][1]"": '100.0.9.0/24', ""root['reachability']['roma'][2]"": '100.0.1.0/24', ""root['reachability']['budapest'][0]"": '100.0.1.0/24', ""root['reachability']['milan'][1]"": '100.0.4.0/24', ""root['reachability']['milan'][2]"": '100.0.9.0/24', ""root['reachability']['athens'][1]"": '100.0.4.0/24'}}"
+,,50,2,200,1,1,495.8208529949188,44,40,60,4,0.4,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['praha']"", ""root['reachability']['bucharest']"", ""root['reachability']['marseille']"", ""root['reachability']['strasbourg']"", ""root['reachability']['basel']"", ""root['reachability']['paris']"", ""root['reachability']['london']"", ""root['reachability']['milan']""], 'values_changed': {""root['waypoint']"": {'new_value': {'(barcelona,100.0.4.0/24)': ['basel'], '(luxembourg,100.0.4.0/24)': ['basel'], '(istanbul,100.0.29.0/24)': ['london'], '(athens,100.0.1.0/24)': ['kiev'], '(bratislava,100.0.9.0/24)': ['rotterdam'], '(geneva,100.0.4.0/24)': ['basel'], '(rotterdam,100.0.29.0/24)': ['london'], '(amsterdam,100.0.4.0/24)': ['basel'], '(kiev,100.0.1.0/24)': ['kiev'], '(budapest,100.0.9.0/24)': ['rotterdam'], '(madrid,100.0.29.0/24)': ['london'], '(roma,100.0.4.0/24)': ['basel'], '(frankfurt,100.0.9.0/24)': ['rotterdam'], '(warsaw,100.0.1.0/24)': ['kiev'], '(zurich,100.0.9.0/24)': ['rotterdam'], '(vienna,100.0.4.0/24)': ['basel']}, 'old_value': {'(barcelona,100.0.4.0/24)': ['basel'], '(luxembourg,100.0.4.0/24)': ['basel'], '(istanbul,100.0.29.0/24)': ['london'], '(geneva,100.0.29.0/24)': ['london'], '(athens,100.0.9.0/24)': ['rotterdam'], '(bratislava,100.0.4.0/24)': ['basel'], '(geneva,100.0.4.0/24)': ['basel'], '(rotterdam,100.0.29.0/24)': ['london'], '(amsterdam,100.0.4.0/24)': ['basel'], '(bratislava,100.0.9.0/24)': ['rotterdam'], '(praha,100.0.4.0/24)': ['basel'], '(barcelona,100.0.9.0/24)': ['rotterdam'], '(kiev,100.0.9.0/24)': ['rotterdam'], '(amsterdam,100.0.29.0/24)': ['london'], '(bucharest,100.0.9.0/24)': ['rotterdam'], '(geneva,100.0.1.0/24)': ['kiev'], '(luxembourg,100.0.9.0/24)': ['rotterdam'], '(madrid,100.0.29.0/24)': ['london'], '(marseille,100.0.4.0/24)': ['basel'], '(budapest,100.0.9.0/24)': ['rotterdam'], '(bratislava,100.0.1.0/24)': ['kiev'], '(strasbourg,100.0.4.0/24)': ['basel'], '(roma,100.0.4.0/24)': ['basel'], '(frankfurt,100.0.29.0/24)': ['london'], '(warsaw,100.0.1.0/24)': ['kiev'], '(zurich,100.0.4.0/24)': ['basel'], '(strasbourg,100.0.29.0/24)': ['london'], '(vienna,100.0.4.0/24)': ['basel'], '(madrid,100.0.9.0/24)': ['rotterdam'], '(zurich,100.0.1.0/24)': ['kiev'], '(marseille,100.0.29.0/24)': ['london'], '(strasbourg,100.0.9.0/24)': ['rotterdam'], '(basel,100.0.9.0/24)': ['rotterdam'], '(barcelona,100.0.1.0/24)': ['kiev'], '(basel,100.0.29.0/24)': ['london'], '(budapest,100.0.29.0/24)': ['london'], '(vienna,100.0.29.0/24)': ['london'], '(amsterdam,100.0.9.0/24)': ['rotterdam'], '(bucharest,100.0.1.0/24)': ['kiev'], '(paris,100.0.29.0/24)': ['london'], '(zurich,100.0.9.0/24)': ['rotterdam'], '(strasbourg,100.0.1.0/24)': ['kiev'], '(basel,100.0.1.0/24)': ['kiev'], '(rotterdam,100.0.4.0/24)': ['basel'], '(athens,100.0.1.0/24)': ['kiev'], '(kiev,100.0.29.0/24)': ['london'], '(paris,100.0.4.0/24)': ['basel'], '(frankfurt,100.0.9.0/24)': ['rotterdam'], '(london,100.0.9.0/24)': ['rotterdam'], '(milan,100.0.1.0/24)': ['kiev']}}, ""root['reachability']['luxembourg'][1]"": {'new_value': '100.0.29.0/24', 'old_value': '100.0.9.0/24'}}, 'iterable_item_added': {""root['reachability']['rotterdam'][0]"": '100.0.9.0/24', ""root['reachability']['kiev'][0]"": '100.0.1.0/24'}, 'iterable_item_removed': {""root['reachability']['barcelona'][2]"": '100.0.1.0/24', ""root['reachability']['rotterdam'][1]"": '100.0.4.0/24', ""root['reachability']['amsterdam'][2]"": '100.0.9.0/24', ""root['reachability']['budapest'][1]"": '100.0.29.0/24', ""root['reachability']['madrid'][1]"": '100.0.9.0/24', ""root['reachability']['frankfurt'][1]"": '100.0.9.0/24', ""root['reachability']['zurich'][1]"": '100.0.1.0/24', ""root['reachability']['vienna'][1]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,100,2,200,1,0,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,0,7.770758867263794,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,1,3.2857232093811035,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,2,31.701842069625854,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,3,9.275779008865356,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,4,18.529608011245728,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,5,13.28597092628479,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,6,11.842426061630249,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,7,6.141574144363403,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,8,3.525658130645752,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,9,11.962930917739868,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,10,6.96072793006897,3,2,0,1,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,11,6.3671441078186035,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,12,12.435997009277344,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,13,6.329734802246094,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,14,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,15,6.314587831497192,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,16,24.901324033737183,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,17,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,18,31.083399295806885,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,19,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,20,17.560460805892944,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,21,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,22,3.565962314605713,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,23,10.421462059020996,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,24,6.645797967910767,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,25,3.3108904361724854,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,26,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,27,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,28,6.388385057449341,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,29,3.2621071338653564,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,30,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,31,9.372880935668945,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,32,6.074592113494873,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,33,6.531308889389038,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,34,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,35,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,36,18.49444818496704,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,37,3.5181729793548584,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,38,3.2814998626708984,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,39,23.366046905517578,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,40,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,41,22.652884006500244,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,42,5.62530517578125,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,43,3.51621413230896,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,44,9.766566038131714,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,45,5.61177396774292,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,46,3.013857126235962,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,47,3.1151418685913086,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,48,29.84379506111145,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,49,17.33752679824829,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,50,3.331505060195923,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,51,8.436995267868042,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,52,20.263799905776978,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,53,3.2557899951934814,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,54,25.94174313545227,3,2,0,1,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,55,3.2569663524627686,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,56,3.0138349533081055,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,57,9.686711072921753,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,58,6.561931133270264,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,59,6.198667049407959,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,60,6.373071193695068,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,61,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,62,14.11721920967102,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,63,31.102962017059326,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,64,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,65,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,66,12.520203113555908,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,67,10.03364896774292,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,68,7.029790163040161,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,69,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,70,9.228106021881104,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,71,16.390822887420654,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,72,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,73,6.300131797790527,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,74,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,75,33.74516797065735,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,76,3.674251079559326,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,77,25.22546100616455,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,78,9.398510217666626,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,79,23.39920687675476,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,80,3.6197848320007324,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,81,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,82,17.070421934127808,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,83,6.907930850982666,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,84,16.4846088886261,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,85,22.372627019882202,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,86,28.051696062088013,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,87,7.967419862747192,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,88,3.3851840496063232,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,89,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,90,22.599345207214355,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,91,11.061914205551147,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,92,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,93,34.68594193458557,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,2,94,0,0,0,0,0,0,0,0,0,
+,,1,2,200,2,95,16.940294981002808,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,96,14.80724811553955,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,97,5.656048774719238,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,98,17.248512983322144,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,2,99,13.189455032348633,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,0,7.30511999130249,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,1,12.882208585739136,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,2,26.27547788619995,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,3,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,4,23.50450325012207,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,5,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,6,19.812619924545288,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,7,33.93653702735901,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,8,48.605281829833984,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,9,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,10,42.76489973068237,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,11,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,12,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,13,5.528700113296509,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,14,46.72860622406006,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,15,10.536015033721924,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,16,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,17,5.884408235549927,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,18,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,19,15.168952226638794,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['rotterdam']"", ""root['reachability']['location3']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,20,10.059873104095459,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,21,20.123947143554688,4,3,1,1,0.75,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']"", ""root['waypoint']['(istanbul,100.0.9.0/0/24)']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(istanbul,100.0.9.0/24)']""]}"
+,,2,2,200,2,22,13.722064018249512,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,23,5.324612855911255,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,24,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,25,37.800623178482056,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,26,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,27,10.131968021392822,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,28,20.035309076309204,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,29,14.522694110870361,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,30,14.672353744506836,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,31,18.852386236190796,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,32,8.204100131988525,3,3,1,0,0.75,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(praha,100.0.4.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,33,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,34,5.357084035873413,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,35,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,36,42.815120220184326,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,37,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,38,36.8980028629303,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,39,17.224896907806396,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,40,31.90908193588257,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,41,31.36864709854126,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,42,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,43,50.47013306617737,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,2,44,0,0,0,0,0,0,0,0,0,
+,,2,2,200,2,45,15.112019777297974,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,46,27.938605785369873,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,47,5.509612798690796,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,48,5.376827955245972,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,2,49,10.894431829452515,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,5,2,200,2,0,12.506743907928467,8,8,2,0,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(zurich,100.0.4.0/24)']""], 'iterable_item_removed': {""root['reachability']['athens'][0]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,1,0,0,0,0,0,0,0,0,0,
+,,5,2,200,2,2,17.933204889297485,8,8,2,0,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(london,100.0.1.0/24)']""], 'iterable_item_removed': {""root['reachability']['praha'][0]"": '100.0.1.0/24'}}"
+,,5,2,200,2,3,68.66103601455688,10,10,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,5,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,8,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,9,0,0,0,0,0,0,0,0,0,
+,,5,2,200,2,10,74.01643228530884,9,9,1,0,0.9,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_removed': {""root['reachability']['lyon'][1]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,11,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,12,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,13,0,0,0,0,0,0,0,0,0,
+,,5,2,200,2,14,65.0444540977478,8,8,2,0,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(istanbul,100.0.4.0/24)']""], 'iterable_item_removed': {""root['reachability']['istanbul'][0]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,15,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,16,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,17,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,18,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,2,19,0,0,0,0,0,0,0,0,0,
+,,10,2,200,2,0,110.00575709342957,16,15,5,1,0.75,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['athens']"", ""root['reachability']['paris']"", ""root['waypoint']['(warsaw,100.0.9.0/24)']"", ""root['waypoint']['(paris,100.0.1.0/24)']""], 'iterable_item_added': {""root['reachability']['budapest'][1]"": '100.0.4.0/24'}, 'iterable_item_removed': {""root['reachability']['marseille'][0]"": '100.0.29.0/24'}}"
+,,10,2,200,2,1,18.786666870117188,16,11,9,5,0.55,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'values_changed': {""root['waypoint']"": {'new_value': {'(kiev,100.0.1.0/24)': ['london'], '(rotterdam,100.0.9.0/24)': [], '(basel,100.0.9.0/24)': ['rotterdam'], '(praha,100.0.9.0/24)': ['kiev', 'rotterdam'], '(london,100.0.29.0/24)': ['praha'], '(amsterdam,100.0.1.0/24)': ['kiev']}, 'old_value': {'(kiev,100.0.9.0/24)': ['rotterdam'], '(rotterdam,100.0.29.0/24)': ['london'], '(basel,100.0.9.0/24)': ['rotterdam'], '(london,100.0.1.0/24)': ['kiev'], '(praha,100.0.1.0/24)': ['kiev'], '(frankfurt,100.0.9.0/24)': ['rotterdam'], '(praha,100.0.9.0/24)': ['rotterdam'], '(vienna,100.0.4.0/24)': ['basel'], '(praha,100.0.29.0/24)': ['london'], '(amsterdam,100.0.1.0/24)': ['kiev']}}, ""root['reachability']['rotterdam'][0]"": {'new_value': '100.0.9.0/24', 'old_value': '100.0.29.0/24'}}, 'iterable_item_added': {""root['reachability']['kiev'][1]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['reachability']['praha'][0]"": '100.0.1.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,2,2,0,0,0,0,0,0,0,0,0,
+,,10,2,200,2,3,22.34779381752014,19,17,3,2,0.85,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['vienna']"", ""root['waypoint']['(basel,100.0.29.0/24)']"", ""root['waypoint']['(vienna,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['basel'][1]"": '100.0.4.0/24', ""root['reachability']['basel'][2]"": '100.0.1.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,2,4,0,0,0,0,0,0,0,0,0,
+,,10,2,200,2,5,159.72172689437866,17,15,5,2,0.75,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(amsterdam,100.0.4/24)']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(amsterdam,100.0.4.0/24)']"", ""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['waypoint']['(sofia,100.0.4.0/24)']"", ""root['waypoint']['(luxembourg,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['basel'][1]"": '100.0.4.0/24'}, 'iterable_item_removed': {""root['reachability']['lyon'][1]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,2,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,2,7,0,0,0,0,0,0,0,0,0,
+,,10,2,200,2,8,136.32314014434814,17,16,4,1,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['geneva']"", ""root['waypoint']['(vienna,100.0.1.0/24)']"", ""root['waypoint']['(roma,100.0.9.0/24)']"", ""root['waypoint']['(geneva,100.0.29.0/24)']""], 'iterable_item_added': {""root['reachability']['bucharest'][1]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,2,9,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,2,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,2,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,2,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,2,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,2,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,2,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,2,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,2,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,2,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,50,2,200,2,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,50,2,200,2,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,100,2,200,2,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,0,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,1,6.287163972854614,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,2,3.374717950820923,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,3,3.467609167098999,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,4,21.433134078979492,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,5,5.660025119781494,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,6,19.27768301963806,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,8,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,9,17.2364981174469,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,10,6.671257972717285,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,11,6.526044845581055,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,12,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,13,10.79310417175293,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,14,12.73233699798584,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,15,25.264655828475952,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,16,3.6870789527893066,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,17,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,18,3.7099099159240723,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,19,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,20,22.093382835388184,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,21,3.280949115753174,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,22,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,23,3.264124870300293,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,24,3.5939009189605713,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,25,14.747920036315918,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,26,5.828129053115845,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,27,3.510053873062134,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,28,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,29,6.6354639530181885,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,30,30.864657878875732,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,31,9.723943948745728,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,32,9.8176429271698,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,33,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,34,8.872155904769897,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,35,3.369771957397461,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,36,8.879990816116333,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,37,17.343835830688477,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,38,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,39,21.483582019805908,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,40,3.6735188961029053,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,41,3.3137011528015137,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,42,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,43,21.446433067321777,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,44,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,45,11.427741765975952,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,46,22.267016172409058,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,47,6.595431804656982,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,48,21.59287714958191,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,49,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,50,21.031036853790283,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,51,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,52,16.497009992599487,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,53,11.742901086807251,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,54,3.52255916595459,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,55,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,56,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,57,3.298337936401367,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,58,18.126386165618896,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,59,10.05279803276062,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,60,3.4249022006988525,2,1,1,1,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['waypoint']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,1,2,200,3,61,6.123745918273926,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,62,13.520756006240845,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,63,3.4711430072784424,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,64,3.8879170417785645,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,65,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,66,18.406005859375,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,67,8.929734230041504,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,68,3.525815963745117,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,69,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,70,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,71,9.340265989303589,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,72,24.382035970687866,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,73,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,74,16.975143909454346,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,75,16.807345151901245,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,76,13.324087858200073,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,77,5.598913908004761,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,78,3.396677255630493,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,79,22.233112812042236,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,80,9.225929975509644,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,81,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,82,6.006274938583374,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,83,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,84,21.803053617477417,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,85,8.827951192855835,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,86,24.37575602531433,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,87,16.234949827194214,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,88,12.594289064407349,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,89,3.24414324760437,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,90,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,91,25.50982403755188,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,92,3.240100860595703,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,93,3.1335978507995605,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,94,3.4942169189453125,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,95,8.524238109588623,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,3,96,0,0,0,0,0,0,0,0,0,
+,,1,2,200,3,97,9.888312101364136,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,98,6.545957088470459,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,3,99,3.4928479194641113,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,0,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,1,19.507094144821167,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,2,46.71712303161621,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,3,22.961329221725464,4,2,2,2,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['waypoint']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,4,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,5,5.180948972702026,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,6,8.781737804412842,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,7,40.88312387466431,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']"", ""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,8,24.521601915359497,3,3,1,0,0.75,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']"", ""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(amsterdam,100.0.4.0/24)']""]}"
+,,2,2,200,3,9,14.666077852249146,2,2,2,0,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,2,2,200,3,10,34.32438611984253,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,11,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,12,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,13,8.174753904342651,2,2,2,0,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,2,2,200,3,14,16.532485008239746,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,15,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,16,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,17,5.597362279891968,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,18,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,19,16.42943811416626,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,20,5.541593074798584,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,21,5.248183012008667,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,22,10.568143844604492,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,23,49.603906869888306,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,24,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,25,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,26,25.934118032455444,4,3,1,1,0.75,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(bucharest,100.0.9.0/0)']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(bucharest,100.0.9.0/24)']""]}"
+,,2,2,200,3,27,18.523917198181152,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,28,47.65938591957092,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,29,33.10451102256775,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,30,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,31,31.978344917297363,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,32,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,33,21.415276765823364,5,4,0,1,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,34,25.271827936172485,4,0,4,4,0.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'values_changed': {""root['reachability']"": {'new_value': {'Bucharest': ['100.0.29.0/24'], 'Roma': ['100.0.9.0/24']}, 'old_value': {'bucharest': ['100.0.29.0/24'], 'roma': ['100.0.9.0/24']}}, ""root['waypoint']"": {'new_value': {'(Bucharest,100.0.29.0/24)': ['London'], '(Roma,100.0.9.0/24)': ['Rotterdam']}, 'old_value': {'(bucharest,100.0.29.0/24)': ['london'], '(roma,100.0.9.0/24)': ['rotterdam']}}}}"
+,,2,2,200,3,35,16.72457003593445,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,36,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,37,5.9253270626068115,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,38,13.526206254959106,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,39,37.125051736831665,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,40,5.815150022506714,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,41,5.658410310745239,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,42,5.801431179046631,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,43,26.58353900909424,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,44,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,45,30.421927213668823,3,3,1,0,0.75,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(kiev,100.0.9.0/24)']""]}"
+,,2,2,200,3,46,48.46497893333435,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,3,47,9.67431902885437,3,3,1,0,0.75,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(budapest,100.0.9.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,3,48,0,0,0,0,0,0,0,0,0,
+,,2,2,200,3,49,22.170233011245728,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,5,0,0,0,0,0,0,0,0,0,
+,,5,2,200,3,6,22.343584060668945,9,9,1,0,0.9,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_removed': {""root['reachability']['barcelona'][1]"": '100.0.1.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,8,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,9,0,0,0,0,0,0,0,0,0,
+,,5,2,200,3,10,11.352809190750122,9,9,1,0,0.9,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_removed': {""root['reachability']['luxembourg'][0]"": '100.0.9.0/24'}}"
+,,5,2,200,3,11,19.65072798728943,8,8,2,0,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(london,100.0.4.0/24)']""], 'iterable_item_removed': {""root['reachability']['milan'][1]"": '100.0.4.0/24', ""root['waypoint']['(milan,100.0.4.0/24)'][0]"": 'basel'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,12,0,0,0,0,0,0,0,0,0,
+,,5,2,200,3,13,18.843835830688477,9,9,1,0,0.9,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(rotterdam,100.0.4.0/24)']""]}"
+,,5,2,200,3,14,117.22985696792603,10,10,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,5,2,200,3,15,24.02452802658081,9,9,1,0,0.9,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_removed': {""root['reachability']['istanbul'][0]"": '100.0.4.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,16,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,17,0,0,0,0,0,0,0,0,0,
+,,5,2,200,3,18,82.34565114974976,9,8,2,1,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['basel']"", ""root['waypoint']['(basel,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['roma'][1]"": '100.0.9.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,3,19,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,3,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,3,1,0,0,0,0,0,0,0,0,0,
+,,10,2,200,3,2,111.14660406112671,20,20,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,3,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,3,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,3,5,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,3,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,3,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,3,8,0,0,0,0,0,0,0,0,0,
+,,10,2,200,3,9,77.75681209564209,18,17,3,1,0.85,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(kiev,100.0.9.0/24)']"", ""root['waypoint']['(geneva,100.0.9.0/24)']""], 'iterable_item_added': {""root['reachability']['basel'][1]"": '100.0.29.0/24'}, 'iterable_item_removed': {""root['reachability']['geneva'][1]"": '100.0.9.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,3,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,3,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,3,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,3,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,3,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,3,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,3,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,3,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,3,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,50,2,200,3,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,50,2,200,3,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,100,2,200,3,0,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,0,26.02871298789978,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,1,19.530865907669067,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,2,11.55825161933899,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,3,6.495086193084717,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,4,8.972317934036255,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,5,9.270417928695679,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,6,25.333762884140015,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,7,15.214950799942017,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,8,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,9,15.81569504737854,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,10,2.9571869373321533,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,11,3.428532123565674,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,12,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,13,8.952932119369507,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,14,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,15,22.54467010498047,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,16,3.4526619911193848,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,17,21.166811227798462,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,18,26.555375814437866,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,19,21.14633011817932,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,20,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,21,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,22,12.536630868911743,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,23,3.296999931335449,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,24,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,25,6.431577920913696,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,26,10.547926902770996,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,27,12.001896142959595,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,28,14.959748029708862,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,29,19.35789394378662,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,30,24.45809006690979,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,31,5.9186320304870605,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,32,7.818407773971558,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,33,20.965028047561646,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,34,9.099783182144165,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,35,3.3455872535705566,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,36,10.93708610534668,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,37,16.780174732208252,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,38,6.766493082046509,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,39,13.376878023147583,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,40,6.385375261306763,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,41,25.981849670410156,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,42,8.395051717758179,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,43,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,44,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,45,3.715721845626831,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,46,24.185670852661133,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,47,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,48,3.462869167327881,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,49,24.217254877090454,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,50,9.545047998428345,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,51,19.82524800300598,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,52,3.5369081497192383,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,53,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,54,3.4631590843200684,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,55,9.369415044784546,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,56,3.4384799003601074,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,57,15.684159994125366,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,58,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,59,6.788752794265747,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,60,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,61,11.936810970306396,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,62,27.92078685760498,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,63,3.203436851501465,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,64,10.487169981002808,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,65,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,66,7.070224761962891,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,67,10.045309066772461,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,68,3.4085021018981934,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,69,8.057018995285034,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,70,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,71,3.226480722427368,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,72,6.946225166320801,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,73,6.789745330810547,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,74,17.269490003585815,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,75,3.2664871215820312,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,76,6.5503621101379395,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,77,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,78,6.556066036224365,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,79,6.520969867706299,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,80,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,81,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,82,4.010551929473877,3,2,0,1,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,83,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,84,9.088067054748535,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,85,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,86,30.75792098045349,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,87,13.78533411026001,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,88,26.744017839431763,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,89,3.7084438800811768,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,90,5.96946382522583,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,91,17.600569009780884,2,2,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,92,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,93,3.2469849586486816,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,1,2,200,4,94,9.383615016937256,2,1,1,1,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['waypoint']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,1,2,200,4,95,19.865386962890625,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,96,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,97,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,1,2,200,4,98,0,0,0,0,0,0,0,0,0,
+,,1,2,200,4,99,5.952993154525757,2,2,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,0,8.915992975234985,3,3,1,0,0.75,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(paris,100.0.9.0/24)']""]}"
+,,2,2,200,4,1,22.13167119026184,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,2,0,0,0,0,0,0,0,0,0,
+,,2,2,200,4,3,14.436517715454102,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,4,5.184477090835571,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,5,17.83881711959839,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,6,5.400126934051514,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,7,0,0,0,0,0,0,0,0,0,
+,,2,2,200,4,8,20.124238967895508,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,9,5.479349136352539,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,10,47.85073685646057,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,11,19.310128927230835,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,12,0,0,0,0,0,0,0,0,0,
+,,2,2,200,4,13,33.536253213882446,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,14,5.37152099609375,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,15,13.843786001205444,2,2,2,0,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,2,2,200,4,16,13.331255674362183,2,2,2,0,0.5,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']"", ""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['waypoint']"", ""root['loadbalancing']""]}"
+,,2,2,200,4,17,5.276814699172974,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,18,5.50446891784668,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,19,0,0,0,0,0,0,0,0,0,
+,,2,2,200,4,20,28.292754888534546,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,21,13.299057960510254,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,22,5.431398153305054,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,23,38.153584003448486,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,24,5.363893985748291,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,25,29.117951154708862,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,26,47.01043128967285,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,27,0,0,0,0,0,0,0,0,0,
+,,2,2,200,4,28,21.893187046051025,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']"", ""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,29,11.336547136306763,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,30,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,31,0,0,0,0,0,0,0,0,0,
+,,2,2,200,4,32,32.9062020778656,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,33,14.621079206466675,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,34,19.682318210601807,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,35,57.80023813247681,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,36,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,37,0,0,0,0,0,0,0,0,0,
+,,2,2,200,4,38,28.700349807739258,3,3,1,0,0.75,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(warsaw,100.0.9.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,39,0,0,0,0,0,0,0,0,0,
+,,2,2,200,4,40,26.587833881378174,4,4,0,0,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,41,26.197681188583374,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,42,5.58201789855957,3,3,1,0,0.75,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(paris,100.0.4.0/24)']""]}"
+,,2,2,200,4,43,7.653001070022583,6,4,0,2,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['basel']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,44,26.679493188858032,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,45,18.039547204971313,3,3,1,0,0.75,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']"", ""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(vienna,100.0.1.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,2,2,200,4,46,0,0,0,0,0,0,0,0,0,
+,,2,2,200,4,47,6.140436887741089,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,48,61.29554104804993,6,4,0,2,1.0,0,0,0,"{'dictionary_item_added': [""root['reachability']['london']"", ""root['reachability']['rotterdam']""], 'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,2,2,200,4,49,6.141175985336304,4,4,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,5,2,200,4,0,57.06059694290161,10,10,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,4,0,0,0,0,0,0,0,0,0,
+,,5,2,200,4,5,70.43389701843262,8,8,2,0,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['vienna']"", ""root['waypoint']['(vienna,100.0.4.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,6,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,7,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,8,0,0,0,0,0,0,0,0,0,
+,,5,2,200,4,9,21.221765756607056,9,9,1,0,0.9,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(budapest,100.0.9.0/24)']""]}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,10,0,0,0,0,0,0,0,0,0,
+,,5,2,200,4,11,21.791474103927612,9,9,1,0,0.9,0,0,0,"{'dictionary_item_added': [""root['reachability']['rotterdam']"", ""root['reachability']['kiev']""], 'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_removed': {""root['reachability']['frankfurt'][0]"": '100.0.1.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,12,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,13,0,0,0,0,0,0,0,0,0,
+,,5,2,200,4,14,54.06665301322937,10,10,0,0,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""]}"
+,,5,2,200,4,15,39.08443903923035,9,9,1,0,0.9,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_removed': {""root['reachability']['frankfurt'][0]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,16,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,17,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,5,2,200,4,18,0,0,0,0,0,0,0,0,0,
+,,5,2,200,4,19,71.90326690673828,8,8,2,0,0.8,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['bucharest']""], 'iterable_item_removed': {""root['reachability']['amsterdam'][1]"": '100.0.29.0/24'}}"
+,,10,2,200,4,0,79.96858811378479,16,15,5,1,0.75,0,0,0,"{'dictionary_item_added': [""root['waypoint']['(budapest,100.0.29/0)']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['reachability']['paris']"", ""root['reachability']['london']"", ""root['waypoint']['(paris,100.0.9.0/24)']"", ""root['waypoint']['(budapest,100.0.29.0/24)']""], 'iterable_item_removed': {""root['reachability']['barcelona'][1]"": '100.0.1.0/24'}}"
+,,10,2,200,4,1,150.11634397506714,19,17,3,2,0.85,0,0,0,"{'dictionary_item_added': [""root['reachability']['kiev']"", ""root['reachability']['london']""], 'dictionary_item_removed': [""root['loadbalancing']"", ""root['waypoint']['(basel,100.0.1.0/24)']"", ""root['waypoint']['(zurich,100.0.1.0/24)']""], 'iterable_item_added': {""root['reachability']['basel'][1]"": '100.0.4.0/24', ""root['reachability']['rotterdam'][1]"": '100.0.9.0/24'}, 'iterable_item_removed': {""root['reachability']['zurich'][1]"": '100.0.1.0/24', ""root['waypoint']['(zurich,100.0.9.0/24)'][0]"": 'rotterdam'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,4,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,4,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,4,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,4,5,0,0,0,0,0,0,0,0,0,
+,,10,2,200,4,6,130.0325267314911,19,19,1,0,0.95,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_removed': {""root['reachability']['istanbul'][0]"": '100.0.4.0/24'}}"
+,,10,2,200,4,7,25.46156096458435,19,19,1,0,0.95,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_removed': {""root['reachability']['frankfurt'][0]"": '100.0.29.0/24'}}"
+,,10,2,200,4,8,154.79186511039734,23,20,0,3,1.0,0,0,0,"{'dictionary_item_removed': [""root['loadbalancing']""], 'iterable_item_added': {""root['reachability']['basel'][1]"": '100.0.1.0/24', ""root['reachability']['basel'][2]"": '100.0.4.0/24', ""root['reachability']['basel'][3]"": '100.0.29.0/24'}}"
+"the JSON object must be str, bytes or bytearray, not NoneType",,10,2,200,4,9,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,4,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,4,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,4,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,4,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,20,2,200,4,4,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,4,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,4,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,4,2,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,25,2,200,4,3,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,50,2,200,4,0,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,50,2,200,4,1,0,0,0,0,0,0,0,0,0,
+"the JSON object must be str, bytes or bytearray, not NoneType",,100,2,200,4,0,0,0,0,0,0,0,0,0,0,
