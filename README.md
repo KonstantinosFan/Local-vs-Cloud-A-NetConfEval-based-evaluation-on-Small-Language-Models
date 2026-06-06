@@ -23,6 +23,12 @@ with 16GB of RAM. No cloud infrastructure was used for local model
 inference. GPT-3.5-Turbo was run via API as a cloud baseline to 
 validate our reproduction against the original paper's results.
 
+The modified benchmark files are:
+model_configs.py;
+step1_formal_spec_conflict_detection.py;
+utils.py;
+
+
 ## Key Findings
 
 - For Formal Specification Translation, local models perform comparably 
