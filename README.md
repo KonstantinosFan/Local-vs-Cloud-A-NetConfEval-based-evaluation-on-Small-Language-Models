@@ -7,17 +7,16 @@ This repository contains the modified benchmark scripts, analysis code, and raw 
 
 Network configuration is one of the most error-prone and time-consuming
 tasks in network operations. Large Language Models (LLMs) have shown
-promise in automating this process, but existing work — including
-NetConfEval — has exclusively evaluated closed-source, cloud-based
+promise in automating this process, but existing work, including
+NetConfEval has exclusively evaluated closed-source, cloud-based
 models such as GPT-4 and GPT-3.5-Turbo. These models require sending
 potentially sensitive network configurations to external APIs, which
 raises serious privacy and security concerns for operators managing
 critical infrastructure.
 
-This paper asks a simple but unanswered question: can a free, locally-run
-Small Language Model do the same job?
+This project was developed as part of the research paper submitted for the graduate course CS-533 - Introduction to Research on Computer Networks which asks a simple but unanswered question: can a free, locally-run Small Language Model do the same job?
 
-We reproduce two tasks from the NetConfEval benchmark — Formal 
+I reproduce two tasks from the NetConfEval benchmark — Formal 
 Specification Translation and Conflict Detection — using Llama-3 8B 
 and Mistral 7B served locally via Ollama on a standard MacBook Air M4 
 with 16GB of RAM. No cloud infrastructure was used for local model 
