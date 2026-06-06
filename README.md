@@ -3,7 +3,7 @@ Extending NetConfEval (Wang et al., CoNEXT 2024) to evaluate local SLMs on netwo
 
 This repository contains the modified benchmark scripts, analysis code, and raw results for the paper "Local vs Cloud: Evaluating Small Language Models on Network Configuration Tasks." It extends the NetConfEval benchmark (Wang et al., CoNEXT 2024, https://github.com/RedHatResearch/conext24-NetConfEval), which I gratefully acknowledge, by evaluating local Small Language Models (Llama-3 8B and Mistral 7B via Ollama) on the Formal Specification Translation and Conflict Detection tasks.
 
-## About This Paper
+## About This Project
 
 Network configuration is one of the most error-prone and time-consuming
 tasks in network operations. Large Language Models (LLMs) have shown
