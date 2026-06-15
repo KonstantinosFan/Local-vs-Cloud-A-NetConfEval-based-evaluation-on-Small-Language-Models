@@ -16,10 +16,7 @@ critical infrastructure.
 
 This project was developed as part of the research project submitted for the graduate course CS-533 - Introduction to Research on Computer Networks within the Computer Science Department at the University of Crete which asks a simple but unanswered question: can a free, locally-run Small Language Model do the same job?
 
-I reproduce two tasks from the NetConfEval benchmark — Formal #what exactly from these two tasks!??
-Specification Translation and Conflict Detection — using Llama-3 8B 
-and Mistral 7B served locally via Ollama on a standard MacBook Air M4 
-with 16GB of RAM. No cloud infrastructure was used for local model 
+I reproduce two variants of task 1 from the NetConfEval benchmark — Formal Specification Translation and Conflict Detection — using Llama-3 8B and Mistral 7B served locally via Ollama on a standard MacBook Air M4 with 16GB of RAM. No cloud infrastructure was used for local model 
 inference. GPT-3.5-Turbo was run via API as a cloud baseline to 
 validate our reproduction against the original paper's results.
 
